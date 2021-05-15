@@ -10,15 +10,18 @@ public class Crawler {
 
     public static void main(String[] args) {
         HashMap <String, ArrayList<String>> webRobots = new HashMap<String, ArrayList<String>>();
-        ArrayList<String> webSiteURls = new ArrayList<>();
+
         //--Read URL seeds from InputFile
-        ManipulateFile.ReadUrlSeeds(webSiteURls);
-        //--Visit HomePage to generate the robots.txt map
-        for (int k = 0; k < webSiteURls.size(); k++) {
+        int compareWith=0;
+        while(ManipulateFile.ReadUrlSeeds(compareWith)[0]!=""){
+            String webSiteURl =ManipulateFile.ReadUrlSeeds(compareWith)[0];
+            compareWith= Integer.parseInt(ManipulateFile.ReadUrlSeeds(compareWith)[1]);
+            System.out.println(webSiteURl);
+            //--Visit HomePage to generate the robots.txt map
             boolean isVisitable = true;
             URL URLHandle;
             try {
-                URLHandle = new URL(webSiteURls.get(k));
+                URLHandle = new URL(webSiteURl);
                 String robotsPage= URLHandle.getProtocol()+"://"+URLHandle.getHost() +"/robots.txt";
                 //--If the robots.txt of the homepage website already exists
                 if (webRobots.containsKey(URLHandle.getHost())) {
