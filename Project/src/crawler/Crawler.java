@@ -13,9 +13,15 @@ public class Crawler {
 
         //--Read URL seeds from InputFile
         int compareWith=0;
-        while(ManipulateFile.ReadUrlSeeds(compareWith)[0]!=""){
-            String webSiteURl =ManipulateFile.ReadUrlSeeds(compareWith)[0];
-            compareWith= Integer.parseInt(ManipulateFile.ReadUrlSeeds(compareWith)[1]);
+        String seedsFilePath="./urlSeeds.txt";
+        String pcPath="./pc.txt";
+        compareWith = Integer.parseInt(ManipulateFile.ReadFile(pcPath,compareWith,true)[1]);
+        ManipulateFile.WriteInPCFile(pcPath,compareWith);
+        System.out.println(compareWith);
+        while(ManipulateFile.ReadFile(seedsFilePath,compareWith,false)[0]!=""){
+            String webSiteURl =ManipulateFile.ReadFile(seedsFilePath,compareWith,false)[0];
+            compareWith= Integer.parseInt(ManipulateFile.ReadFile(seedsFilePath,compareWith,false)[1]);
+            ManipulateFile.WriteInPCFile(pcPath,compareWith);
             System.out.println(webSiteURl);
             //--Visit HomePage to generate the robots.txt map
             boolean isVisitable = true;
