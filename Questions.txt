@@ -1,0 +1,1 @@
+1-Does the robots.txt file need to be saved in a file incase the crawler got interuppted?

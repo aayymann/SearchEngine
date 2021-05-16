@@ -7,7 +7,7 @@ import java.util.Scanner;
 import java.io.IOException;
 
 public class ManipulateFile {
-    static  String [] ReadFile(String filePath,int compareWith,boolean isPcFile) {
+    static  String [] ReadFile(String filePath,int compareWith) {
         String websiteURL="";
         int counter=0;
         String [] arr = new String[2];
@@ -17,20 +17,6 @@ public class ManipulateFile {
             arr[0]="";
             arr[1]="0";
             return arr;
-        }
-        //--Read the program counter from the programCounter file
-        if(isPcFile){
-            System.out.println("Hereee");
-            try{
-                File pcFile = new File(filePath);
-                Scanner myReader = new Scanner(pcFile);
-                if(myReader.hasNextLine()){
-                    arr[0]="";
-                    arr[1]=myReader.nextLine();
-                    return arr;
-                }
-            }
-            catch(FileNotFoundException ex){}
         }
         //
         try {
@@ -59,5 +45,17 @@ public class ManipulateFile {
         catch(IOException e){
             System.out.println("Could not write in the program counter file");
         }
+    }
+    static int ReadFromPCFile (String filePath){
+        int pcCounter=-1;
+            try{
+                File pcFile = new File(filePath);
+                Scanner myReader = new Scanner(pcFile);
+                if(myReader.hasNextLine()){
+                    pcCounter=Integer.parseInt(myReader.nextLine());
+                }
+            }
+            catch(FileNotFoundException ex){}
+        return pcCounter;
     }
 }
