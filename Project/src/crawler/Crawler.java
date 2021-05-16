@@ -4,11 +4,14 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 
 public class Crawler {
 
     public static void main(String[] args) {
+        //
         HashMap <String, ArrayList<String>> webRobots = new HashMap<String, ArrayList<String>>();
         //--File Paths
         String seedsFilePath="./urlSeeds.txt";
@@ -61,8 +64,26 @@ public class Crawler {
                 if(isVisitable){
                     //--TODO::Check if this website is not in the visitable file
                     String gennHTMLString=URLHandling.OpenURLFn(URLHandle);
-                    System.out.println("This host is not on the robots page so we will visit");
-                    System.out.println(webRobots);
+//                    System.out.println(gennHTMLString);
+                    Pattern p = Pattern.compile("<a[^>]+href=\"(.*?)\"", Pattern.DOTALL);
+                    Matcher m = p.matcher(gennHTMLString);
+
+                    while (m.find())
+                    {
+                        String tempURL=m.group(1);
+                        tempURL=tempURL.trim();
+                        System.out.println(tempURL + "\t ORIGINAL");
+                       if(!m.group(1).contains(URLHandle.getProtocol()))
+                            tempURL=URLHandle.getProtocol()+"://"+URLHandle.getHost()+m.group(1).trim();
+
+                        System.out.println(tempURL);
+
+                        if(!ManipulateFile.IsStringPresent(seedsFilePath,tempURL)){ // if the extracted hyperlink is not present in the url seeds
+                            ManipulateFile.AppendOnFile(seedsFilePath,tempURL);
+                        }
+                    }
+                    //System.out.println("This host is not on the robots page so we will visit");
+                    //System.out.println(webRobots);
                 }
             } catch (MalformedURLException e) {
                 e.printStackTrace();

@@ -3,6 +3,9 @@ package crawler;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileWriter;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import java.nio.file.StandardOpenOption;
 import java.util.Scanner;
 import java.io.IOException;
 
@@ -57,5 +60,28 @@ public class ManipulateFile {
             }
             catch(FileNotFoundException ex){}
         return pcCounter;
+    }
+
+    static boolean IsStringPresent(String filePath , String searchedForString){
+        File filesToBeCrawled = new File(filePath);
+        try {
+            String tempSearchedFor = searchedForString+"/";
+            Scanner myReader = new Scanner(filesToBeCrawled);
+            while (myReader.hasNextLine()) {
+                String readLine = myReader.nextLine();
+                if(readLine.equals(searchedForString) || readLine.equals(tempSearchedFor))
+                    return true;
+            }
+        } catch (FileNotFoundException ex) {}
+        return false;
+    }
+
+    static void AppendOnFile(String filePath, String toBeAddedString){
+        toBeAddedString+="\n";
+        try {
+            Files.write(Paths.get(filePath), toBeAddedString.getBytes(), StandardOpenOption.APPEND);
+        }catch (IOException e) {
+            System.out.println("FAILURE TO APPEND ON FILE");
+        }
     }
 }
