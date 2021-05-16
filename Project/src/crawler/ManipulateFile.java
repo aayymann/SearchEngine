@@ -38,7 +38,7 @@ public class ManipulateFile {
         arr[1] = String.valueOf(compareWith);
         return arr;
     }
-    static void WriteInPCFile(String filePath,int pc){
+    static void WriteNumberInFile(String filePath,int pc){
         try{
             FileWriter myWriter = new FileWriter(filePath);
             String pcString = String.valueOf(pc);
@@ -49,7 +49,7 @@ public class ManipulateFile {
             System.out.println("Could not write in the program counter file");
         }
     }
-    static int ReadFromPCFile (String filePath){
+    static int ReadNumberFromFile (String filePath){
         int pcCounter=-1;
             try{
                 File pcFile = new File(filePath);
