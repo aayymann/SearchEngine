@@ -43,7 +43,7 @@ public class Crawler {
                 robotsPage = URLHandle.getProtocol() + "://www." + mainDomainName + "." + TLD + "/robots.txt";
                 System.out.println("FOR THE ROBOTS " + robotsPage);
                 // --If the robots.txt of the homepage website already exists
-                if (webRobots.containsKey(URLHandle.getHost())) {
+                if (webRobots.containsKey(mainDomainName)) {
                     // --Check before visiting if it is an allowable page
                     // System.out.println("THE ROBOTS EXISTS");
                     ArrayList<String> disallowedPaths = webRobots.get(URLHandle.getHost());
