@@ -89,6 +89,10 @@ public class Crawler {
                             ManipulateFile.AppendOnFile(seedsFilePath, tempURL);
                             //--TODO:: HAKAR
                         }
+                        else{
+                            //--Increase the priority of this website
+                            //--Write this url + number of other urls refering to it
+                        }
                     }
                     //System.out.println("This host is not on the robots page so we will visit");
                     //System.out.println(webRobots);
