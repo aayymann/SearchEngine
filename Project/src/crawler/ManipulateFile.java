@@ -4,6 +4,7 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileWriter;
 import java.nio.file.Files;
+import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.nio.file.StandardOpenOption;
 import java.util.Scanner;
@@ -85,6 +86,18 @@ public class ManipulateFile {
             Files.write(Paths.get(filePath), toBeAddedString.getBytes(), StandardOpenOption.APPEND);
         } catch (IOException e) {
             System.out.println("FAILURE TO APPEND ON FILE");
+        }
+    }
+
+    static void CreateWebsiteFile(int websiteIndex, String websiteContent) {
+        String myPath = "./websites/" + websiteIndex + ".html";
+        File toBeCreated = new File(myPath);
+        try {
+            if (toBeCreated.createNewFile()) {
+                Files.write(Paths.get(myPath), websiteContent.getBytes());
+            }
+        } catch (IOException ex) {
+            ex.printStackTrace();
         }
     }
 }
