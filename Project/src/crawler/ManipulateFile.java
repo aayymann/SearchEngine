@@ -101,4 +101,20 @@ public class ManipulateFile {
             System.out.println("Failed to Write the generated HTML String");
         }
     }
+    static int GetNumberOfUrlSeeds(String urlSeedsPath){
+        int num=0;
+        try {
+            File fileToBeCrawled = new File(urlSeedsPath);
+            Scanner myReader = new Scanner(fileToBeCrawled);
+            while (myReader.hasNextLine()) {
+                if(myReader.nextLine().length() <=2)
+                    break;
+                num++;
+            }
+        }
+        catch(Exception ex){
+            System.out.println("File Could not br opened");
+        }
+        return num;
+    }
 }

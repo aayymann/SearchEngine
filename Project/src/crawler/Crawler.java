@@ -7,14 +7,17 @@ import java.net.URL;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class Crawler {
-
-    public static void main(String[] args) {
+public class Crawler implements Runnable{
+    // --File Paths
+    private String seedsFilePath;
+    private String pcPath;
+    Crawler(String seedsFile , String programCounter){
+        this.seedsFilePath=seedsFile;
+        this.pcPath=programCounter;
+    }
+    public void run() {
         //
         HashMap<String, ArrayList<String>> webRobots = new HashMap<String, ArrayList<String>>();
-        // --File Paths
-        String seedsFilePath = "./urlSeeds.txt";
-        String pcPath = "./pc.txt";
         // --Read URL seeds from InputFile
         int compareWith = 0;
         int pc=0;
