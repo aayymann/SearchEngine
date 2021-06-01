@@ -90,14 +90,13 @@ public class ManipulateFile {
     }
 
     static void CreateWebsiteFile(int websiteIndex, String websiteContent) {
-        String myPath = "./websites/" + websiteIndex + ".html";
-        File toBeCreated = new File(myPath);
+        String myPath = "./websites/"+String.valueOf(websiteIndex)+".txt";
         try {
-            if (toBeCreated.createNewFile()) {
-                Files.write(Paths.get(myPath), websiteContent.getBytes());
-            }
+            FileWriter myWriter = new FileWriter(myPath);
+            myWriter.write(websiteContent);
+            myWriter.close();
         } catch (IOException ex) {
-            ex.printStackTrace();
+            System.out.println("Failed to Write the generated HTML String");
         }
     }
 }

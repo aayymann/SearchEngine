@@ -43,7 +43,7 @@ public class URLHandling {
             String[] agentSetup = myUserAgent.split("\\r?\\n");
             for (int i = 0; i < agentSetup.length; i++) {
                 String[] option = agentSetup[i].split("\\s");
-                if (option[0].contains("disallow:") && option.length > 2) {
+                if (option[0].contains("disallow:") && option.length >= 2) {
                     map.get(key).add(option[1]);
                 }
             }
