@@ -40,19 +40,17 @@ public class Crawler {
                 int length = URLHandle.getHost().split("\\.").length;
                 String mainDomainName = URLHandle.getHost().split("\\.")[length - 2];
                 String TLD = URLHandle.getHost().split("\\.")[length - 1];
-                //System.out.println(mainDomainName);
                 robotsPage = URLHandle.getProtocol() + "://www." + mainDomainName + "." + TLD + "/robots.txt";
                 //System.out.println("FOR THE ROBOTS " + robotsPage);
                 // --If the robots.txt of the homepage website already exists
                 //System.out.println("domain name is "+mainDomainName);
                 if (webRobots.containsKey(mainDomainName)) {
-                    // System.out.println("THE ROBOTS EXISTS");
                     // --Check before visiting if it is an allowable page
                     ArrayList<String> disallowedPaths = webRobots.get(mainDomainName);
                     for (int i = 0; i < disallowedPaths.size(); i++) {
                         if (URLHandle.getFile().contains(disallowedPaths.get(i))) {
                             isVisitable = false;
-                            System.out.println(disallowedPaths.get(i));
+                            //System.out.println(disallowedPaths.get(i));
                             break;
                         }
                     }
@@ -77,7 +75,6 @@ public class Crawler {
                 // --Check that the page is not in the Robots.txt
                 if (isVisitable) {
                     String gennHTMLString = URLHandling.OpenURLFn(URLHandle);
-                    // System.out.println(gennHTMLString);
                     // --Get the hyperlinks
                     Pattern p = Pattern.compile("<a[^>]+href=\"(.*?)\"", Pattern.DOTALL);
                     Matcher m = p.matcher(gennHTMLString);
@@ -90,27 +87,20 @@ public class Crawler {
                         //System.out.println("The m group is  " + m.group(1));
                         //if ((!m.group(1).contains("http") || !m.group(1).startsWith("//") )||(!m.group(1).contains("https") || !m.group(1).startsWith("//")))
                         if (!m.group(1).contains("http") ||!m.group(1).contains("https")) {
-                            //System.out.println("Beforeee  " + tempURL);
                             tempURL = URLHandle.getProtocol() + "://" + URLHandle.getHost() + m.group(1).trim();
                         }
-
                         tempURL = tempURL.trim();
-                        //System.out.println("THE ADDED WEBSITE IS AFter    "+tempURL);
 
                         // --If the extracted hyperlink is not present in the url seeds
                         if (!ManipulateFile.IsStringPresent(seedsFilePath, tempURL)) {
                             ManipulateFile.AppendOnFile(seedsFilePath, tempURL);
-                            System.out.println(websiteIndex);
-                            if(websiteIndex==13)
-                                System.out.println("WESELNAAAAAAAAAA" + String.valueOf(URLHandle));
-                            ManipulateFile.CreateWebsiteFile(websiteIndex, String.valueOf(URLHandle));
                         }
                     }
-                    //System.out.println("--------------------------------------------------------");
-                    //System.out.println("THE PC IS       " + websiteIndex);
+                    //--Add the HTML Content of the visited page in a text file
+                    ManipulateFile.CreateWebsiteFile(websiteIndex, String.valueOf(URLHandle));
                 }
                 else{
-                    System.out.println("The pc : " + websiteIndex+" pf the robots file is");
+                    System.out.println("The pc  of the blocked url is: "+ websiteIndex);
                 }
             } catch (MalformedURLException e) {
                 e.printStackTrace();

@@ -72,10 +72,12 @@ public class ManipulateFile {
             Scanner myReader = new Scanner(filesToBeCrawled);
             while (myReader.hasNextLine()) {
                 String readLine = myReader.nextLine();
-                if (readLine.equals(searchedForString) || readLine.equals(tempSearchedFor))
+                if (searchedForString.equals(readLine) || tempSearchedFor.equals(readLine)) {
                     return true;
+                }
             }
         } catch (FileNotFoundException ex) {
+            System.out.println("An Error happened while searching for a string in the url seeds file");
         }
         return false;
     }
