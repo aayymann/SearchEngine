@@ -11,21 +11,24 @@ public class Crawler implements Runnable{
     // --File Paths
     private String seedsFilePath;
     private String pcPath;
-    Crawler(String seedsFile , String programCounter){
+    int crawlerNumber;
+    Crawler(String seedsFile , String programCounter , int threadInst){
         this.seedsFilePath=seedsFile;
         this.pcPath=programCounter;
+        this.crawlerNumber=threadInst;
     }
     public void run() {
-        //
         HashMap<String, ArrayList<String>> webRobots = new HashMap<String, ArrayList<String>>();
         // --Read URL seeds from InputFile
         int compareWith = 0;
         int pc=0;
         compareWith = ManipulateFile.ReadNumberFromFile(pcPath); // old value of pc counter
+        System.out.println("THIS IS THREAD " + Thread.currentThread().getName() + " with inital pc = " + compareWith);
         ManipulateFile.WriteNumberInFile(pcPath, compareWith);
         // --If the end of file is reached or the number of crawls per crawl= 5000
         while (ManipulateFile.ReadFile(seedsFilePath, compareWith)[0] != ""
                 && ManipulateFile.ReadNumberFromFile(pcPath) < 5000) {
+            System.out.println("Entered");
             String webSiteURl = ManipulateFile.ReadFile(seedsFilePath, compareWith)[0];
             compareWith = ManipulateFile.ReadNumberFromFile(pcPath); // read from the pc file
             int websiteIndex = compareWith;
@@ -59,8 +62,6 @@ public class Crawler implements Runnable{
                     }
                 } else {
                     //
-                    int deleted=websiteIndex+1;
-                    //System.out.println("THE ROBOTS DOESN'T EXIST " + deleted);
                     URL robotsURL = new URL(robotsPage);
                     String robotsHTML = URLHandling.OpenURLFn(robotsURL);
                     URLHandling.RobotsChecker(robotsHTML, webRobots, mainDomainName);
@@ -100,7 +101,7 @@ public class Crawler implements Runnable{
                         }
                     }
                     //--Add the HTML Content of the visited page in a text file
-                    ManipulateFile.CreateWebsiteFile(websiteIndex, String.valueOf(URLHandle));
+                    ManipulateFile.CreateWebsiteFile(websiteIndex, String.valueOf(URLHandle),this.crawlerNumber);
                 }
                 else{
                     System.out.println("The pc  of the blocked url is: "+ websiteIndex);

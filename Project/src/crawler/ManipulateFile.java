@@ -35,6 +35,7 @@ public class ManipulateFile {
             }
             compareWith = counter + 1;
         } catch (FileNotFoundException ex) {
+            System.out.println("Could not read a url seed from " + filePath);
         }
         arr[0] = websiteURL;
         arr[1] = String.valueOf(compareWith);
@@ -49,6 +50,17 @@ public class ManipulateFile {
             myWriter.close();
         } catch (IOException e) {
             System.out.println("Could not write in the program counter file");
+        }
+    }
+
+    static void WriteInFile(String filePath, String toBeAddedString) {
+        try {
+            toBeAddedString += "\n";
+            FileWriter myWriter = new FileWriter(filePath);
+            myWriter.write(toBeAddedString);
+            myWriter.close();
+        } catch (IOException e) {
+            System.out.println("Could not write a string in file");
         }
     }
 
@@ -91,10 +103,14 @@ public class ManipulateFile {
         }
     }
 
-    static void CreateWebsiteFile(int websiteIndex, String websiteContent) {
-        String myPath = "./websites/"+String.valueOf(websiteIndex)+".txt";
+    //TODO:: HERE FOLDER OF FOLDERS
+    static void CreateWebsiteFile(int websiteIndex, String websiteContent , int threadInst) {
+        String myPath = "./websites/"+"Crawler"+String.valueOf(threadInst);
+        String myPath2 = "./websites/"+"Crawler"+String.valueOf(threadInst)+"/"+String.valueOf(websiteIndex)+".txt";
         try {
-            FileWriter myWriter = new FileWriter(myPath);
+            File f1= new File(myPath);
+            f1.mkdir();
+            FileWriter myWriter = new FileWriter(myPath2);
             myWriter.write(websiteContent);
             myWriter.close();
         } catch (IOException ex) {
