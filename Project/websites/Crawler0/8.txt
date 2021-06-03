@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <title>uslaw.link</title>
+
+        <meta name="description" content="Create permalinks to U.S. law by entering any citation.">
+
+        <meta name="twitter:creator" content="@JoshData" />
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <style>
+            @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Red+Hat+Display&display=swap');
+
+            body {
+                overflow-y: scroll; /* since page height changes, always show scrollbar to avoid flicker */
+                font-family: 'Red Hat Display';
+                font-size: 17px;
+            }
+
+            a {
+                color: #13F;
+            }
+
+            #masthead {
+              padding: .5em 0;
+              font-size: 90%;
+            }
+
+            #jumbotron {
+                background-color: #F3F3F3;
+                padding: 1.5em 0;
+                margin-bottom: 32px;
+                transition: all 0.5s;
+            }
+                #jumbotron input {
+                    font-weight: bold;
+                    font-size: 26px;
+                    height: 42px;
+                    padding: 8px 12px;
+                    line-height: 1.4;
+                    color: #111;
+                }
+                #jumbotron.small {
+                  padding: .5em 0;
+                }
+                  #jumbotron.small input {
+                      font-size: 16px;
+                      height: 24px;
+                      padding: 6px 6px;
+                  }
+                  #jumbotron.small button.btn {
+                    font-size: 14px;
+                    padding: 2px 4px;
+                  }
+
+            #examples {
+            }
+              #examples h2 {
+                font-size: 100%;
+                font-weight: normal;
+                margin: 1.5em 0 .5em 0;
+              }
+              #examples h3 {
+                font-size: 100%;
+                font-weight: bold;
+                margin: .5em 0;
+              }
+              #examples p {
+                  margin: .25em;
+              }
+                #examples p .authority {
+                  font-size: 80%;
+                  margin-left: 1em;
+                }
+                @media screen and (min-width: 768px) {
+                  #examples p .authority {
+                    display: block;
+                    margin-left: 0;
+                  }
+                }
+
+            #results-container {
+              padding: 1em 0;
+            }
+
+            #results-container h2 {
+              font-weight: bold;
+              font-size: 150%;
+              margin: 0 0 10px 0;
+            }
+
+            .cite-title {
+              font-size: 20px;
+              margin: 15px 0;
+            }
+
+            .linkgroup {
+              margin: 40px 0 0px 0;
+            }
+
+            #results-container h3 {
+              font-size: 100%;
+              margin: 1.25em 0 1.25em 0;
+            }
+
+            #results-container h4 {
+              font-size: 100%;
+              margin: 0;
+            }
+
+            #results-container a {
+            }
+
+            .citation {
+              margin-bottom: 30px;
+            }
+
+            .source {
+              margin-bottom: 2em;
+            }
+
+            .url {
+              font-family: 'Open Sans Condensed';
+            }
+
+            #results-container .links a {
+                display: inline-block;
+                margin-right: 1em;
+                font-weight: normal;
+            }
+
+            p.note {
+                font-style: italic;
+            }
+
+            footer {
+                margin-top: 32px;
+                background-color: #F3F3F3;
+                padding: 1.5em 0;
+                font-size: 90%;
+            }
+                footer p:last-child {
+                    margin: 0;
+                }
+
+        </style>
+
+        <!--[if lt IE 9]>
+            <script src="static/js/html5-3.6-respond-1.1.0.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+
+    <!--[if lt IE 8]><p>Internet Explorer version 8 or any modern web browser is required to use this website, sorry.<![endif]-->
+    <!--[if gt IE 7]><!-->
+
+    <a href="https://github.com/unitedstates/uslaw.link"><img style="position: absolute; top: 0; right: 0; border: 0; z-index: 1031; max-height: 90px;" src="https://camo.githubusercontent.com/a6677b08c955af8400f44c6298f40e7d19cc5b2d/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677261795f3664366436642e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png"></a>
+
+    <div class="container">
+      <nav id="masthead">
+        <a href="/">uslaw.link</a>
+      </nav>
+    </div>
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div id="jumbotron" class="small">
+      <div class="container">
+        <form onsubmit="return run_from_form()">
+            <input id="citation" type="text" class="form-control" placeholder="enter a citation to a united states legal source" title="Enter a citation." style="margin: 0 0 .5em 0;">
+          <div>
+            <button class="btn btn-primary" onclick="run_from_form()">Search &raquo;</button>
+            <button id="examples-toggle" class="btn btn-secondary" onclick="$('#examples-toggle').toggleClass('active', !$('#examples').is(':visible')); $('#examples').toggle(); return false;">See Examples</button>
+          </div>
+        </form>
+
+        <div id="examples" style="display: none">
+            <h2 style="margin: 2em 0 1.25em 0">Enter a citation in any of the following formats. Click an example to see how it works.</h2>
+            <div class="row">
+                <div class="col-md-4 col-lg-3">
+                    <h3>Federal Statutory Law</h3>
+                    <p title="United States Code">40 U.S.C. § 11101(1)</p>
+                    <p title="United States Statutes at Large">118 Stat 3910</p>
+                    <p title="U.S. Public Law Number">PubL 110-84</p>
+                </div>
+
+                <div class="col-md-4 col-lg-3">
+                    <h3>Federal Administrative Law</h3>
+                    <p title="Code of Federal Regulations">5 CFR §531.610(f)</p>
+                    <p title="Federal Register">75 Fed. Reg. 28404</p>
+                </div>
+
+                <div class="col-md-4 col-lg-3">
+                    <h3>Federal Case Law/Other</h3>
+                    <p title="U.S. Reporter">410 U.S. 113</p>
+                    <p title="Federal Reporter">214 F.3d 416</p>
+                    <p title="U.S. Constitution">U.S. CONST., art. VI, cl. 2</p>
+                </div>
+
+                <div class="clearfix"> </div>
+
+                <div class="col-md-4 col-lg-3">
+                    <h3>State/Local Laws</h3>
+                    <p title="DC Code">DC Official Code 1-1161.01</p>
+                    <p title="DC Law">DC Law 22-168</p>
+                    <p title="VA Code">VA Code § 30-178</p>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div id="results-container">
+      </div> <!-- /container -->
+    </div>
+
+    <footer>
+        <div class="container">
+           <p><b>uslaw.link</b> is based on <a href="https://github.com/unitedstates/citation">unitedstates/citation</a>. Source code for this site is at <a href="https://github.com/unitedstates/uslaw.link">https://github.com/unitedstates/uslaw.link</a>.</p>
+           <p>Contact <a href="https://razor.occams.info">Joshua Tauberer</a> at <a href="mailto:hello@uslaw.link">hello@uslaw.link</a> with any questions.</p>
+        </div>
+    </footer>
+
+
+        <script
+        src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        
+        <script>
+        function parse_qs(qs) {
+          // Parse something that looks like a query string. Based on
+          // http://stackoverflow.com/a/2880929/125992.
+          var match,
+            pl     = /\+/g,  // Regex for replacing addition symbol with a space
+            search = /([^&=]+)=?([^&]*)/g,
+            decode = function (s) { return decodeURIComponent(s.replace(pl, " ")); },
+            ret = {};
+          while (match = search.exec(qs))
+            ret[decode(match[1])] = decode(match[2]);
+          return ret;
+        }
+
+        $(function() {
+          // Make examples links - transform each example to a link that shows it.
+          $('#examples p').each(function() {
+            var ex = $(this).text();
+            $(this).text('');
+            $(this).append($('<a/>').text(ex).attr('href', '#').click(function() { run_from_text(ex); return false }));
+            $(this).append($('<span class="authority"/>').text($(this).attr('title')));
+            $(this).attr('title', null);
+          })
+
+          // Run citator when the page hash changes.
+          $(window).on('hashchange', run_from_hash);
+          $(window).on('popstate', run_from_state);
+
+          // Directly show results if this page comes on a /citation/* path,
+          // or from a query in the URL fragment. If there's nothing to show,
+          // set the focus in the query input box.
+          var direct_citations = [{"type":"law","type_name":"U.S. Law","citation":"Pub. L. 73-474","title":"AN ACT To provide for the taxation of manufacturers, importers, and dealers in certain firearms and machine guns, to tax the sale or other disposal of such weapons, and to restrict importation and regulate interstate transportation thereof - June 26, 1934 - 1236","law":{"congress":"73","number":"474","type":"public","id":"us-law/public/73/474","links":{"legisworks":{"source":{"name":"Legisworks","abbreviation":"Legisworks","link":"https://github.com/unitedstates/legisworks-historical-statutes","authoritative":false},"pdf":"https://govtrackus.s3.amazonaws.com/legislink/pdf/stat/48/STATUTE-48-Pg1236.pdf"}}},"parallel_citations":[{"type":"stat","type_name":"U.S. Statutes at Large","citation":"48 Stat. 1236","title":"AN ACT To provide for the taxation of manufacturers, importers, and dealers in certain firearms and machine guns, to tax the sale or other disposal of such weapons, and to restrict importation and regulate interstate transportation thereof - June 26, 1934 - 1236","stat":{"volume":48,"page":1236,"id":"stat/48/1236","links":{"legisworks":{}}}}],"can_permalink":true}];
+          if (direct_citations) {
+            run_from_json(direct_citations);
+            return;
+          }
+
+          // Try parsing the citation in the location fragment. If
+          // there is no input there, put the focus in the input box.
+          if (!run_from_hash())
+            $('#citation').focus();
+        });
+
+        function run_from_form() {
+            run_from_text($('#citation').val())
+            return false; // cancel form submit
+        }
+
+        function run_from_text(text) {
+            // Make this page a permalink. Put the citation into the URL
+            // fragment using query string-style encoding.
+            if (/^\s*$/.exec(text)) return; // can't run an empty string
+            run(text);
+        }
+
+        function run_from_hash(is_in_popstate) {
+            var state = parse_qs(window.location.hash.substring(1));
+            if (!state.q) {
+              $('#results-container').text('');
+              $('#results-container').css({ height: 'auto' });
+              return false;
+            }
+            run(state.q, is_in_popstate);
+            return true;
+        }
+
+        function run_from_state(event) {
+          // If the URL looks like an ID, use it. Otherwise, use the hash.
+          console.log("loading", event.originalEvent.state);
+          if (event.originalEvent.state)
+            run_from_json([event.originalEvent.state])
+          else
+            run_from_hash(true);
+        }
+
+        function run_from_json(citations) {
+          show_citations(citations);
+          $('#citation').val(citations[0].citation || "");
+        }
+
+        function run(q, is_in_popstate) {
+            $('#citation').val(q);
+
+            $('#examples-toggle').toggleClass('active', false); 
+            $('#examples').hide();
+
+            // Close exiting results. Pin page height so we don't flicker.
+            $('#results-container').height($('#results-container').height());
+            $('#results-container *').slideUp(function() { $(this).remove(); });
+
+            // Make a new node.
+            var node = $('<div class="result"><div class="spinner-border text-primary" role="status"> <span class="sr-only">Loading...</span></div> Loading...</div>');
+            $('#results-container').append(node);
+
+            $.ajax({
+                url: '/citation/find',
+                data: {
+                    text: q
+                },
+                success: function(citations) {
+                    if (citations.length == 0) {
+                        node.text("The citation was not understood.");
+                        return;
+                    }
+
+                    // load results
+                    show_citations(citations);
+
+                    // scroll to them
+                    smooth_scroll_to(node);
+
+                    // expand height of wrapper container to the new appropriate height
+                    $('#results-container').animate({ height: $('#results').height() },
+                        function() { $('#results-container').css({ height: 'auto' }) });
+
+                    // If the citation resolved uniquely to a citation that has an 'id'
+                    // that we can parse with fromId, then update the page URL using
+                    // the structured id. If we're in the middle of a back/forward button
+                    // page navigation, don't update the URL because that destroys forward
+                    // history.
+                    if (!is_in_popstate) {
+                      if (citations.length == 1 && citations[0].can_permalink) {
+                        var id = citations[0][citations[0].type].id;
+                        history.pushState(citations[0], "", "/citation/" + id);
+                      } else {
+                        // otherwise, update the URL by putting the query into the fragment
+                        // (We could use `window.location.hash = "#q=..."` but when we're
+                        // at a URL other than /, we want to reset the URL to /#q=. The
+                        // window hashchange event will fire automatically when we use
+                        // this method, triggering the citator. But it doesn't fire
+                        // automatically when we use history.pushState.)
+                        history.pushState(null, "", "/#" + $.param({ q: q }));
+                      }
+                    }
+
+                    // once we show results, set '#jumbotron.small' class, which causes
+                    // a smooth animation to a collapsed state
+                    $('#jumbotron').addClass("small");
+                }
+            });
+        }
+
+        function show_citations(citations) {
+          var node = $('#results-container');
+          node.text(''); // clear
+          if (citations.length > 1) {
+            var p = $("<p style='margin-bottom: 30px; font-style: italic;'/>").text("The citation is ambiguous. It may mean:");
+            node.append(p);
+          }
+          citations.forEach(function(item) {
+            var n = show_cite(item);
+            node.append(n);
+          });
+        }
+
+        var citators_with_icons = [ 'cornell_lii', 'courtlistener', 'govtrack', 'house', 'libraryofcongress', 'usgpo', 'nara' ];
+
+        var standard_link_formats = [["html", "HTML"], ["pdf", "PDF"], ["text", "Text"], ["landing", "Details Page"]];
+
+          function show_cite(cite) {
+            var node = $("<div class='citation'></div>");
+
+            // Display the canonical citation given to us in the heading, or
+            // if none is provided then just the matched string.
+            var n = $('<h2/>').text(
+              (cite.citation || cite.match)
+              + (cite.disambiguation ? " (" + cite.disambiguation + ")" : "")
+              );
+            node.append(n);
+
+            if (cite.title) {
+              var n = $('<div class="cite-title"/>').text(cite.title);
+              node.append(n);
+            }
+
+            if (cite.note) {
+              var n = $('<div class="alert alert-warning" role="alert"/>').text(cite.note);
+              node.append(n);
+            }
+
+            var authority = $("<h3>You can view this <span/> citation at these source(s):</h3>");
+            authority.find("span").text(cite.type_name || cite.type);
+            node.append(authority);
+
+            show_links(cite, node);
+            return node;
+          }
+
+          function show_links(cite, node, is_parallel_citation) {
+            var links = node;
+
+            if ((cite.parallel_citations && cite.parallel_citations.length > 0) || is_parallel_citation) {
+              // If there are parallel citations for this citation, or this is
+              // a parallel citation, then we'll show each grouped by authority.
+              var n = $("<div class='linkgroup row'/>");
+              node.append(n);
+              var authority = $("<div class='col-sm-3'><h3 style='margin: 0; font-weight: bold;'/><p/></div>");
+              n.append(authority);
+              authority.find('h3')
+                  .text(cite.citation || cite.match);
+              authority.find('p')
+                  .text(cite.type_name || cite.type);
+              links = $("<div class='col-sm-9'></div>");
+              n.append(links);
+            }
+
+            // Show links. Collect the link sources available.
+            var link_sources = [];
+            for (var key in cite) {
+                // the key might be 'usc' or another citator name, or some other metadata
+                if (cite[key] && cite[key].links) {
+                    // this is a citator with links
+                    for (var source in cite[key].links) {
+                        if (!cite[key].links[source].source) continue;
+                        link_sources.push(source);
+                    }
+                }
+            }
+
+            // Sort the link sources --- show authoritative sources first.
+            link_sources.sort(function(a, b) {
+              a = cite[cite.type].links[a];
+              b = cite[cite.type].links[b];
+              var cmp = [
+                b.source.authoritative - a.source.authoritative,
+                !!b.html - !!a.html,
+                !!b.pdf - !!a.pdf,
+                ];
+              while (cmp.length) {
+                var p = cmp.shift();
+                if (p != 0)
+                  return p;
+              }
+              return 0;
+            });
+
+            // Show the links.
+            link_sources.forEach(function(link_source) {
+              show_links_from_source(links, link_source, cite[cite.type].links[link_source]);
+            })
+
+            // Recursively show parallel citations.
+            for (var i = 0; i < (cite.parallel_citations || []).length; i++) {
+                if (i == 0) {
+                  var authority = $("<h3 style='margin: 15px 0'>We also found <span class='count'/> parallel citation<span class='plural'/>:</h3>");
+                  authority.find(".count").text(cite.parallel_citations.length);
+                  authority.find(".plural").text(cite.parallel_citations.length != 1 ? "s" : "");
+                  node.append(authority);
+                }
+
+                show_links(cite.parallel_citations[i], node, true);
+            }
+        }
+
+        function show_links_from_source(node, link_source, link_data) {
+          var link = $("<div class='source' style='position: relative; padding-left: 55px;'>"
+              +"<h4><a><img style='position: absolute; top: 0; left: 0; width: 45px; height: 45px;'/> <span class='source-name'></span></a></h4>"
+              +"<div class='url'></div>"
+              +"<div class='note'></div>"
+              +"<div class='links' style='display: none; font-size: 90%; margin-top: .25em;'>also: </div>"
+              +"</div>");
+          node.append(link);
+
+          if (citators_with_icons.indexOf(link_source) >= 0)
+              link.find("img").attr('src', '/source-icons/' + link_source + '.png');
+          else
+              link.find("img").remove();
+
+          var source = link_data.source;
+          link.find(".source-name").text(source.name);
+          link.find(".note").text(source.note);
+
+          var first = true;
+          standard_link_formats.forEach(function(f) {
+            var url = link_data[f[0]];
+            if (url) {
+              if (first) {
+                link.find("a").attr('href', url);
+                if (f[0] != "landing")
+                  url = f[1] + " - " + url;
+                link.find(".url").text(url);
+                first = false;
+              } else {
+                var ff = $("<a/>")
+                ff.text(f[1]);
+                ff.attr('href', url);
+                link.find('.links').show();
+                link.find('.links').append(ff);
+              }
+            }
+          });
+        }
+        </script>
+
+        <script>
+        var ga_account_id = 'UA-XXXXX-X';
+        if (ga_account_id != 'UA-XXXXX-X') {
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create',ga_account_id);ga('send','pageview');
+        }
+
+        function smooth_scroll_to(elem) {
+          $('html, body').animate({
+              scrollTop: Math.max(elem.offset().top-100, 0)
+          });
+        }
+        </script>
+    </body>
+</html>

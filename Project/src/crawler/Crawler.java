@@ -23,12 +23,12 @@ public class Crawler implements Runnable{
         int compareWith = 0;
         int pc=0;
         compareWith = ManipulateFile.ReadNumberFromFile(pcPath); // old value of pc counter
-        System.out.println("THIS IS THREAD " + Thread.currentThread().getName() + " with inital pc = " + compareWith);
+        //System.out.println("THIS IS THREAD " + Thread.currentThread().getName() + " with inital pc = " + compareWith);
         ManipulateFile.WriteNumberInFile(pcPath, compareWith);
         // --If the end of file is reached or the number of crawls per crawl= 5000
         while (ManipulateFile.ReadFile(seedsFilePath, compareWith)[0] != ""
                 && ManipulateFile.ReadNumberFromFile(pcPath) < 5000) {
-            System.out.println("Entered");
+            //System.out.println("Entered");
             String webSiteURl = ManipulateFile.ReadFile(seedsFilePath, compareWith)[0];
             compareWith = ManipulateFile.ReadNumberFromFile(pcPath); // read from the pc file
             int websiteIndex = compareWith;
@@ -101,7 +101,7 @@ public class Crawler implements Runnable{
                         }
                     }
                     //--Add the HTML Content of the visited page in a text file
-                    ManipulateFile.CreateWebsiteFile(websiteIndex, String.valueOf(URLHandle),this.crawlerNumber);
+                    ManipulateFile.CreateWebsiteFile(websiteIndex, gennHTMLString,this.crawlerNumber);
                 }
                 else{
                     System.out.println("The pc  of the blocked url is: "+ websiteIndex);
