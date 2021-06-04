@@ -74,10 +74,10 @@ public class Link {
             temp=temp.replaceAll(" [a-zA-Z0-9] "," ");
             //--Replace stopping words with nothing
             String temp2 =temp;
-            temp=temp.replaceAll(" (me|my|myself|we|our|ours|ourselves|you|your|you\'re|yours|yourself|yourselves|he|him|his|himself|she|her|hers|hereself|it|its|itself|they|them|their|theirs|themselves|what|which|who|whom|this|that|these|those|am|is|are|was|were|be|been|being|have|has|had|having|do|does|did|doing|an|the|and|but|if|or|because|as|until|while|of|at|by|for|with|about|against|between|into|through|during|before|after|above|below|to|from|up|down|in|out|on|off|over|under|agian|further|then|once|here|there|when|where|why|how|all|any|both|each|few|more|most|other|some|much|no|nor|not|only|own|same|so|than|too|very|can|will|just|don|should|now) "," ");
+            temp=temp.replaceAll(" (me|my|myself|we|our|ours|ourselves|you|your|you\'re|yours|yourself|yourselves|he|him|his|himself|she|her|hers|herself|it|its|itself|they|them|their|theirs|themselves|what|which|who|whom|this|that|these|those|am|is|are|was|were|be|been|being|have|has|had|having|do|does|did|doing|a|an|the|and|but|if|or|because|as|until|while|of|at|by|for|with|about|against|between|into|through|during|before|after|above|below|to|from|up|down|in|out|on|off|over|under|again|further|then|once|here|there|when|where|why|how|all|any|both|each|few|more|most|other|some|much|no|nor|not|only|own|same|so|than|too|very|can|will|just|don|should|now) "," ");
             while(!(temp.equals(temp2))){
                 temp2=temp;
-                temp=temp.replaceAll(" (me|my|myself|we|our|ours|ourselves|you|your|you\'re|yours|yourself|yourselves|he|him|his|himself|she|her|hers|hereself|it|its|itself|they|them|their|theirs|themselves|what|which|who|whom|this|that|these|those|am|is|are|was|were|be|been|being|have|has|had|having|do|does|did|doing|an|the|and|but|if|or|because|as|until|while|of|at|by|for|with|about|against|between|into|through|during|before|after|above|below|to|from|up|down|in|out|on|off|over|under|agian|further|then|once|here|there|when|where|why|how|all|any|both|each|few|more|most|other|some|much|no|nor|not|only|own|same|so|than|too|very|can|will|just|don|should|now) "," ");
+                temp=temp.replaceAll(" (me|my|myself|we|our|ours|ourselves|you|your|you\'re|yours|yourself|yourselves|he|him|his|himself|she|her|hers|herself|it|its|itself|they|them|their|theirs|themselves|what|which|who|whom|this|that|these|those|am|is|are|was|were|be|been|being|have|has|had|having|do|does|did|doing|a|an|the|and|but|if|or|because|as|until|while|of|at|by|for|with|about|against|between|into|through|during|before|after|above|below|to|from|up|down|in|out|on|off|over|under|again|further|then|once|here|there|when|where|why|how|all|any|both|each|few|more|most|other|some|much|no|nor|not|only|own|same|so|than|too|very|can|will|just|don|should|now) "," ");
             }
             //--Replace 2 or more white spaces with a single white space
             temp=temp.replaceAll("\\s{2,}"," ");
@@ -87,6 +87,7 @@ public class Link {
     }
 
     static Map<String, Integer>  GetMapOfKeyWords(String[] wordsArrForEachDoc , String []descriptionForEachWord){
+        int sehs=0;
         Map<String, Integer> mapOfWords = new HashMap<String, Integer>();
         ArrayList<String> newDescriptionForEachWord = new ArrayList<String>();
         int length = wordsArrForEachDoc.length;
@@ -100,10 +101,12 @@ public class Link {
                 int x = mapOfWords.get(wordsArrForEachDoc[i]);
                 x++;
                 mapOfWords.replace(wordsArrForEachDoc[i],x);
+                sehs++;
             }
 
         }
         newDescriptionForEachWordMember = newDescriptionForEachWord;
+        System.out.println(sehs);
         return mapOfWords;
     }
 }
