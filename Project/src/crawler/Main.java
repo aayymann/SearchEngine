@@ -1,6 +1,5 @@
 package crawler;
 
-import java.io.IOException;
 import java.util.Scanner;
 
 public class Main {
@@ -13,9 +12,11 @@ public class Main {
             if(numOfCrawlers==0)
                 numOfCrawlers=1;
         }
-        catch(Exception e){
+        catch(Exception e) {
             System.out.println("Invalid Input , the number will be the default");
         }
+        //
+        ManipulateFile.WriteNumberInFile("./src/crawler/numOfCrawlers.txt",numOfCrawlers);
         //--Num of crawlers has to be at most equal to the number of url links in the url seeds file
         int numOfOriginalSeeds = ManipulateFile.GetNumberOfUrlSeeds("./urlSeeds.txt");
         while(numOfCrawlers> numOfOriginalSeeds)
@@ -47,7 +48,7 @@ public class Main {
             int temp =ManipulateFile.ReadNumberFromFile(pcPathArr[i]);
             if(temp==-1)
                 temp=0;
-            System.out.println("The temp is  " + temp);
+            //System.out.println("The temp is  " + temp);
             //--Populate the seeds files in case this is the first crawl and the crawler is not interupted in a previous run
             if(temp!=0){
                 break;

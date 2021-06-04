@@ -4,7 +4,6 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileWriter;
 import java.nio.file.Files;
-import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.nio.file.StandardOpenOption;
 import java.util.Scanner;
@@ -49,7 +48,7 @@ public class ManipulateFile {
             myWriter.write(pcString);
             myWriter.close();
         } catch (IOException e) {
-            System.out.println("Could not write in the program counter file");
+            System.out.println("Could not write in number in file");
         }
     }
 
@@ -64,7 +63,7 @@ public class ManipulateFile {
         }
     }
 
-    static int ReadNumberFromFile(String filePath) {
+    public static int ReadNumberFromFile(String filePath) {
         int pcCounter = -1;
         try {
             File pcFile = new File(filePath);
@@ -103,7 +102,6 @@ public class ManipulateFile {
         }
     }
 
-    //TODO:: HERE FOLDER OF FOLDERS
     static void CreateWebsiteFile(int websiteIndex, String websiteContent , int threadInst) {
         String myPath = "./websites/"+"Crawler"+String.valueOf(threadInst);
         String myPath2 = "./websites/"+"Crawler"+String.valueOf(threadInst)+"/"+String.valueOf(websiteIndex)+".txt";
