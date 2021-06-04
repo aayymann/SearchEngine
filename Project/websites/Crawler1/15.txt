@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-150549451-1" nonce="_tr_D-AYhKUDZR8g7q2gEg"></script>
-    <script nonce="_tr_D-AYhKUDZR8g7q2gEg">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-150549451-1" nonce="gaNHND-HeOIbk5KYXA62bg"></script>
+    <script nonce="gaNHND-HeOIbk5KYXA62bg">
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
@@ -38,11 +38,11 @@
     <link rel="icon" href="https://www.youtube.com/yts/img/favicon_96-vflW9Ec0w.png" sizes="96x96">
     <link rel="icon" href="https://www.youtube.com/yts/img/favicon_144-vfliLAfaB.png" sizes="144x144">
 
-    <link rel="stylesheet" href="//fonts.googleapis.com/icon?family=Material+Icons" nonce="_tr_D-AYhKUDZR8g7q2gEg">
-    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,700,700i&amp;lang=en" nonce="_tr_D-AYhKUDZR8g7q2gEg">
-    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=YouTube+Sans:300,400,500,600,700,900" nonce="_tr_D-AYhKUDZR8g7q2gEg">
+    <link rel="stylesheet" href="//fonts.googleapis.com/icon?family=Material+Icons" nonce="gaNHND-HeOIbk5KYXA62bg">
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,700,700i&amp;lang=en" nonce="gaNHND-HeOIbk5KYXA62bg">
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=YouTube+Sans:300,400,500,600,700,900" nonce="gaNHND-HeOIbk5KYXA62bg">
 
-    <link rel="stylesheet" href="/trends/static/compiled/index.min.css?cache=d8de6a4" nonce="_tr_D-AYhKUDZR8g7q2gEg">
+    <link rel="stylesheet" href="/trends/static/compiled/index.min.css?cache=d8de6a4" nonce="gaNHND-HeOIbk5KYXA62bg">
     <link rel="preconnect" href="//lh3.googleusercontent.com">
   </head>
   <body
@@ -503,11 +503,11 @@ tabindex="0">
       </h2>
       <div class="ytt-card">
         <a class="ytt-card__link"
-            href="https://www-vice-com.cdn.ampproject.org/c/s/www.vice.com/amp/en/article/qjpnk5/ambient-youtube-videos-asmr-lofi-hip-hop-beats-how-to-make"
+            href="https://www.nytimes.com/2021/05/15/business/media/ellen-degeneres-viral-videos.html"
             target="_blank"
             rel="noreferrer nofollow">
-          <p class="lb-font-eyebrow lb-margin-bottom-s ytt-card__eyebrow">VICE</p>
-          <h2 class="lb-font-headline-2 lb-font-weight-700">How YouTube&#39;s Ambience Artists Create Vibes, Virtually</h2>
+          <p class="lb-font-eyebrow lb-margin-bottom-s ytt-card__eyebrow">The New York Times</p>
+          <h2 class="lb-font-headline-2 lb-font-weight-700">What TikTok Stars Owe &#39;The Ellen DeGeneres Show&#39;</h2>
           <div class="lb-margin-top-s ytt-card__arrow"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="#161616" class="ytt-card__arrow-icon"><path d="M0 0h24v24H0z" fill="none"/><path d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"/></svg></div>
         </a>
       </div>
@@ -959,9 +959,9 @@ tabindex="0">
       </div>
     </section>
   </div>
-</footer>    <script async src="https://www.youtube.com/iframe_api" nonce="_tr_D-AYhKUDZR8g7q2gEg"></script>
-<script src="https://www.gstatic.com/external_hosted/mustache/mustache.js" nonce="_tr_D-AYhKUDZR8g7q2gEg"></script>
-<script id="trending-entry" type="x-tmpl-mustache" nonce="_tr_D-AYhKUDZR8g7q2gEg">
+</footer>    <script async src="https://www.youtube.com/iframe_api" nonce="gaNHND-HeOIbk5KYXA62bg"></script>
+<script src="https://www.gstatic.com/external_hosted/mustache/mustache.js" nonce="gaNHND-HeOIbk5KYXA62bg"></script>
+<script id="trending-entry" type="x-tmpl-mustache" nonce="gaNHND-HeOIbk5KYXA62bg">
   [[#items]]
   <div class="ytt-home__trending-entry">
     <div class="ytt-home__trending-video-wrapper">
@@ -985,7 +985,7 @@ tabindex="0">
   </div>
   [[/items]]
 </script>
-    <script src="/trends/static/compiled/index.min.js?cache=f4e86c3" nonce="_tr_D-AYhKUDZR8g7q2gEg"></script>
+    <script src="/trends/static/compiled/index.min.js?cache=f4e86c3" nonce="gaNHND-HeOIbk5KYXA62bg"></script>
 
   </body>
 </html>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <script nonce="zdcKQ7xEsu8e04KaTu5Whw">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    <script nonce="mtPTzZXlF8RLM43lwVCUaw">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
     j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
@@ -40,10 +40,10 @@
     <link rel="icon" href="https://www.youtube.com/yts/img/favicon_96-vflW9Ec0w.png" sizes="96x96">
     <link rel="icon" href="https://www.youtube.com/yts/img/favicon_144-vfliLAfaB.png" sizes="144x144">
 
-    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;lang=en" nonce="zdcKQ7xEsu8e04KaTu5Whw">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=YouTube+Sans:300,400,500,600,700,900" nonce="zdcKQ7xEsu8e04KaTu5Whw">
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;lang=en" nonce="mtPTzZXlF8RLM43lwVCUaw">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=YouTube+Sans:300,400,500,600,700,900" nonce="mtPTzZXlF8RLM43lwVCUaw">
 
-    <link rel="stylesheet" href="/howyoutubeworks/static/compiled/index.min.css?cache=8b07dcd" nonce="zdcKQ7xEsu8e04KaTu5Whw">
+    <link rel="stylesheet" href="/howyoutubeworks/static/compiled/index.min.css?cache=8b07dcd" nonce="mtPTzZXlF8RLM43lwVCUaw">
     <link rel="preconnect" href="//lh3.googleusercontent.com">
   </head>
 
@@ -2033,9 +2033,9 @@ plan for a carbon-free future.</p>
       lb-options='{"theme":"light"}'>
     </div>
 
-    <script src="https://www.gstatic.com/external_hosted/hammerjs/v2_0_2/hammer.min.js" nonce="zdcKQ7xEsu8e04KaTu5Whw"></script>
-    <script src="https://www.gstatic.com/feedback/js/help/prod/service/lazy.min.js" nonce="zdcKQ7xEsu8e04KaTu5Whw"></script>
-    <script src="/howyoutubeworks/static/compiled/index.min.js?cache=f0623e4" nonce="zdcKQ7xEsu8e04KaTu5Whw"></script>
+    <script src="https://www.gstatic.com/external_hosted/hammerjs/v2_0_2/hammer.min.js" nonce="mtPTzZXlF8RLM43lwVCUaw"></script>
+    <script src="https://www.gstatic.com/feedback/js/help/prod/service/lazy.min.js" nonce="mtPTzZXlF8RLM43lwVCUaw"></script>
+    <script src="/howyoutubeworks/static/compiled/index.min.js?cache=f0623e4" nonce="mtPTzZXlF8RLM43lwVCUaw"></script>
 
   </body>
 </html>

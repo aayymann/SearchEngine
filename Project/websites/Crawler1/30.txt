@@ -16,12 +16,12 @@
     <link rel="icon" href="https://www.youtube.com/yts/img/favicon_144-vfliLAfaB.png" sizes="144x144">
 
 
-    <link rel="stylesheet" href="//fonts.googleapis.com/icon?family=Material+Icons" nonce="EBUWGEoTOppWxWYUqsj-sA">
-    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,700,700i&amp;lang=en" nonce="EBUWGEoTOppWxWYUqsj-sA">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=YouTube+Sans:300,400,500,600,700,900" nonce="EBUWGEoTOppWxWYUqsj-sA">
+    <link rel="stylesheet" href="//fonts.googleapis.com/icon?family=Material+Icons" nonce="gYHunBUSJJwsaARYD8OeGw">
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,700,700i&amp;lang=en" nonce="gYHunBUSJJwsaARYD8OeGw">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=YouTube+Sans:300,400,500,600,700,900" nonce="gYHunBUSJJwsaARYD8OeGw">
 
-    <link rel="stylesheet" href="/creatorresearch/static/css/index.min.css?cache=de45ab5" nonce="EBUWGEoTOppWxWYUqsj-sA">
-    <script nonce="EBUWGEoTOppWxWYUqsj-sA">
+    <link rel="stylesheet" href="/creatorresearch/static/css/index.min.css?cache=de45ab5" nonce="gYHunBUSJJwsaARYD8OeGw">
+    <script nonce="gYHunBUSJJwsaARYD8OeGw">
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -553,8 +553,8 @@
 </footer>    <div class="cr-post-footer">
       <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSeS4WbwA0zv8sUY0xXeOukqMPXEcMq3-7WqNyNBZ6lUx6ooKg/viewform?campaignType=0&amp;formkey=dDFNS1U0ZTRGM0ZGcEthellVUEdxZlE6MA&amp;Q_Language=0&amp;l=0&amp;p_utm_medium=0&amp;p_utm_content=0&amp;labelTag=0&amp;p_utm_source=0&amp;reserved=0&amp;referral_code=0&amp;productTag=0&amp;pType=0&amp;p_utm_term=0&amp;campaignDate=0&amp;p_utm_campaign=0&amp;appTag=0">Update your information</a> or <a href="https://uxr-optout.withgoogle.com/?referral_code=0&amp;reserved=0&amp;pType=0&amp;productTag=0&amp;campaignType=0&amp;campaignDate=0&amp;labelTag=0&amp;appTag=0&amp;l=0&amp;Q_Language=0&amp;p_utm_source=0&amp;p_utm_medium=0&amp;p_utm_campaign=0&amp;p_utm_term=0&amp;p_utm_content=0">opt out</a>.</p>
     </div>
-    <script src="https://www.gstatic.com/external_hosted/bodymovin/bodymovin.js" nonce="EBUWGEoTOppWxWYUqsj-sA"></script>
-    <script src="/creatorresearch/static/js/index.min.js?cache=d706c53" nonce="EBUWGEoTOppWxWYUqsj-sA"></script>
+    <script src="https://www.gstatic.com/external_hosted/bodymovin/bodymovin.js" nonce="gYHunBUSJJwsaARYD8OeGw"></script>
+    <script src="/creatorresearch/static/js/index.min.js?cache=d706c53" nonce="gYHunBUSJJwsaARYD8OeGw"></script>
 
   </body>
 </html>

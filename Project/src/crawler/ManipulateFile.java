@@ -115,6 +115,19 @@ public class ManipulateFile {
             System.out.println("Failed to Write the generated HTML String");
         }
     }
+    static void CreateHyperlinksFile(int websiteIndex, String websiteContent , int threadInst) {
+        String myPath = "./hyperlinks/"+"Crawler"+String.valueOf(threadInst);
+        String myPath2 = "./hyperlinks/"+"Crawler"+String.valueOf(threadInst)+"/"+String.valueOf(websiteIndex)+".txt";
+        try {
+            File f1= new File(myPath);
+            f1.mkdir();
+            FileWriter myWriter = new FileWriter(myPath2);
+            myWriter.write(websiteContent);
+            myWriter.close();
+        } catch (IOException ex) {
+            System.out.println("Failed to Write the hyperlinks");
+        }
+    }
     static int GetNumberOfUrlSeeds(String urlSeedsPath){
         int num=0;
         try {

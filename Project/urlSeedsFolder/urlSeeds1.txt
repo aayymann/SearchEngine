@@ -464,7 +464,7 @@ https://www.youtube.com/trends/records/?record=most-subscribed-artists
 https://www.youtube.com/trends/records/?record=top-24-hour-music-debuts
 https://www.youtube.com/trends/records/?record=most-viewed-music-videos
 https://www.youtube.com/trends/records/?record=fastest-to-one-billion-views
-https://www-vice-com.cdn.ampproject.org/c/s/www.vice.com/amp/en/article/qjpnk5/ambient-youtube-videos-asmr-lofi-hip-hop-beats-how-to-make
+https://www.nytimes.com/2021/05/15/business/media/ellen-degeneres-viral-videos.html
 https://www.youtube.com/watch?v=[[ id ]]
 https://blog.youtube#jump-content
 https://blog.youtube/news-and-events
@@ -748,3 +748,12 @@ https://www.youtube.com/channel/UCKo61AAaRD00ibCWJZ321MQ
 https://developers.google.com/csai-video-match/
 https://www.blog.google/around-the-globe/google-europe/using-ai-help-organizations-detect-and-report-child-sexual-abuse-material-online/
 https://www.youtube.comhttp://www.missingkids.com/home
+https://socialimpact.youtube.com/why-youtube/
+https://socialimpact.youtube.com/how-to/
+https://socialimpact.youtube.com/success-stories/
+https://socialimpact.youtube.com/campaigns/
+https://socialimpact.youtube.com/about/
+https://support.google.com/youtube/answer/3545195?hl=en
+https://socialimpact.youtube.com/make-an-impact/
+https://support.google.com/youtube/answer/3545195?hl=%(locale)s
+https://socialimpact.youtube.comhttp://www.aclu.org/

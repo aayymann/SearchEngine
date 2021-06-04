@@ -2147,7 +2147,7 @@
     <devsite-heading-link></devsite-heading-link>
     <devsite-analytics enable-analytics-iframe>
       
-        <script type="application/json" analytics>[{"gaid": "UA-24532603-1", "dimensions": {"dimension3": false, "dimension6": "en", "dimension11": false, "dimension4": "YouTube", "dimension1": "Signed out", "dimension8": null, "dimension5": "en"}, "metrics": {"ratings_count": "metric2", "ratings_value": "metric1"}}]</script>
+        <script type="application/json" analytics>[{"gaid": "UA-24532603-1", "dimensions": {"dimension11": false, "dimension4": "YouTube", "dimension1": "Signed out", "dimension8": null, "dimension5": "en", "dimension6": "en", "dimension3": false}, "metrics": {"ratings_value": "metric1", "ratings_count": "metric2"}}]</script>
 <script type="application/json" gtm>{"parameters": {"freeTrialEligibleUser": "False", "internalUser": "False", "language": {"machineTranslated": "False", "requested": "en", "served": "en"}, "pageType": "landing", "projectName": "YouTube", "scriptsafe": null, "signedIn": "False", "tenant": "developers", "recommendations": {"sourcePage": "", "sourceType": 0, "sourceRank": 0, "sourceIdenticalDescriptions": 0, "sourceTitleWords": 0, "sourceDescriptionWords": 0, "experiment": ""}}}</script>
       
     </devsite-analytics>
@@ -2155,12 +2155,12 @@
       <devsite-badger></devsite-badger>
     
     
-    <script nonce="dtr69nJaJ7gUWtmT4ZJZsSHa0P0C5/">
+    <script nonce="Fu3v4+KmufSByf5ozHmnoEli/Uni80">
   
   (function(d,e,v,s,i,t,E){d['GoogleDevelopersObject']=i;
     t=e.createElement(v);t.async=1;t.src=s;E=e.getElementsByTagName(v)[0];
     E.parentNode.insertBefore(t,E);})(window, document, 'script',
-    'https://www.gstatic.com/devrel-devsite/prod/v702c60b70d68da067f4d656556a48e4ab1cf14be10bb79e46f353f3fdfe8505d/developers/js/app_loader.js', '[1,"en",null,"/js/devsite_app_module.js","https://www.gstatic.com/devrel-devsite/prod/v702c60b70d68da067f4d656556a48e4ab1cf14be10bb79e46f353f3fdfe8505d","https://www.gstatic.com/devrel-devsite/prod/v702c60b70d68da067f4d656556a48e4ab1cf14be10bb79e46f353f3fdfe8505d/developers","https://developers-dot-devsite-v2-prod.appspot.com",1,null,["/_pwa/developers/manifest.json","https://www.gstatic.com/devrel-devsite/prod/v702c60b70d68da067f4d656556a48e4ab1cf14be10bb79e46f353f3fdfe8505d/images/video-placeholder.svg","https://www.gstatic.com/devrel-devsite/prod/v702c60b70d68da067f4d656556a48e4ab1cf14be10bb79e46f353f3fdfe8505d/developers/images/favicon.png","https://fonts.googleapis.com/css?family=Google+Sans:400,500|Roboto:400,400italic,500,500italic,700,700italic|Roboto+Mono:400,500,700|Material+Icons"],1,null,[1,6,8,12,14,17,21,25,40,45,50,63,70,75,76,80,87,88,91,92,93,97,98,100,101,102,103,105,107,108,111,112,113,115,117,118,120,122,123,124,125,127,129,131,132,133,134,135,136,145],"AIzaSyAP-jjEJBzmIyKR4F-3XITp8yM9T1gEEI8","AIzaSyB6xiKGDR5O3Ak2okS4rLkauxGUG7XP0hg"]')
+    'https://www.gstatic.com/devrel-devsite/prod/v702c60b70d68da067f4d656556a48e4ab1cf14be10bb79e46f353f3fdfe8505d/developers/js/app_loader.js', '[1,"en",null,"/js/devsite_app_module.js","https://www.gstatic.com/devrel-devsite/prod/v702c60b70d68da067f4d656556a48e4ab1cf14be10bb79e46f353f3fdfe8505d","https://www.gstatic.com/devrel-devsite/prod/v702c60b70d68da067f4d656556a48e4ab1cf14be10bb79e46f353f3fdfe8505d/developers","https://developers-dot-devsite-v2-prod.appspot.com",1,null,["/_pwa/developers/manifest.json","https://www.gstatic.com/devrel-devsite/prod/v702c60b70d68da067f4d656556a48e4ab1cf14be10bb79e46f353f3fdfe8505d/images/video-placeholder.svg","https://www.gstatic.com/devrel-devsite/prod/v702c60b70d68da067f4d656556a48e4ab1cf14be10bb79e46f353f3fdfe8505d/developers/images/favicon.png","https://fonts.googleapis.com/css?family=Google+Sans:400,500|Roboto:400,400italic,500,500italic,700,700italic|Roboto+Mono:400,500,700|Material+Icons"],1,null,[1,6,8,12,14,17,21,25,40,45,50,63,70,75,76,80,87,88,91,92,93,97,98,100,101,102,103,105,107,108,111,112,113,115,116,117,118,120,122,123,124,125,127,129,131,132,133,134,135,136,145],"AIzaSyAP-jjEJBzmIyKR4F-3XITp8yM9T1gEEI8","AIzaSyB6xiKGDR5O3Ak2okS4rLkauxGUG7XP0hg"]')
   
 </script>
     <devsite-a11y-announce></devsite-a11y-announce>

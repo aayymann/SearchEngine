@@ -8,6 +8,7 @@ import java.util.ArrayList;
 import java.util.Locale;
 
 public class Link {
+    private static ArrayList<String> fetchedHyperlinksArr = new ArrayList<String>();
     static ArrayList<String>  FromCrawlerToIndexer(){
         int numOfCrawlers= ManipulateFile.ReadNumberFromFile("./src/crawler/numOfCrawlers.txt");
         String [] crawlersArr = new String [numOfCrawlers];
@@ -17,18 +18,27 @@ public class Link {
         }
         //--Count how many files in a folder
         String[] pathToCrawlerHTML= new String [numOfCrawlers];
+        String[] pathToCrawlerHyperlink= new String [numOfCrawlers];
         for(int i=0 ; i< numOfCrawlers ; i++){
+            //--FOR THE HTML && HYPERLINKS
             pathToCrawlerHTML[i]="./websites/Crawler"+crawlersArr[i];
-            //System.out.println(pathToCrawlerHTML[i]);
+            pathToCrawlerHyperlink[i]="./hyperlinks/Crawler"+crawlersArr[i];
+            //System.out.println(pathToCrawlerHyperlink[i]);
             File directory=new File(pathToCrawlerHTML[i]);
             fileCountArr[i]=directory.list().length;
             pathToCrawlerHTML[i]+="/";
+            pathToCrawlerHyperlink[i]+="/";
+
         }
         //
         ArrayList<String> fetchedCrawlerHTML = new ArrayList<String>();
         fetchedCrawlerHTML=Files.FetchingFromCrawlerFiles(pathToCrawlerHTML,crawlersArr,numOfCrawlers,fileCountArr);
-        System.out.println(fetchedCrawlerHTML.size());
+        fetchedHyperlinksArr=Files.FetchingFromCrawlerFiles(pathToCrawlerHyperlink,crawlersArr,numOfCrawlers,fileCountArr);
         return fetchedCrawlerHTML;
+    }
+
+    static ArrayList<String> GetHyperLinksArr (){
+        return fetchedHyperlinksArr;
     }
     static ArrayList<String> StripHTMLTags(ArrayList<String> fetchedCrawlerHTML ){
         ArrayList<String> stirppedHTML = new ArrayList<String>();

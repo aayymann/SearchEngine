@@ -45,18 +45,18 @@
     <link rel="icon" href="https://www.youtube.com/yts/img/favicon_96-vflW9Ec0w.png" sizes="96x96">
     <link rel="icon" href="https://www.youtube.com/yts/img/favicon_144-vfliLAfaB.png" sizes="144x144">
 
-    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:300,500,700&amp;lang=en" nonce="gR7Ba9lhsYFQtZDAFw8DMg">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/earlyaccess/notokufiarabic.css" nonce="gR7Ba9lhsYFQtZDAFw8DMg">
-    <link rel="stylesheet" href="/kids/static/css/index.min.css?cache=17ac090" nonce="gR7Ba9lhsYFQtZDAFw8DMg">
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:300,500,700&amp;lang=en" nonce="jdTOJcmljb5k34xQZDA3Eg">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/earlyaccess/notokufiarabic.css" nonce="jdTOJcmljb5k34xQZDA3Eg">
+    <link rel="stylesheet" href="/kids/static/css/index.min.css?cache=17ac090" nonce="jdTOJcmljb5k34xQZDA3Eg">
     <link rel="preconnect" href="//lh3.googleusercontent.com">
-    <script nonce="gR7Ba9lhsYFQtZDAFw8DMg">
+    <script nonce="jdTOJcmljb5k34xQZDA3Eg">
       (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
       new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
       j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
       })(window,document,'script','dataLayer','GTM-5WBWB7Z');
     </script>
-    <script src="/kids/static/js/detect.min.js?cache=09bf521" nonce="gR7Ba9lhsYFQtZDAFw8DMg"></script>
+    <script src="/kids/static/js/detect.min.js?cache=09bf521" nonce="jdTOJcmljb5k34xQZDA3Eg"></script>
   </head>
   <body
 lb-auto-init="HomePageController" class="ytk__home">
@@ -201,9 +201,9 @@ data-cta-platform="android" target="_blank" rel="noopener noreferrer">
       </div>
     </aside>
 </header>      <aside lb-auto-init="AlertBar" class="lb-banner lb-banner--blue ytk-alert-bar"></aside>
-<script src="https://www.gstatic.com/external_hosted/mustache/mustache.js" nonce="gR7Ba9lhsYFQtZDAFw8DMg"></script>
+<script src="https://www.gstatic.com/external_hosted/mustache/mustache.js" nonce="jdTOJcmljb5k34xQZDA3Eg"></script>
 
-<script id="alert-bar-template" type="x-tmpl-mustache" nonce="gR7Ba9lhsYFQtZDAFw8DMg">
+<script id="alert-bar-template" type="x-tmpl-mustache" nonce="jdTOJcmljb5k34xQZDA3Eg">
   <div class="lb-banner__text">
     <span class="ytk-alert-bar__details">[[details]]</span>
     <a href="[[cta_href]]" class="lb-font-color-white-1 ytk-alert-bar__link" target="_blank">[[cta_label]]</a>
@@ -1560,10 +1560,10 @@ data-cta-platform="android" target="_blank" rel="noopener noreferrer">
       </div>
     </section>
   </div>
-</footer>    <script async src="https://www.youtube.com/iframe_api" nonce="gR7Ba9lhsYFQtZDAFw8DMg"></script>
-  <script src="https://gstatic.com/external_hosted/animejs/anime.min.js" nonce="gR7Ba9lhsYFQtZDAFw8DMg"></script>
+</footer>    <script async src="https://www.youtube.com/iframe_api" nonce="jdTOJcmljb5k34xQZDA3Eg"></script>
+  <script src="https://gstatic.com/external_hosted/animejs/anime.min.js" nonce="jdTOJcmljb5k34xQZDA3Eg"></script>
 
-    <script src="/kids/static/js/index.min.js?cache=d519fff" nonce="gR7Ba9lhsYFQtZDAFw8DMg"></script>
+    <script src="/kids/static/js/index.min.js?cache=d519fff" nonce="jdTOJcmljb5k34xQZDA3Eg"></script>
 
   </body>
 </html>

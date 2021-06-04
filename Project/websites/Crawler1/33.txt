@@ -29,12 +29,12 @@
     <link href="https://www.gstatic.com/youtube/img/branding/favicon/favicon_144x144.png" rel="icon" sizes="144x144">
 
 
-      <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&subset=latin-ext" rel="stylesheet" nonce="ErUIpR0lXMw6uxgG32RbeQ">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=YouTube+Sans:300,400,500,600,700" nonce="ErUIpR0lXMw6uxgG32RbeQ">
+      <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&subset=latin-ext" rel="stylesheet" nonce="trWeZWxin_JC39u64_LY0g">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=YouTube+Sans:300,400,500,600,700" nonce="trWeZWxin_JC39u64_LY0g">
 
-    <link rel="stylesheet" href="/nextup/static/compiled/index.min.css?cache=74cc3f6" nonce="ErUIpR0lXMw6uxgG32RbeQ">
+    <link rel="stylesheet" href="/nextup/static/compiled/index.min.css?cache=74cc3f6" nonce="trWeZWxin_JC39u64_LY0g">
 
-    <script nonce="ErUIpR0lXMw6uxgG32RbeQ">
+    <script nonce="trWeZWxin_JC39u64_LY0g">
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -379,8 +379,8 @@ data-eligibility-answer="1">
   </div>
   <div class="mdc-dialog__backdrop"></div>
 </aside>  </div>
-</section><script src="https://www.gstatic.com/external_hosted/mustache/mustache.js" nonce="ErUIpR0lXMw6uxgG32RbeQ"></script>
-<script id="calendar-event-entry" type="x-tmpl-mustache" nonce="ErUIpR0lXMw6uxgG32RbeQ">
+</section><script src="https://www.gstatic.com/external_hosted/mustache/mustache.js" nonce="trWeZWxin_JC39u64_LY0g"></script>
+<script id="calendar-event-entry" type="x-tmpl-mustache" nonce="trWeZWxin_JC39u64_LY0g">
 
   <div class="calendar__events-content">
     <ul class="glue-pagination-pages">
@@ -953,6 +953,6 @@ data-eligibility-answer="1">
 </footer>
 
   </body>
-  <script src="https://www.gstatic.com/external_hosted/hammerjs/v2_0_2/hammer.min.js" nonce="ErUIpR0lXMw6uxgG32RbeQ"></script>
-  <script src="/nextup/static/compiled/index.min.js?cache=8e750c0" nonce="ErUIpR0lXMw6uxgG32RbeQ"></script>
+  <script src="https://www.gstatic.com/external_hosted/hammerjs/v2_0_2/hammer.min.js" nonce="trWeZWxin_JC39u64_LY0g"></script>
+  <script src="/nextup/static/compiled/index.min.js?cache=8e750c0" nonce="trWeZWxin_JC39u64_LY0g"></script>
 </html>

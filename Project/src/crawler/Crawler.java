@@ -103,6 +103,7 @@ public class Crawler implements Runnable{
                     }
                     //--Add the HTML Content of the visited page in a text file
                     ManipulateFile.CreateWebsiteFile(myCounter, gennHTMLString,this.crawlerNumber);
+                    ManipulateFile.CreateHyperlinksFile(myCounter,String.valueOf(URLHandle),this.crawlerNumber);
                     myCounter++;
                 }
                 else{
