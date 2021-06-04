@@ -40,14 +40,24 @@ public class Link {
     static ArrayList<String> GetHyperLinksArr (){
         return fetchedHyperlinksArr;
     }
-    static ArrayList<String> StripHTMLTags(ArrayList<String> fetchedCrawlerHTML ){
+    static ArrayList<String> StripHTMLTags(ArrayList<String> fetchedCrawlerHTML){
         ArrayList<String> stirppedHTML = new ArrayList<String>();
         int size = fetchedCrawlerHTML.size();
         for(int i=0 ; i< size ; i++){
             String temp = Jsoup.parse(fetchedCrawlerHTML.get(i)).text();
             temp=temp.toLowerCase();
             //--Remove hyperlinks
-            temp = temp.replaceAll("\"http.*\"","");
+            temp = temp.replaceAll("((http:\\/\\/|https:\\/\\/)?(www.)?(([a-zA-Z0-9-]){2,}\\.){1,4}([a-zA-Z]){2,6}(\\/([a-zA-Z-_\\/\\.0-9#:?=&;,]*)?)?)","");
+            stirppedHTML.add(temp);
+        }
+        return stirppedHTML;
+    }
+
+    static ArrayList<String> doFurtherProcessing(ArrayList<String> stirppedHTML){
+        ArrayList<String> stirppedHTML2 = new ArrayList<String>();
+        int size = stirppedHTML.size();
+        for(int i=0 ; i< size ; i++){
+            String temp=stirppedHTML.get(i);
             //--Remove special charachters
             temp=temp.replaceAll("-"," ");
             temp= temp.replaceAll("[-®#%~!@#$%^&*()_+/*?<>':;–.,`’\"]*","");
@@ -62,8 +72,8 @@ public class Link {
             }
             //--Replace 2 or more white spaces with a single white space
             temp=temp.replaceAll("\\s{2,}"," ");
-            stirppedHTML.add(temp);
+            stirppedHTML2.add(temp);
         }
-        return stirppedHTML;
+        return stirppedHTML2;
     }
 }
