@@ -10,10 +10,9 @@ public class Stemmer {
     SnowballStemmer
     ext Folder
      */
-    public static String Stemming(String content) throws Throwable {
+    public static String Stemming(String[] Splitted) throws Throwable {
         Class stemClass = Class.forName("indexer.ext.englishStemmer");
         SnowballStemmer stemmer = (SnowballStemmer) stemClass.newInstance();
-        String[] Splitted = content.split(" ");
         StringBuilder result = new StringBuilder();
         for (String s : Splitted) {
             stemmer.setCurrent(s);

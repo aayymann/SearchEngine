@@ -3,6 +3,8 @@ import org.bson.Document;
 import com.mongodb.client.MongoDatabase;
 import java.io.File;
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
 
 public class Main2 {
     public static void main (String[] args)  throws Exception, Throwable {
@@ -16,9 +18,9 @@ public class Main2 {
         ArrayList<String> strippedHTMLArr;
         ArrayList<String> processedArr;
         strippedHTMLArr=Link.StripHTMLTags(fetchedCrawlerHTML);
-        System.out.println(strippedHTMLArr.get(0));
+        //System.out.println(strippedHTMLArr.get(0));
         processedArr=Link.doFurtherProcessing(strippedHTMLArr);
-        System.out.println(processedArr.get(0));
+        //System.out.println(processedArr.get(0));
         int size  = strippedHTMLArr.size();
 
         //--CREATE DATABASE CONNECTION
@@ -67,14 +69,29 @@ public class Main2 {
                     }
                     descriptionForEachWord[i] = temp;
                 }
+                System.out.println( "word "+wordsArrForEachDoc[i] +" desc " +descriptionForEachWord[i]);
             }
             //
-            String Result = Stemmer.Stemming(processedArr.get(c));
-            //TODO:: RESULT HAS TO BE UNIQUE WORDS ONLY -> SAVE TF FOR EACH WORD
-            String[] test = Result.split(" ");
+            String[] test = processedArr.get(c).split(" ");
+            String Result = Stemmer.Stemming(test);
+            System.out.println(Result);
+            String wordsArr[] = Result.split(" ");
+            Map<String, Integer> mapOfWords;
+            mapOfWords=Link.GetMapOfKeyWords(wordsArr,descriptionForEachWord);
+            ArrayList<String>newDescriptionForEachWord = Link.GetNewDescpOfEachWordArr();
+            //
+            System.out.println("The size of map is " + mapOfWords.size() + " and the new descpr size is " + newDescriptionForEachWord.size());
+            int tempSehs = 0;
+            for (String name: mapOfWords.keySet()) {
+                String key = name;
+                int value = mapOfWords.get(name);
+                //System.out.println(key + " " + value +"    " + newDescriptionForEachWord.get(tempSehs));
+                tempSehs++;
+            }
+            //
             Document[] docs = new Document[test.length];
             for(int i = 0;i<test.length;i++){
-                docs[i] = new Document("word",test[i]); //TODO :: HUSSIEN HYPERLINK , descriptionForEachWord[I]
+                docs[i] = new Document("word",test[i]); //TODO :: HUSSIEN WORD(key of mapOfWords), TF(value of mapOfWords) , HYPERLINK fetchedHyperlinksArr[c] , newDescriptionForEachWord[i]
             }
             Database.insertManyDocs(docs);
         }

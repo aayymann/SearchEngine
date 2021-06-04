@@ -5,10 +5,13 @@ import org.jsoup.Jsoup;
 
 import java.io.File;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.Locale;
+import java.util.Map;
 
 public class Link {
     private static ArrayList<String> fetchedHyperlinksArr = new ArrayList<String>();
+    private static ArrayList<String> newDescriptionForEachWordMember  = new ArrayList<String>();
     static ArrayList<String>  FromCrawlerToIndexer(){
         int numOfCrawlers= ManipulateFile.ReadNumberFromFile("./src/crawler/numOfCrawlers.txt");
         String [] crawlersArr = new String [numOfCrawlers];
@@ -40,6 +43,10 @@ public class Link {
     static ArrayList<String> GetHyperLinksArr (){
         return fetchedHyperlinksArr;
     }
+
+    static ArrayList<String> GetNewDescpOfEachWordArr (){
+        return newDescriptionForEachWordMember;
+    }
     static ArrayList<String> StripHTMLTags(ArrayList<String> fetchedCrawlerHTML){
         ArrayList<String> stirppedHTML = new ArrayList<String>();
         int size = fetchedCrawlerHTML.size();
@@ -48,6 +55,11 @@ public class Link {
             temp=temp.toLowerCase();
             //--Remove hyperlinks
             temp = temp.replaceAll("((http:\\/\\/|https:\\/\\/)?(www.)?(([a-zA-Z0-9-]){2,}\\.){1,4}([a-zA-Z]){2,6}(\\/([a-zA-Z-_\\/\\.0-9#:?=&;,]*)?)?)","");
+            //--Remove special charachters
+            temp=temp.replaceAll("-"," ");
+            temp= temp.replaceAll("[-®#%~!@#$%^&*()_+/*?<>':;–.,`’\"]*","");
+            //--Replace 2 or more white spaces with a single white space
+            temp=temp.replaceAll("\\s{2,}"," ");
             stirppedHTML.add(temp);
         }
         return stirppedHTML;
@@ -58,9 +70,6 @@ public class Link {
         int size = stirppedHTML.size();
         for(int i=0 ; i< size ; i++){
             String temp=stirppedHTML.get(i);
-            //--Remove special charachters
-            temp=temp.replaceAll("-"," ");
-            temp= temp.replaceAll("[-®#%~!@#$%^&*()_+/*?<>':;–.,`’\"]*","");
             //--Replace any single char with nothing
             temp=temp.replaceAll(" [a-zA-Z0-9] "," ");
             //--Replace stopping words with nothing
@@ -75,5 +84,26 @@ public class Link {
             stirppedHTML2.add(temp);
         }
         return stirppedHTML2;
+    }
+
+    static Map<String, Integer>  GetMapOfKeyWords(String[] wordsArrForEachDoc , String []descriptionForEachWord){
+        Map<String, Integer> mapOfWords = new HashMap<String, Integer>();
+        ArrayList<String> newDescriptionForEachWord = new ArrayList<String>();
+        int length = wordsArrForEachDoc.length;
+        for(int i=0 ; i<length ; i++){
+
+            if(!(mapOfWords.containsKey(wordsArrForEachDoc[i]))){
+                mapOfWords.put(wordsArrForEachDoc[i],1);
+                newDescriptionForEachWord.add(descriptionForEachWord[i]);
+            }
+            else{
+                int x = mapOfWords.get(wordsArrForEachDoc[i]);
+                x++;
+                mapOfWords.replace(wordsArrForEachDoc[i],x);
+            }
+
+        }
+        newDescriptionForEachWordMember = newDescriptionForEachWord;
+        return mapOfWords;
     }
 }
