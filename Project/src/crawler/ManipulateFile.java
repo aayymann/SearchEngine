@@ -4,7 +4,6 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileWriter;
 import java.nio.file.Files;
-import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.nio.file.StandardOpenOption;
 import java.util.Scanner;
@@ -35,6 +34,7 @@ public class ManipulateFile {
             }
             compareWith = counter + 1;
         } catch (FileNotFoundException ex) {
+            System.out.println("Could not read a url seed from " + filePath);
         }
         arr[0] = websiteURL;
         arr[1] = String.valueOf(compareWith);
@@ -48,11 +48,22 @@ public class ManipulateFile {
             myWriter.write(pcString);
             myWriter.close();
         } catch (IOException e) {
-            System.out.println("Could not write in the program counter file");
+            System.out.println("Could not write in number in file");
         }
     }
 
-    static int ReadNumberFromFile(String filePath) {
+    static void WriteInFile(String filePath, String toBeAddedString) {
+        try {
+            toBeAddedString += "\n";
+            FileWriter myWriter = new FileWriter(filePath);
+            myWriter.write(toBeAddedString);
+            myWriter.close();
+        } catch (IOException e) {
+            System.out.println("Could not write a string in file");
+        }
+    }
+
+    public static int ReadNumberFromFile(String filePath) {
         int pcCounter = -1;
         try {
             File pcFile = new File(filePath);
@@ -72,10 +83,12 @@ public class ManipulateFile {
             Scanner myReader = new Scanner(filesToBeCrawled);
             while (myReader.hasNextLine()) {
                 String readLine = myReader.nextLine();
-                if (readLine.equals(searchedForString) || readLine.equals(tempSearchedFor))
+                if (searchedForString.equals(readLine) || tempSearchedFor.equals(readLine)) {
                     return true;
+                }
             }
         } catch (FileNotFoundException ex) {
+            System.out.println("An Error happened while searching for a string in the url seeds file");
         }
         return false;
     }
@@ -89,15 +102,46 @@ public class ManipulateFile {
         }
     }
 
-    static void CreateWebsiteFile(int websiteIndex, String websiteContent) {
-        String myPath = "./websites/" + websiteIndex + ".html";
-        File toBeCreated = new File(myPath);
+    static void CreateWebsiteFile(int websiteIndex, String websiteContent , int threadInst) {
+        String myPath = "./websites/"+"Crawler"+String.valueOf(threadInst);
+        String myPath2 = "./websites/"+"Crawler"+String.valueOf(threadInst)+"/"+String.valueOf(websiteIndex)+".txt";
         try {
-            if (toBeCreated.createNewFile()) {
-                Files.write(Paths.get(myPath), websiteContent.getBytes());
-            }
+            File f1= new File(myPath);
+            f1.mkdir();
+            FileWriter myWriter = new FileWriter(myPath2);
+            myWriter.write(websiteContent);
+            myWriter.close();
         } catch (IOException ex) {
-            ex.printStackTrace();
+            System.out.println("Failed to Write the generated HTML String");
         }
+    }
+    static void CreateHyperlinksFile(int websiteIndex, String websiteContent , int threadInst) {
+        String myPath = "./hyperlinks/"+"Crawler"+String.valueOf(threadInst);
+        String myPath2 = "./hyperlinks/"+"Crawler"+String.valueOf(threadInst)+"/"+String.valueOf(websiteIndex)+".txt";
+        try {
+            File f1= new File(myPath);
+            f1.mkdir();
+            FileWriter myWriter = new FileWriter(myPath2);
+            myWriter.write(websiteContent);
+            myWriter.close();
+        } catch (IOException ex) {
+            System.out.println("Failed to Write the hyperlinks");
+        }
+    }
+    static int GetNumberOfUrlSeeds(String urlSeedsPath){
+        int num=0;
+        try {
+            File fileToBeCrawled = new File(urlSeedsPath);
+            Scanner myReader = new Scanner(fileToBeCrawled);
+            while (myReader.hasNextLine()) {
+                if(myReader.nextLine().length() <=2)
+                    break;
+                num++;
+            }
+        }
+        catch(Exception ex){
+            System.out.println("File Could not br opened");
+        }
+        return num;
     }
 }
