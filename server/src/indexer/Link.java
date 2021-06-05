@@ -14,7 +14,7 @@ public class Link {
     private static ArrayList<String> newDescriptionForEachWordMember = new ArrayList<String>();
 
     static ArrayList<String> FromCrawlerToIndexer() {
-        int numOfCrawlers = ManipulateFile.ReadNumberFromFile("./server/src/crawler/numOfCrawlers.txt");
+        int numOfCrawlers = ManipulateFile.ReadNumberFromFile("./src/crawler/numOfCrawlers.txt");
         String[] crawlersArr = new String[numOfCrawlers];
         int[] fileCountArr = new int[numOfCrawlers];
         for (int i = 0; i < numOfCrawlers; i++) {
@@ -25,8 +25,8 @@ public class Link {
         String[] pathToCrawlerHyperlink = new String[numOfCrawlers];
         for (int i = 0; i < numOfCrawlers; i++) {
             // --FOR THE HTML && HYPERLINKS
-            pathToCrawlerHTML[i] = "./server/out/websites/Crawler" + crawlersArr[i];
-            pathToCrawlerHyperlink[i] = "./server/out/hyperlinks/Crawler" + crawlersArr[i];
+            pathToCrawlerHTML[i] = "./out/websites/Crawler" + crawlersArr[i];
+            pathToCrawlerHyperlink[i] = "./out/hyperlinks/Crawler" + crawlersArr[i];
             // System.out.println(pathToCrawlerHyperlink[i]);
             File directory = new File(pathToCrawlerHTML[i]);
             fileCountArr[i] = directory.list().length;
