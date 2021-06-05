@@ -3,8 +3,5 @@ build
 
 *.iml
 
-.idea
-.vscode
-
 .gradle
 .settings
