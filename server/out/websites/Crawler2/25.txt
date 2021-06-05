@@ -455,7 +455,7 @@
                 <sup>5,6</sup> YouTube Select Brand Lift (formerly Google Preferred lineups), 2019, Global.
               </p>
               <p>
-                <sup>7</sup> Commissioned Nielsen MMM Meta-Analysis, 2016-2018. Base: a list of studies selected and compiled by Nielsen, consisting of all available CPG studies completed in 2016-2018 that contain YouTube Select Lineups (formerly Google Preferred), Other Digital, and TV results. This list includes 45 studies for US Brands across all CPG categories. ROI is “Retail ROI,” defined as total incremental sales divided by total media spend. Incremental offline retail sales measured for TV represents average across all TV broadcasters.
+                <sup>7</sup> Commissioned Nielsen MMM Meta-Analysis, 2016-2018. Base: a list of studies selected and compiled by Nielsen, consisting of all available CPG studies completed in 2016-2018 that contain YouTube Select Lineups (formerly Google Preferred), Other Digital, and TV results. This list includes 45 studies for US Brands across all CPG categories. ROI is “Retail ROI,�? defined as total incremental sales divided by total media spend. Incremental offline retail sales measured for TV represents average across all TV broadcasters.
               </p>
               <p>
                 <sup>8</sup> DoubleVerify and IAS Testing, Global, Jun 2018.

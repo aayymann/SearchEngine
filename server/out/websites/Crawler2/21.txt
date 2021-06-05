@@ -45,18 +45,18 @@
     <link rel="icon" href="https://www.youtube.com/yts/img/favicon_96-vflW9Ec0w.png" sizes="96x96">
     <link rel="icon" href="https://www.youtube.com/yts/img/favicon_144-vfliLAfaB.png" sizes="144x144">
 
-    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:300,500,700&amp;lang=en" nonce="4Go4cM32SgCK_J7DUonmjA">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/earlyaccess/notokufiarabic.css" nonce="4Go4cM32SgCK_J7DUonmjA">
-    <link rel="stylesheet" href="/kids/static/css/index.min.css?cache=17ac090" nonce="4Go4cM32SgCK_J7DUonmjA">
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:300,500,700&amp;lang=en" nonce="PbwiSR4XL9HSaTDiVnbzsg">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/earlyaccess/notokufiarabic.css" nonce="PbwiSR4XL9HSaTDiVnbzsg">
+    <link rel="stylesheet" href="/kids/static/css/index.min.css?cache=17ac090" nonce="PbwiSR4XL9HSaTDiVnbzsg">
     <link rel="preconnect" href="//lh3.googleusercontent.com">
-    <script nonce="4Go4cM32SgCK_J7DUonmjA">
+    <script nonce="PbwiSR4XL9HSaTDiVnbzsg">
       (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
       new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
       j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
       })(window,document,'script','dataLayer','GTM-5WBWB7Z');
     </script>
-    <script src="/kids/static/js/detect.min.js?cache=09bf521" nonce="4Go4cM32SgCK_J7DUonmjA"></script>
+    <script src="/kids/static/js/detect.min.js?cache=09bf521" nonce="PbwiSR4XL9HSaTDiVnbzsg"></script>
   </head>
   <body
 lb-auto-init="HomePageController" class="ytk__home">
@@ -89,14 +89,14 @@ lb-auto-init="HomePageController" class="ytk__home">
               <a class="lb-js-nav-item lb-nav__item"
                   href="../kids/parent-resources/"
 >
-                مراجع مفيدة للوالدين
+                مراجع م�?يدة للوالدين
               </a>
             </div>
             <div class="lb-nav__item-wrapper lb-js-desktop-nav-item-wrapper">
               <a class="lb-js-nav-item lb-nav__item"
                   href="../kids/familyfriendly-videos/"
 >
-                فيديوهات مناسبة لجميع أفراد العائلة
+                �?يديوهات مناسبة لجميع أ�?راد العائلة
               </a>
             </div>
             <div class="lb-nav__item-wrapper lb-js-desktop-nav-item-wrapper">
@@ -173,12 +173,12 @@ data-cta-platform="android" target="_blank" rel="noopener noreferrer">
               <a class="lb-js-nav-item lb-mobile-nav__item"
                   href="../kids/parent-resources/"
                   tabindex=-1>
-                مراجع مفيدة للوالدين
+                مراجع م�?يدة للوالدين
               </a>
               <a class="lb-js-nav-item lb-mobile-nav__item"
                   href="../kids/familyfriendly-videos/"
                   tabindex=-1>
-                فيديوهات مناسبة لجميع أفراد العائلة
+                �?يديوهات مناسبة لجميع أ�?راد العائلة
               </a>
               <a class="lb-js-nav-item lb-mobile-nav__item"
                   href="../kids/fun-everyscreen/"
@@ -201,9 +201,9 @@ data-cta-platform="android" target="_blank" rel="noopener noreferrer">
       </div>
     </aside>
 </header>      <aside lb-auto-init="AlertBar" class="lb-banner lb-banner--blue ytk-alert-bar"></aside>
-<script src="https://www.gstatic.com/external_hosted/mustache/mustache.js" nonce="4Go4cM32SgCK_J7DUonmjA"></script>
+<script src="https://www.gstatic.com/external_hosted/mustache/mustache.js" nonce="PbwiSR4XL9HSaTDiVnbzsg"></script>
 
-<script id="alert-bar-template" type="x-tmpl-mustache" nonce="4Go4cM32SgCK_J7DUonmjA">
+<script id="alert-bar-template" type="x-tmpl-mustache" nonce="PbwiSR4XL9HSaTDiVnbzsg">
   <div class="lb-banner__text">
     <span class="ytk-alert-bar__details">[[details]]</span>
     <a href="[[cta_href]]" class="lb-font-color-white-1 ytk-alert-bar__link" target="_blank">[[cta_label]]</a>
@@ -248,7 +248,7 @@ data-cta-platform="android" target="_blank" rel="noopener noreferrer">
         <a class="ytk-dot-nav__link ytk-dot-nav__link--intro"
             href="#intro"
             id="intro"
-            title="تطبيق مخصّص للأطفال"
+            title="تطبيق مخصّص للأط�?ال"
             data-dot-nav-link>
           <svg class="ytk-dot-nav__circle" width="23px" height="23px" viewBox="0 0 23 23" version="1.1" xmlns="http://www.w3.org/2000/svg">
   <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
@@ -266,7 +266,7 @@ data-cta-platform="android" target="_blank" rel="noopener noreferrer">
         <a class="ytk-dot-nav__link ytk-dot-nav__link--safer-experience"
             href="#safer-experience"
             id="safer-experience"
-            title="تجربة أكثر أمانًا للأطفال على الإنترنت"
+            title="تجربة أكثر أمانًا للأط�?ال على الإنترنت"
             data-dot-nav-link>
           <svg class="ytk-dot-nav__circle" width="23px" height="23px" viewBox="0 0 23 23" version="1.1" xmlns="http://www.w3.org/2000/svg">
   <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
@@ -284,7 +284,7 @@ data-cta-platform="android" target="_blank" rel="noopener noreferrer">
         <a class="ytk-dot-nav__link ytk-dot-nav__link--resources"
             href="#resources"
             id="resources"
-            title="نصائح وأدوات مفيدة للعائلة"
+            title="نصائح وأدوات م�?يدة للعائلة"
             data-dot-nav-link>
           <svg class="ytk-dot-nav__circle" width="23px" height="23px" viewBox="0 0 23 23" version="1.1" xmlns="http://www.w3.org/2000/svg">
   <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
@@ -302,7 +302,7 @@ data-cta-platform="android" target="_blank" rel="noopener noreferrer">
         <a class="ytk-dot-nav__link ytk-dot-nav__link--videos"
             href="#videos"
             id="videos"
-            title="&#34;كل أنواع الفيديوهات المناسبة لجميع الأطفال  &#34;"
+            title="&#34;كل أنواع ال�?يديوهات المناسبة لجميع الأط�?ال  &#34;"
             data-dot-nav-link>
           <svg class="ytk-dot-nav__circle" width="23px" height="23px" viewBox="0 0 23 23" version="1.1" xmlns="http://www.w3.org/2000/svg">
   <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
@@ -365,9 +365,9 @@ data-cta-platform="android" target="_blank" rel="noopener noreferrer">
   </div>
     </div>
     <div class="col-m-5 ytk-content ytk-content__content">
-      <h1 class="ytk-heading-large ytk-type-white ytk-type-margin-small ytk-fade-stagger lb-font--no-crop">تطبيق مخصّص للأطفال</h1>
+      <h1 class="ytk-heading-large ytk-type-white ytk-type-margin-small ytk-fade-stagger lb-font--no-crop">تطبيق مخصّص للأط�?ال</h1>
       <div class="ytk-section-app-intro__description ytk-fade-stagger">
-        <p>صُمِّم تطبيق YouTube Kids لتوفير بيئة أكثر أمانًا للأطفال حتّى يتمكّنوا من بدء رحلة استكشاف سهلة ومرحة بأنفسهم، وهو ما يسهّل على الوالدَين ومقدّمي الرعاية توجيه رحلة الأطفال أثناء استكشافهم اهتمامات جديدة وشيّقة.</p>
+        <p>ص�?م�?ّم تطبيق YouTube Kids لتو�?ير بيئة أكثر أمانًا للأط�?ال حتّى يتمكّنوا من بدء رحلة استكشا�? سهلة ومرحة بأن�?سهم، وهو ما يسهّل على الوالدَين ومقدّمي الرعاية توجيه رحلة الأط�?ال أثناء استكشا�?هم اهتمامات جديدة وشيّقة.</p>
       </div>
       <div class="ytk__download-badges ytk-fade-stagger focusable-element-container">
         <a class="focusable-element" href="https://play.google.com/store/apps/details?id=com.google.android.apps.youtube.kids&amp;utm_source=website&amp;utm_medium=ytk&amp;utm_campaign=lp" target="_blank" rel="nofollow" data-cta-platform="android">
@@ -430,8 +430,8 @@ data-cta-platform="android" target="_blank" rel="noopener noreferrer">
       </div>
     </div>
     <div class="col-m-5 col-offset-m-1 ytk-content">
-      <h1 class="ytk-heading-large ytk-type-margin-small ytk-fade-stagger lb-font--no-crop">تجربة أكثر أمانًا للأطفال على الإنترنت</h1>
-      <p class="ytk-type-body-regular ytk-fade-stagger">تمّ تصميم وضع &#34;أطفال الروضة&#34; للأطفال من عمر 4 سنوات وما دون، وهو يوفّر لهم فيديوهات تحفّز لديهم روح الإبداع والمرح وتشجّعهم على التعلّم والاستكشاف. ويتيح وضع &#34;الأطفال الأصغر سنًا&#34; للأطفال من عمر 5 إلى 7 سنوات استكشاف المحتوى الذي يهمّهم والبحث عن مواضيع مختلفة، بما في ذلك الأغاني وأفلام الكرتون والمهارات الحِرفية. أمّا وضع &#34;الأطفال الأكبر سنًا&#34;، فيقدّم للأطفال من عمر 8 سنوات وما فوق فرصة البحث عن محتوى إضافي واستكشافه، مثل الفيديوهات الموسيقية وفيديوهات الألعاب الرائجة للأطفال.</p>
+      <h1 class="ytk-heading-large ytk-type-margin-small ytk-fade-stagger lb-font--no-crop">تجربة أكثر أمانًا للأط�?ال على الإنترنت</h1>
+      <p class="ytk-type-body-regular ytk-fade-stagger">تمّ تصميم وضع &#34;أط�?ال الروضة&#34; للأط�?ال من عمر 4 سنوات وما دون، وهو يو�?ّر لهم �?يديوهات تح�?ّز لديهم روح الإبداع والمرح وتشجّعهم على التعلّم والاستكشا�?. ويتيح وضع &#34;الأط�?ال الأصغر سنًا&#34; للأط�?ال من عمر 5 إلى 7 سنوات استكشا�? المحتوى الذي يهمّهم والبحث عن مواضيع مختل�?ة، بما �?ي ذلك الأغاني وأ�?لام الكرتون والمهارات الح�?ر�?ية. أمّا وضع &#34;الأط�?ال الأكبر سنًا&#34;، �?يقدّم للأط�?ال من عمر 8 سنوات وما �?وق �?رصة البحث عن محتوى إضا�?ي واستكشا�?ه، مثل ال�?يديوهات الموسيقية و�?يديوهات الألعاب الرائجة للأط�?ال.</p>
       <p class="ytk- ytk-fade-stagger focusable-element-container">
         <a href="/kids/safer-experience/" class="ytk__arrow-link focusable-element">
           مزيد من المعلومات
@@ -453,8 +453,8 @@ data-cta-platform="android" target="_blank" rel="noopener noreferrer">
   <div class="cols-row ytk__content-container">
     <div class="col-m-5 ytk-content">
       <div class="ytk-section-parent-settings__title">
-        <h1 class="ytk-fade-stagger ytk-section-parent-settings__title-heading lb-font--no-crop">نصائح وأدوات مفيدة للعائلة</h1>
-        <p class="ytk-type-body-regular ytk-fade-stagger">بما أنّ أساليب التربية تختلف من عائلة لأخرى، يمكنك الاطّلاع على المزيد من المعلومات حول الأدوات التي تتيح لك تخصيص تجربة أطفالك داخل التطبيق، كأدوات اختيار المحتوى الذي يمكنهم مشاهدته وتحديد وقت النظر إلى الشاشة وحظر فيديوهات. وتتوفّر أيضًا مراجع حول طريقة التعاون مع أطفالك لاكتساب عادات رقمية سليمة.</p>
+        <h1 class="ytk-fade-stagger ytk-section-parent-settings__title-heading lb-font--no-crop">نصائح وأدوات م�?يدة للعائلة</h1>
+        <p class="ytk-type-body-regular ytk-fade-stagger">بما أنّ أساليب التربية تختل�? من عائلة لأخرى، يمكنك الاطّلاع على المزيد من المعلومات حول الأدوات التي تتيح لك تخصيص تجربة أط�?الك داخل التطبيق، كأدوات اختيار المحتوى الذي يمكنهم مشاهدته وتحديد وقت النظر إلى الشاشة وحظر �?يديوهات. وتتو�?ّر أيضًا مراجع حول طريقة التعاون مع أط�?الك لاكتساب عادات رقمية سليمة.</p>
         <p class="ytk-fade-stagger focusable-element-container">
           <a href="/kids/parent-resources/" class="ytk__arrow-link focusable-element">
             مزيد من المعلومات
@@ -477,7 +477,7 @@ data-cta-platform="android" target="_blank" rel="noopener noreferrer">
           <li class="ytk-gallery__item" id="collections">
     <a href="#" class="ytk-type-xsmall focusable-element" data-gallery-trigger="0">
       <small class="ytk-type-cta ytk-gallery__item-bullet">01</small>
-      محتوى يوافق عليه الوالدان + مجموعة مختارات
+      محتوى يوا�?ق عليه الوالدان + مجموعة مختارات
     </a>
   </li>
           <li class="ytk-gallery__item" id="content-level">
@@ -489,7 +489,7 @@ data-cta-platform="android" target="_blank" rel="noopener noreferrer">
           <li class="ytk-gallery__item" id="timer">
     <a href="#" class="ytk-type-xsmall focusable-element" data-gallery-trigger="2">
       <small class="ytk-type-cta ytk-gallery__item-bullet">03</small>
-      موقِّت
+      موقّ�?ت
     </a>
   </li>
           <li class="ytk-gallery__item" id="blocking">
@@ -615,7 +615,7 @@ data-cta-platform="android" target="_blank" rel="noopener noreferrer">
           <li class="ytk-gallery__item" id="mobile_collections">
     <a href="#" class="ytk-type-xsmall focusable-element" data-gallery-trigger="0">
       <small class="ytk-type-cta ytk-gallery__item-bullet">01</small>
-      محتوى يوافق عليه الوالدان + مجموعة مختارات
+      محتوى يوا�?ق عليه الوالدان + مجموعة مختارات
     </a>
   </li>
           <li class="ytk-gallery__item" id="mobile_content-level">
@@ -627,7 +627,7 @@ data-cta-platform="android" target="_blank" rel="noopener noreferrer">
           <li class="ytk-gallery__item" id="mobile_timer">
     <a href="#" class="ytk-type-xsmall focusable-element" data-gallery-trigger="2">
       <small class="ytk-type-cta ytk-gallery__item-bullet">03</small>
-      موقِّت
+      موقّ�?ت
     </a>
   </li>
           <li class="ytk-gallery__item" id="mobile_blocking">
@@ -698,7 +698,7 @@ data-cta-platform="android" target="_blank" rel="noopener noreferrer">
           <li class="ytk-gallery__item" id="mobile_arts-crafts">
     <a href="#" class="ytk-type-xsmall focusable-element" data-gallery-trigger="0">
       <small class="ytk-type-cta ytk-gallery__item-bullet">01</small>
-      الفنون والحِرف
+      ال�?نون والح�?ر�?
     </a>
   </li>
           <li class="ytk-gallery__item" id="mobile_toys-play">
@@ -716,15 +716,15 @@ data-cta-platform="android" target="_blank" rel="noopener noreferrer">
           <li class="ytk-gallery__item" id="mobile_shows-cartoons">
     <a href="#" class="ytk-type-xsmall focusable-element" data-gallery-trigger="3">
       <small class="ytk-type-cta ytk-gallery__item-bullet">04</small>
-      العروض وأفلام الكرتون
+      العروض وأ�?لام الكرتون
     </a>
   </li>
       </ul>
     </div>
     <div class="col-m-5 col-offset-m-1 ytk-content">
       <div class="ytk-section-content-verticals__title">
-        <h1 class="ytk-fade-stagger ytk-section-content-verticals__title-heading lb-font--no-crop">"كل أنواع الفيديوهات المناسبة لجميع الأطفال  "</h1>
-        <p class="ytk-type-body-regular ytk-fade-stagger">تتضمّن مكتبتنا فيديوهات مناسبة للعائلة تتناول مواضيع مختلفة وتعزّز حسّ الإبداع واللهو لدى الأطفال. وتشمل هذه الفيديوهات كلّ ما قد يهمّ أطفالك من عروض وموسيقى ومحتوى تعليمي مثل كيفية بناء نموذج بركان (أو اللعب بالمادة اللزجة)، بالإضافة إلى أنواع أخرى من المحتوى.</p>
+        <h1 class="ytk-fade-stagger ytk-section-content-verticals__title-heading lb-font--no-crop">"كل أنواع ال�?يديوهات المناسبة لجميع الأط�?ال  "</h1>
+        <p class="ytk-type-body-regular ytk-fade-stagger">تتضمّن مكتبتنا �?يديوهات مناسبة للعائلة تتناول مواضيع مختل�?ة وتعزّز حسّ الإبداع واللهو لدى الأط�?ال. وتشمل هذه ال�?يديوهات كلّ ما قد يهمّ أط�?الك من عروض وموسيقى ومحتوى تعليمي مثل كي�?ية بناء نموذج بركان (أو اللعب بالمادة اللزجة)، بالإضا�?ة إلى أنواع أخرى من المحتوى.</p>
         <p class="ytk-fade-stagger focusable-element-container">
           <a href="/kids/familyfriendly-videos/" class="ytk-type-cta ytk-type-white ytk__arrow-link focusable-element">
             مزيد من المعلومات
@@ -747,7 +747,7 @@ data-cta-platform="android" target="_blank" rel="noopener noreferrer">
           <li class="ytk-gallery__item" id="arts-crafts">
     <a href="#" class="ytk-type-xsmall focusable-element" data-gallery-trigger="0">
       <small class="ytk-type-cta ytk-gallery__item-bullet">01</small>
-      الفنون والحِرف
+      ال�?نون والح�?ر�?
     </a>
   </li>
           <li class="ytk-gallery__item" id="toys-play">
@@ -765,7 +765,7 @@ data-cta-platform="android" target="_blank" rel="noopener noreferrer">
           <li class="ytk-gallery__item" id="shows-cartoons">
     <a href="#" class="ytk-type-xsmall focusable-element" data-gallery-trigger="3">
       <small class="ytk-type-cta ytk-gallery__item-bullet">04</small>
-      العروض وأفلام الكرتون
+      العروض وأ�?لام الكرتون
     </a>
   </li>
       </ul>
@@ -856,11 +856,11 @@ data-cta-platform="android" target="_blank" rel="noopener noreferrer">
                   </a>
                   <a class="lb-font-footnote lb-font-color-grey5 lb-footer__standard-menu-link"
                       href="https://www.youtube.com/intl/ALL_eg/jobs/">
-                    الوظائف
+                    الوظائ�?
                   </a>
                   <a class="lb-font-footnote lb-font-color-grey5 lb-footer__standard-menu-link"
                       href="https://blog.youtube/press/">
-                    الصحافة
+                    الصحا�?ة
                   </a>
                   <a class="lb-font-footnote lb-font-color-grey5 lb-footer__standard-menu-link"
                       href="https://www.youtube.com/trends/">
@@ -970,7 +970,7 @@ data-cta-platform="android" target="_blank" rel="noopener noreferrer">
                   </a>
                   <a class="lb-font-footnote lb-font-color-grey5 lb-footer__standard-menu-link"
                       href="https://www.youtube.com/creatorresearch/">
-                    الأبحاث التي يشارك فيها منشئو المحتوى
+                    الأبحاث التي يشارك �?يها منشئو المحتوى
                   </a>
                   <a class="lb-font-footnote lb-font-color-grey5 lb-footer__standard-menu-link"
                       href="https://servicesdirectory.withyoutube.com/">
@@ -978,7 +978,7 @@ data-cta-platform="android" target="_blank" rel="noopener noreferrer">
                   </a>
                   <a class="lb-font-footnote lb-font-color-grey5 lb-footer__standard-menu-link"
                       href="https://artists.youtube.com/intl/ALL_eg/">
-                    YouTube للفنانين
+                    YouTube لل�?نانين
                   </a>
                   <a class="lb-font-footnote lb-font-color-grey5 lb-footer__standard-menu-link"
                       href="https://www.youtube.com/intl/ALL_eg/creators/">
@@ -1071,11 +1071,11 @@ data-cta-platform="android" target="_blank" rel="noopener noreferrer">
           </a>
           <a class="lb-font-footnote lb-font-color-grey5 lb-footer__standard-menu-link"
               href="https://www.youtube.com/intl/ALL_eg/jobs/">
-            الوظائف
+            الوظائ�?
           </a>
           <a class="lb-font-footnote lb-font-color-grey5 lb-footer__standard-menu-link"
               href="https://blog.youtube/press/">
-            الصحافة
+            الصحا�?ة
           </a>
           <a class="lb-font-footnote lb-font-color-grey5 lb-footer__standard-menu-link"
               href="https://www.youtube.com/trends/">
@@ -1140,7 +1140,7 @@ data-cta-platform="android" target="_blank" rel="noopener noreferrer">
           </a>
           <a class="lb-font-footnote lb-font-color-grey5 lb-footer__standard-menu-link"
               href="https://www.youtube.com/creatorresearch/">
-            الأبحاث التي يشارك فيها منشئو المحتوى
+            الأبحاث التي يشارك �?يها منشئو المحتوى
           </a>
           <a class="lb-font-footnote lb-font-color-grey5 lb-footer__standard-menu-link"
               href="https://servicesdirectory.withyoutube.com/">
@@ -1148,7 +1148,7 @@ data-cta-platform="android" target="_blank" rel="noopener noreferrer">
           </a>
           <a class="lb-font-footnote lb-font-color-grey5 lb-footer__standard-menu-link"
               href="https://artists.youtube.com/intl/ALL_eg/">
-            YouTube للفنانين
+            YouTube لل�?نانين
           </a>
           <a class="lb-font-footnote lb-font-color-grey5 lb-footer__standard-menu-link"
               href="https://www.youtube.com/intl/ALL_eg/creators/">
@@ -1250,7 +1250,7 @@ data-cta-platform="android" target="_blank" rel="noopener noreferrer">
   Nederlands (België)
 </option>
                 <option value="/intl/ALL_bg/kids/" >
-  български (България)
+  българ�?ки (Българи�?)
 </option>
                 <option value="/intl/ALL_bh/kids/" >
   العربية (البحرين)
@@ -1262,7 +1262,7 @@ data-cta-platform="android" target="_blank" rel="noopener noreferrer">
   português (Brasil)
 </option>
                 <option value="/intl/ALL_by/kids/" >
-  беларуская (Беларусь)
+  белару�?ка�? (Белару�?ь)
 </option>
                 <option value="/intl/ALL_ca/kids/" >
   English (Canada)
@@ -1280,7 +1280,7 @@ data-cta-platform="android" target="_blank" rel="noopener noreferrer">
   español (Costa Rica)
 </option>
                 <option value="/intl/ALL_cz/kids/" >
-  čeština (Česká republika)
+  �?eština (Česká republika)
 </option>
                 <option value="/intl/ALL_de/kids/" >
   Deutsch (Deutschland)
@@ -1310,7 +1310,7 @@ data-cta-platform="android" target="_blank" rel="noopener noreferrer">
   français (France)
 </option>
                 <option value="/intl/ALL_ge/kids/" >
-  ქართული (საქართველო)
+  ქ�?რთული (ს�?ქ�?რთველ�?)
 </option>
                 <option value="/intl/ALL_gh/kids/" >
   English (Ghana)
@@ -1322,7 +1322,7 @@ data-cta-platform="android" target="_blank" rel="noopener noreferrer">
   español (Guatemala)
 </option>
                 <option value="/intl/ALL_hk/kids/" >
-  中文 (繁體字, 中華人民共和國香港特別行政區)
+  中文 (�?體字, 中�?�人民共和國香港特別行政�?�)
 </option>
                 <option value="/intl/ALL_hn/kids/" >
   español (Honduras)
@@ -1340,7 +1340,7 @@ data-cta-platform="android" target="_blank" rel="noopener noreferrer">
   English (Ireland)
 </option>
                 <option value="/intl/ALL_il/kids/" >
-  עברית (ישראל)
+  עברית (ישר�?ל)
 </option>
                 <option value="/intl/ALL_in/kids/" >
   English (India)
@@ -1349,7 +1349,7 @@ data-cta-platform="android" target="_blank" rel="noopener noreferrer">
   العربية (العراق)
 </option>
                 <option value="/intl/ALL_is/kids/" >
-  íslenska (Ísland)
+  íslenska (�?sland)
 </option>
                 <option value="/intl/ALL_it/kids/" >
   italiano (Italia)
@@ -1373,7 +1373,7 @@ data-cta-platform="android" target="_blank" rel="noopener noreferrer">
   العربية (الكويت)
 </option>
                 <option value="/intl/ALL_kz/kids/" >
-  қазақ тілі (Қазақстан)
+  қазақ тілі (Қазақ�?тан)
 </option>
                 <option value="/intl/ALL_lb/kids/" >
   العربية (لبنان)
@@ -1400,7 +1400,7 @@ data-cta-platform="android" target="_blank" rel="noopener noreferrer">
   srpski (latinica, Crna Gora)
 </option>
                 <option value="/intl/ALL_mk/kids/" >
-  македонски (Македонија)
+  македон�?ки (Македонија)
 </option>
                 <option value="/intl/ALL_mt/kids/" >
   Malti (Malta)
@@ -1430,7 +1430,7 @@ data-cta-platform="android" target="_blank" rel="noopener noreferrer">
   English (New Zealand)
 </option>
                 <option value="/intl/ALL_om/kids/" >
-  العربية (عُمان)
+  العربية (ع�?مان)
 </option>
                 <option value="/intl/ALL_pa/kids/" >
   español (Panamá)
@@ -1460,10 +1460,10 @@ data-cta-platform="android" target="_blank" rel="noopener noreferrer">
   română (România)
 </option>
                 <option value="/intl/ALL_rs/kids/" >
-  српски (ћирилица, Србија)
+  �?рп�?ки (ћирилица, Србија)
 </option>
                 <option value="/intl/ALL_ru/kids/" >
-  русский (Россия)
+  ру�?�?кий (Ро�?�?и�?)
 </option>
                 <option value="/intl/ALL_sa/kids/" >
   العربية (المملكة العربية السعودية)
@@ -1475,10 +1475,10 @@ data-cta-platform="android" target="_blank" rel="noopener noreferrer">
   English (Singapore)
 </option>
                 <option value="/intl/ALL_si/kids/" >
-  slovenščina (Slovenija)
+  slovenš�?ina (Slovenija)
 </option>
                 <option value="/intl/ALL_sk/kids/" >
-  slovenčina (Slovensko)
+  sloven�?ina (Slovensko)
 </option>
                 <option value="/intl/ALL_sn/kids/" >
   français (Sénégal)
@@ -1496,13 +1496,13 @@ data-cta-platform="android" target="_blank" rel="noopener noreferrer">
   Türkçe (Türkiye)
 </option>
                 <option value="/intl/ALL_tw/kids/" >
-  中文 (繁體, 台灣)
+  中文 (�?體, �?��?�)
 </option>
                 <option value="/intl/ALL_tz/kids/" >
   Kiswahili (Tanzania)
 </option>
                 <option value="/intl/ALL_ua/kids/" >
-  українська (Україна)
+  україн�?ька (Україна)
 </option>
                 <option value="/intl/ALL_ug/kids/" >
   English (Uganda)
@@ -1560,10 +1560,10 @@ data-cta-platform="android" target="_blank" rel="noopener noreferrer">
       </div>
     </section>
   </div>
-</footer>    <script async src="https://www.youtube.com/iframe_api" nonce="4Go4cM32SgCK_J7DUonmjA"></script>
-  <script src="https://gstatic.com/external_hosted/animejs/anime.min.js" nonce="4Go4cM32SgCK_J7DUonmjA"></script>
+</footer>    <script async src="https://www.youtube.com/iframe_api" nonce="PbwiSR4XL9HSaTDiVnbzsg"></script>
+  <script src="https://gstatic.com/external_hosted/animejs/anime.min.js" nonce="PbwiSR4XL9HSaTDiVnbzsg"></script>
 
-    <script src="/kids/static/js/index.min.js?cache=d519fff" nonce="4Go4cM32SgCK_J7DUonmjA"></script>
+    <script src="/kids/static/js/index.min.js?cache=d519fff" nonce="PbwiSR4XL9HSaTDiVnbzsg"></script>
 
   </body>
 </html>

@@ -1475,7 +1475,7 @@ data-header-options='{
     "handle": "youtube",
     "template": "ytTwitterFeed"
     }'
-    style="--primary-color: #0a0a0a;--pattern: url(/static/blog_youtube/images/common/quote.svg#triangle-scribble);">
+    style="--primary-color: #0a0a0a;--pattern: url(/static/blog_youtube/images/common/quote.svg#beans);">
     <h2 class="yt-twitter-posts__headline">
       Across YouTube
     </h2>

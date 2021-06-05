@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <script nonce="6vi-cqsodOZKX5g-Ryu_7Q">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    <script nonce="ui2CPPjZC_90_o6bbrxNuw">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
     j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
@@ -41,10 +41,10 @@
     <link rel="icon" href="https://www.youtube.com/yts/img/favicon_96-vflW9Ec0w.png" sizes="96x96">
     <link rel="icon" href="https://www.youtube.com/yts/img/favicon_144-vfliLAfaB.png" sizes="144x144">
 
-    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;lang=en" nonce="6vi-cqsodOZKX5g-Ryu_7Q">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=YouTube+Sans:300,400,500,600,700,900" nonce="6vi-cqsodOZKX5g-Ryu_7Q">
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;lang=en" nonce="ui2CPPjZC_90_o6bbrxNuw">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=YouTube+Sans:300,400,500,600,700,900" nonce="ui2CPPjZC_90_o6bbrxNuw">
 
-    <link rel="stylesheet" href="/howyoutubeworks/static/compiled/index.min.css?cache=8b07dcd" nonce="6vi-cqsodOZKX5g-Ryu_7Q">
+    <link rel="stylesheet" href="/howyoutubeworks/static/compiled/index.min.css?cache=8b07dcd" nonce="ui2CPPjZC_90_o6bbrxNuw">
     <link rel="preconnect" href="//lh3.googleusercontent.com">
   </head>
 
@@ -874,7 +874,7 @@ id="making-claims">
 id="enforcing-copyright">
                 <h2 class="md md-h2">What action does YouTube take for copyright infringement?</h2>
 <p class="md md-p">If a copyright owner submits a valid DMCA complaint through our webform, we take down that video and apply a <strong class="md md-strong">copyright strike</strong>. If a user gets three copyright strikes in 90 days, their account, along with any associated channels, will be terminated. We also have tools to help Creators resolve their copyright strikes - including waiting for it to expire after 90 days, requesting a retraction, or submitting a counter notification.</p>
-<p class="md md-p"><a class="md md-a" href="https://support.google.com/youtube/answer/6013276" rel="noopener" target="_blank">Content ID</a> works differently. If a match between a reference file and a new upload is made, a “claim” is made. Based on the preference selected by the Content ID owner, we’ll apply a policy to track, monetize, or block, but will not issue a copyright strike.</p>
+<p class="md md-p"><a class="md md-a" href="https://support.google.com/youtube/answer/6013276" rel="noopener" target="_blank">Content ID</a> works differently. If a match between a reference file and a new upload is made, a “claim�? is made. Based on the preference selected by the Content ID owner, we’ll apply a policy to track, monetize, or block, but will not issue a copyright strike.</p>
 <p class="md md-p" md-node-state="empty"><div class="ytr-resources lb-padding-top-s lb-margin-top-m lb-margin-bottom-m"> <div class="ytr-resources-grid"> <div class="ytr-resources-grid__cell ytr-resources-grid__cell--span-2"> <h3 class="lb-margin-bottom-xs"> <span class="lb-font-weight-600 lb-font-subhead"> Resources </span> </h3> <ul> <li class="lb-font-paragraph lb-margin-top-s"> <div class="lb-margin-top-xs lb-font-paragraph ytr-button"> <a class="ytr-link" href="https://support.google.com/youtube/answer/2814000?hl=en&amp;p=c_strike_basics" target="_blank" rel="noreferrer nofollow"> Learn more about copyright strike <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#065fd4"><path d="M0 0h24v24H0z" fill="none"/><path d="M19 19H5V5h7V3H5a2 2 0 00-2 2v14a2 2 0 002 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"/></svg> </a> </div> </li> <li class="lb-font-paragraph lb-margin-top-s"> <div class="lb-margin-top-xs lb-font-paragraph ytr-button"> <a class="ytr-link" href="https://support.google.com/youtube/answer/2807691?hl=en" target="_blank" rel="noreferrer nofollow"> Retract a claim of copyright infringement <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#065fd4"><path d="M0 0h24v24H0z" fill="none"/><path d="M19 19H5V5h7V3H5a2 2 0 00-2 2v14a2 2 0 002 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"/></svg> </a> </div> </li> <li class="lb-font-paragraph lb-margin-top-s"> <div class="lb-margin-top-xs lb-font-paragraph ytr-button"> <a class="ytr-link" href="https://support.google.com/youtube/answer/2807684?hl=en" target="_blank" rel="noreferrer nofollow"> Submit a counter notification <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#065fd4"><path d="M0 0h24v24H0z" fill="none"/><path d="M19 19H5V5h7V3H5a2 2 0 00-2 2v14a2 2 0 002 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"/></svg> </a> </div> </li> </ul> </div> </div> </div></p>
               </div>
       </div>
@@ -1411,7 +1411,7 @@ id="enforcing-copyright">
   Nederlands (België)
 </option>
               <option value="/intl/ALL_bg/howyoutubeworks/policies/copyright/" >
-  български (България)
+  българ�?ки (Българи�?)
 </option>
               <option value="/intl/ALL_br/howyoutubeworks/policies/copyright/" >
   português (Brasil)
@@ -1420,7 +1420,7 @@ id="enforcing-copyright">
   English (Canada)
 </option>
               <option value="/intl/ALL_cz/howyoutubeworks/policies/copyright/" >
-  čeština (Česká republika)
+  �?eština (Česká republika)
 </option>
               <option value="/intl/ALL_de/howyoutubeworks/policies/copyright/" >
   Deutsch (Deutschland)
@@ -1489,16 +1489,16 @@ id="enforcing-copyright">
   română (România)
 </option>
               <option value="/intl/ALL_ru/howyoutubeworks/policies/copyright/" >
-  русский (Россия)
+  ру�?�?кий (Ро�?�?и�?)
 </option>
               <option value="/intl/ALL_se/howyoutubeworks/policies/copyright/" >
   svenska (Sverige)
 </option>
               <option value="/intl/ALL_si/howyoutubeworks/policies/copyright/" >
-  slovenščina (Slovenija)
+  slovenš�?ina (Slovenija)
 </option>
               <option value="/intl/ALL_sk/howyoutubeworks/policies/copyright/" >
-  slovenčina (Slovensko)
+  sloven�?ina (Slovensko)
 </option>
               <option value="/intl/ALL_tr/howyoutubeworks/policies/copyright/" >
   Türkçe (Türkiye)
@@ -1510,7 +1510,7 @@ id="enforcing-copyright">
   Deutsch (Belgien)
 </option>
               <option value="/intl/el_cy/howyoutubeworks/policies/copyright/" >
-  Ελληνικά (Κύπρος)
+  Ελληνικά (Κ�?π�?ος)
 </option>
               <option value="/intl/en_be/howyoutubeworks/policies/copyright/" >
   English (Belgium)
@@ -1531,7 +1531,7 @@ id="enforcing-copyright">
   français (Luxembourg)
 </option>
               <option value="/intl/hi_in/howyoutubeworks/policies/copyright/" >
-  हिन्दी (भारत)
+  हिन�?दी (भारत)
 </option>
               <option value="/intl/tr_cy/howyoutubeworks/policies/copyright/" >
   Türkçe (Kıbrıs)
@@ -1546,9 +1546,9 @@ id="enforcing-copyright">
       lb-options='{"theme":"light"}'>
     </div>
 
-    <script src="https://www.gstatic.com/external_hosted/hammerjs/v2_0_2/hammer.min.js" nonce="6vi-cqsodOZKX5g-Ryu_7Q"></script>
-    <script src="https://www.gstatic.com/feedback/js/help/prod/service/lazy.min.js" nonce="6vi-cqsodOZKX5g-Ryu_7Q"></script>
-    <script src="/howyoutubeworks/static/compiled/index.min.js?cache=f0623e4" nonce="6vi-cqsodOZKX5g-Ryu_7Q"></script>
+    <script src="https://www.gstatic.com/external_hosted/hammerjs/v2_0_2/hammer.min.js" nonce="ui2CPPjZC_90_o6bbrxNuw"></script>
+    <script src="https://www.gstatic.com/feedback/js/help/prod/service/lazy.min.js" nonce="ui2CPPjZC_90_o6bbrxNuw"></script>
+    <script src="/howyoutubeworks/static/compiled/index.min.js?cache=f0623e4" nonce="ui2CPPjZC_90_o6bbrxNuw"></script>
 
   </body>
 </html>

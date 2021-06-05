@@ -810,7 +810,7 @@ data-lb-lazee-options='{&#34;instant&#34;: true}'>
       </div>
     </div>
   <p class="ytv-surface__hallmark-disclaimer">
-    *As of June 2020. Based on a study conducted by Screen Engine / ASI of the cost of owning comparable services over 24 months, including hidden fees, promotion pricing, DVR box rental and service fee, and a second cable box for the home, if applicable. “Traditional Services” is defined by cable and satellite companies in the Top 50 Nielsen DMAs.
+    *As of June 2020. Based on a study conducted by Screen Engine / ASI of the cost of owning comparable services over 24 months, including hidden fees, promotion pricing, DVR box rental and service fee, and a second cable box for the home, if applicable. “Traditional Services�? is defined by cable and satellite companies in the Top 50 Nielsen DMAs.
   </p>
 </section>
 <section id="id-sports-tier"
@@ -2509,7 +2509,7 @@ data-lb-lazee-options='{&#34;instant&#34;: true}'>
   <div class="ytv-block__inner">
       <p class="ytv-block__disclaimer">1 As of November&nbsp;2020</p>
       <p class="ytv-block__disclaimer">2 Up to $500 savings calculated by annualizing mean reported monthly spending on pay-TV of $109.60 and subtracting the annualized $64.99 monthly base package cost of YouTube TV. Based on <a href="https://www.leichtmanresearch.com/75-of-tv-households-subscribe-to-a-pay-tv-service/" rel="noopener noreferrer" target="_blank">study</a> by Leichtman Research Group, published November 5,&nbsp;2019.</p>
-      <p class="ytv-block__disclaimer">3 As of June 2020. Based on a study conducted by Screen Engine / ASI of the cost of owning comparable services over 24 months, including hidden fees, promotion pricing, DVR box rental and service fee, and a second cable box for the home, if applicable. “Traditional Services” is defined by cable and satellite companies in the Top 50 Nielsen&nbsp;DMAs.</p>
+      <p class="ytv-block__disclaimer">3 As of June 2020. Based on a study conducted by Screen Engine / ASI of the cost of owning comparable services over 24 months, including hidden fees, promotion pricing, DVR box rental and service fee, and a second cable box for the home, if applicable. “Traditional Services�? is defined by cable and satellite companies in the Top 50 Nielsen&nbsp;DMAs.</p>
       <p class="ytv-block__disclaimer">Starz® and related channels and service marks are the property of Starz Entertainment, LLC. Visit starz.com for airdates/times. Power Book II: Ghost © MMXX Lionsgate Television, Inc. All Rights&nbsp;Reserved..</p>
       <p class="ytv-block__disclaimer">Fear the Walking Dead © 2019 AMC Network Entertainment LLC. All Rights&nbsp;Reserved.</p>
       <p class="ytv-block__disclaimer">Subject to availability.</p>

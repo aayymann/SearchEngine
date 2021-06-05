@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-150549451-1" nonce="Sr2M5fIOprCZqv5JQw47CA"></script>
-    <script nonce="Sr2M5fIOprCZqv5JQw47CA">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-150549451-1" nonce="JeL11JXxBOdlJf3F-bdMew"></script>
+    <script nonce="JeL11JXxBOdlJf3F-bdMew">
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
@@ -38,11 +38,11 @@
     <link rel="icon" href="https://www.youtube.com/yts/img/favicon_96-vflW9Ec0w.png" sizes="96x96">
     <link rel="icon" href="https://www.youtube.com/yts/img/favicon_144-vfliLAfaB.png" sizes="144x144">
 
-    <link rel="stylesheet" href="//fonts.googleapis.com/icon?family=Material+Icons" nonce="Sr2M5fIOprCZqv5JQw47CA">
-    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,700,700i&amp;lang=en" nonce="Sr2M5fIOprCZqv5JQw47CA">
-    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=YouTube+Sans:300,400,500,600,700,900" nonce="Sr2M5fIOprCZqv5JQw47CA">
+    <link rel="stylesheet" href="//fonts.googleapis.com/icon?family=Material+Icons" nonce="JeL11JXxBOdlJf3F-bdMew">
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,700,700i&amp;lang=en" nonce="JeL11JXxBOdlJf3F-bdMew">
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=YouTube+Sans:300,400,500,600,700,900" nonce="JeL11JXxBOdlJf3F-bdMew">
 
-    <link rel="stylesheet" href="/trends/static/compiled/index.min.css?cache=d8de6a4" nonce="Sr2M5fIOprCZqv5JQw47CA">
+    <link rel="stylesheet" href="/trends/static/compiled/index.min.css?cache=d8de6a4" nonce="JeL11JXxBOdlJf3F-bdMew">
     <link rel="preconnect" href="//lh3.googleusercontent.com">
   </head>
   <body
@@ -959,9 +959,9 @@ tabindex="0">
       </div>
     </section>
   </div>
-</footer>    <script async src="https://www.youtube.com/iframe_api" nonce="Sr2M5fIOprCZqv5JQw47CA"></script>
-<script src="https://www.gstatic.com/external_hosted/mustache/mustache.js" nonce="Sr2M5fIOprCZqv5JQw47CA"></script>
-<script id="trending-entry" type="x-tmpl-mustache" nonce="Sr2M5fIOprCZqv5JQw47CA">
+</footer>    <script async src="https://www.youtube.com/iframe_api" nonce="JeL11JXxBOdlJf3F-bdMew"></script>
+<script src="https://www.gstatic.com/external_hosted/mustache/mustache.js" nonce="JeL11JXxBOdlJf3F-bdMew"></script>
+<script id="trending-entry" type="x-tmpl-mustache" nonce="JeL11JXxBOdlJf3F-bdMew">
   [[#items]]
   <div class="ytt-home__trending-entry">
     <div class="ytt-home__trending-video-wrapper">
@@ -985,7 +985,7 @@ tabindex="0">
   </div>
   [[/items]]
 </script>
-    <script src="/trends/static/compiled/index.min.js?cache=f4e86c3" nonce="Sr2M5fIOprCZqv5JQw47CA"></script>
+    <script src="/trends/static/compiled/index.min.js?cache=f4e86c3" nonce="JeL11JXxBOdlJf3F-bdMew"></script>
 
   </body>
 </html>

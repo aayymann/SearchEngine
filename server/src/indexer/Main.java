@@ -21,7 +21,11 @@ public class Main {
         Tokenizer tokenizer = new Tokenizer();
         //
         int size = fetchedCrawlerHTML.size();
-        for (int i = 0; i < size; i++) { // TODO: Edit for loop length
+        //int oldSize;
+        //if(oldSize == size ){
+          //  size=0;
+        //}
+        for (int i = 0; i < size; i++) {
             String documentContent = strippedHTMLArr.get(i);
             List<Token> tokens = tokenizer.getTokens(documentContent);
 

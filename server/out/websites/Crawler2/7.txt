@@ -301,7 +301,7 @@
               track-name="changed"
               track-type="languageSelector"
             >
-        Русский
+        Ру�?�?кий
       </option>
     
       <option value="zh_cn"
@@ -2099,7 +2099,7 @@
               track-name="changed"
               track-type="languageSelector"
             >
-        Русский
+        Ру�?�?кий
       </option>
     
       <option value="zh_cn"
@@ -2148,7 +2148,7 @@
     <devsite-heading-link></devsite-heading-link>
     <devsite-analytics enable-analytics-iframe>
       
-        <script type="application/json" analytics>[{"gaid": "UA-24532603-1", "dimensions": {"dimension3": false, "dimension8": null, "dimension6": "en", "dimension5": "en", "dimension11": false, "dimension1": "Signed out", "dimension4": "YouTube"}, "metrics": {"ratings_value": "metric1", "ratings_count": "metric2"}}]</script>
+        <script type="application/json" analytics>[{"gaid": "UA-24532603-1", "dimensions": {"dimension11": false, "dimension5": "en", "dimension4": "YouTube", "dimension1": "Signed out", "dimension6": "en", "dimension3": false, "dimension8": null}, "metrics": {"ratings_count": "metric2", "ratings_value": "metric1"}}]</script>
 <script type="application/json" gtm>{"parameters": {"freeTrialEligibleUser": "False", "internalUser": "False", "language": {"machineTranslated": "False", "requested": "en", "served": "en"}, "pageType": "landing", "projectName": "YouTube", "scriptsafe": null, "signedIn": "False", "tenant": "developers", "recommendations": {"sourcePage": "", "sourceType": 0, "sourceRank": 0, "sourceIdenticalDescriptions": 0, "sourceTitleWords": 0, "sourceDescriptionWords": 0, "experiment": ""}}}</script>
       
     </devsite-analytics>
@@ -2156,12 +2156,12 @@
       <devsite-badger></devsite-badger>
     
     
-    <script nonce="kETEz2cWFsQ0filRSNiU6gd+V6C3/j">
+    <script nonce="2/KUiVrLoKNTZk93pZ45pwK6KtRV8c">
   
   (function(d,e,v,s,i,t,E){d['GoogleDevelopersObject']=i;
     t=e.createElement(v);t.async=1;t.src=s;E=e.getElementsByTagName(v)[0];
     E.parentNode.insertBefore(t,E);})(window, document, 'script',
-    'https://www.gstatic.com/devrel-devsite/prod/vacc2a2a4a4394c7c42dc62dba69eb022d7680ce4a368d4b28c3e984cc9155a81/developers/js/app_loader.js', '[1,"en",null,"/js/devsite_app_module.js","https://www.gstatic.com/devrel-devsite/prod/vacc2a2a4a4394c7c42dc62dba69eb022d7680ce4a368d4b28c3e984cc9155a81","https://www.gstatic.com/devrel-devsite/prod/vacc2a2a4a4394c7c42dc62dba69eb022d7680ce4a368d4b28c3e984cc9155a81/developers","https://developers-dot-devsite-v2-prod.appspot.com",1,null,["/_pwa/developers/manifest.json","https://www.gstatic.com/devrel-devsite/prod/vacc2a2a4a4394c7c42dc62dba69eb022d7680ce4a368d4b28c3e984cc9155a81/images/video-placeholder.svg","https://www.gstatic.com/devrel-devsite/prod/vacc2a2a4a4394c7c42dc62dba69eb022d7680ce4a368d4b28c3e984cc9155a81/developers/images/favicon.png","https://fonts.googleapis.com/css?family=Google+Sans:400,500|Roboto:400,400italic,500,500italic,700,700italic|Roboto+Mono:400,500,700&display=swap"],1,null,[1,6,8,12,14,17,21,25,40,45,50,63,70,75,76,80,87,88,91,92,93,97,98,100,101,102,103,105,107,108,111,112,113,115,117,118,120,122,123,124,125,127,129,131,132,133,134,135,136,138,145],"AIzaSyAP-jjEJBzmIyKR4F-3XITp8yM9T1gEEI8","AIzaSyB6xiKGDR5O3Ak2okS4rLkauxGUG7XP0hg"]')
+    'https://www.gstatic.com/devrel-devsite/prod/vacc2a2a4a4394c7c42dc62dba69eb022d7680ce4a368d4b28c3e984cc9155a81/developers/js/app_loader.js', '[1,"en",null,"/js/devsite_app_module.js","https://www.gstatic.com/devrel-devsite/prod/vacc2a2a4a4394c7c42dc62dba69eb022d7680ce4a368d4b28c3e984cc9155a81","https://www.gstatic.com/devrel-devsite/prod/vacc2a2a4a4394c7c42dc62dba69eb022d7680ce4a368d4b28c3e984cc9155a81/developers","https://developers-dot-devsite-v2-prod.appspot.com",1,null,["/_pwa/developers/manifest.json","https://www.gstatic.com/devrel-devsite/prod/vacc2a2a4a4394c7c42dc62dba69eb022d7680ce4a368d4b28c3e984cc9155a81/images/video-placeholder.svg","https://www.gstatic.com/devrel-devsite/prod/vacc2a2a4a4394c7c42dc62dba69eb022d7680ce4a368d4b28c3e984cc9155a81/developers/images/favicon.png","https://fonts.googleapis.com/css?family=Google+Sans:400,500|Roboto:400,400italic,500,500italic,700,700italic|Roboto+Mono:400,500,700&display=swap"],1,null,[1,6,8,12,14,17,21,25,40,45,50,63,70,75,76,80,87,88,91,92,93,97,98,100,101,102,103,105,107,108,111,112,113,115,116,117,118,120,122,123,124,125,126,127,129,131,132,133,134,135,136,138,145],"AIzaSyAP-jjEJBzmIyKR4F-3XITp8yM9T1gEEI8","AIzaSyB6xiKGDR5O3Ak2okS4rLkauxGUG7XP0hg"]')
   
 </script>
     <devsite-a11y-announce></devsite-a11y-announce>

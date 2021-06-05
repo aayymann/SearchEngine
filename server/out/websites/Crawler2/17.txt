@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <script nonce="7OcFi5iTny8Mwfh4arMlrA">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    <script nonce="1LJTxkwOn4aasdHUNsv2qA">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
     j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
@@ -40,10 +40,10 @@
     <link rel="icon" href="https://www.youtube.com/yts/img/favicon_96-vflW9Ec0w.png" sizes="96x96">
     <link rel="icon" href="https://www.youtube.com/yts/img/favicon_144-vfliLAfaB.png" sizes="144x144">
 
-    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;lang=en" nonce="7OcFi5iTny8Mwfh4arMlrA">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=YouTube+Sans:300,400,500,600,700,900" nonce="7OcFi5iTny8Mwfh4arMlrA">
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;lang=en" nonce="1LJTxkwOn4aasdHUNsv2qA">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=YouTube+Sans:300,400,500,600,700,900" nonce="1LJTxkwOn4aasdHUNsv2qA">
 
-    <link rel="stylesheet" href="/howyoutubeworks/static/compiled/index.min.css?cache=8b07dcd" nonce="7OcFi5iTny8Mwfh4arMlrA">
+    <link rel="stylesheet" href="/howyoutubeworks/static/compiled/index.min.css?cache=8b07dcd" nonce="1LJTxkwOn4aasdHUNsv2qA">
     <link rel="preconnect" href="//lh3.googleusercontent.com">
   </head>
 
@@ -1898,7 +1898,7 @@ plan for a carbon-free future.</p>
   Nederlands (België)
 </option>
               <option value="/intl/ALL_bg/howyoutubeworks/" >
-  български (България)
+  българ�?ки (Българи�?)
 </option>
               <option value="/intl/ALL_br/howyoutubeworks/" >
   português (Brasil)
@@ -1907,7 +1907,7 @@ plan for a carbon-free future.</p>
   English (Canada)
 </option>
               <option value="/intl/ALL_cz/howyoutubeworks/" >
-  čeština (Česká republika)
+  �?eština (Česká republika)
 </option>
               <option value="/intl/ALL_de/howyoutubeworks/" >
   Deutsch (Deutschland)
@@ -1976,16 +1976,16 @@ plan for a carbon-free future.</p>
   română (România)
 </option>
               <option value="/intl/ALL_ru/howyoutubeworks/" >
-  русский (Россия)
+  ру�?�?кий (Ро�?�?и�?)
 </option>
               <option value="/intl/ALL_se/howyoutubeworks/" >
   svenska (Sverige)
 </option>
               <option value="/intl/ALL_si/howyoutubeworks/" >
-  slovenščina (Slovenija)
+  slovenš�?ina (Slovenija)
 </option>
               <option value="/intl/ALL_sk/howyoutubeworks/" >
-  slovenčina (Slovensko)
+  sloven�?ina (Slovensko)
 </option>
               <option value="/intl/ALL_tr/howyoutubeworks/" >
   Türkçe (Türkiye)
@@ -1997,7 +1997,7 @@ plan for a carbon-free future.</p>
   Deutsch (Belgien)
 </option>
               <option value="/intl/el_cy/howyoutubeworks/" >
-  Ελληνικά (Κύπρος)
+  Ελληνικά (Κ�?π�?ος)
 </option>
               <option value="/intl/en_be/howyoutubeworks/" >
   English (Belgium)
@@ -2018,7 +2018,7 @@ plan for a carbon-free future.</p>
   français (Luxembourg)
 </option>
               <option value="/intl/hi_in/howyoutubeworks/" >
-  हिन्दी (भारत)
+  हिन�?दी (भारत)
 </option>
               <option value="/intl/tr_cy/howyoutubeworks/" >
   Türkçe (Kıbrıs)
@@ -2033,9 +2033,9 @@ plan for a carbon-free future.</p>
       lb-options='{"theme":"light"}'>
     </div>
 
-    <script src="https://www.gstatic.com/external_hosted/hammerjs/v2_0_2/hammer.min.js" nonce="7OcFi5iTny8Mwfh4arMlrA"></script>
-    <script src="https://www.gstatic.com/feedback/js/help/prod/service/lazy.min.js" nonce="7OcFi5iTny8Mwfh4arMlrA"></script>
-    <script src="/howyoutubeworks/static/compiled/index.min.js?cache=f0623e4" nonce="7OcFi5iTny8Mwfh4arMlrA"></script>
+    <script src="https://www.gstatic.com/external_hosted/hammerjs/v2_0_2/hammer.min.js" nonce="1LJTxkwOn4aasdHUNsv2qA"></script>
+    <script src="https://www.gstatic.com/feedback/js/help/prod/service/lazy.min.js" nonce="1LJTxkwOn4aasdHUNsv2qA"></script>
+    <script src="/howyoutubeworks/static/compiled/index.min.js?cache=f0623e4" nonce="1LJTxkwOn4aasdHUNsv2qA"></script>
 
   </body>
 </html>

@@ -335,16 +335,16 @@ Parsed by mw1268
 Cached time: 20210530152546
 Cache expiry: 86400
 Reduced expiry: true
-Complications: [vary‚Äêrevision‚Äêsha1]
+Complications: [vary‚Ä?revision‚Ä?sha1]
 CPU time usage: 0.991 seconds
 Real time usage: 2.249 seconds
 Preprocessor visited node count: 5618/1000000
-Post‚Äêexpand include size: 108382/2097152 bytes
+Post‚Ä?expand include size: 108382/2097152 bytes
 Template argument size: 7145/2097152 bytes
 Highest expansion depth: 24/40
 Expensive parser function count: 6/500
 Unstrip recursion depth: 1/20
-Unstrip post‚Äêexpand size: 129381/5000000 bytes
+Unstrip post‚Ä?expand size: 129381/5000000 bytes
 Lua time usage: 0.483/10.000 seconds
 Lua memory usage: 8731742/52428800 bytes
 Number of Wikibase entities loaded: 0/400

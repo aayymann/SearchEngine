@@ -243,7 +243,7 @@
                   See how a small-town quilt shop grew into a global business
                 </h2>
                 <blockquote>
-                  “My son and daughter came up with an idea to help me build a business around my love of quilting. I had zero video advertising experience. But with YouTube, I was able to reach over 1 million potential customers and make over 14,000 online sales.”
+                  “My son and daughter came up with an idea to help me build a business around my love of quilting. I had zero video advertising experience. But with YouTube, I was able to reach over 1 million potential customers and make over 14,000 online sales.�?
                 </blockquote>
                 <p>
                   Jenny Doan, Founder, Missouri Star Quilt Company
@@ -793,7 +793,7 @@
                   português (Brasil)
                 </option>
                 <option value="/intl/ru/ads/">
-                  русский
+                  ру�?�?кий
                 </option>
                 <option value="/intl/sv/ads/">
                   svenska

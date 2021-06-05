@@ -14,14 +14,14 @@
     <link rel="icon" href="https://www.youtube.com/yts/img/favicon_96-vflW9Ec0w.png" sizes="96x96">
     <link rel="icon" href="https://www.youtube.com/yts/img/favicon_144-vfliLAfaB.png" sizes="144x144">
 
-    <link rel="stylesheet" href="//fonts.googleapis.com/icon?family=Material+Icons" nonce="AYAXfthmF8T4tZDrrinQ4Q">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500" rel="stylesheet" nonce="AYAXfthmF8T4tZDrrinQ4Q">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=YouTube+Sans:300,400,500,700" nonce="AYAXfthmF8T4tZDrrinQ4Q">
+    <link rel="stylesheet" href="//fonts.googleapis.com/icon?family=Material+Icons" nonce="By4ho3FwkXd9vSgHZE25rQ">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500" rel="stylesheet" nonce="By4ho3FwkXd9vSgHZE25rQ">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=YouTube+Sans:300,400,500,700" nonce="By4ho3FwkXd9vSgHZE25rQ">
 
-    <link rel="stylesheet" href="/jobs/static/compiled/index.min.css?cache=e721695" nonce="AYAXfthmF8T4tZDrrinQ4Q">
+    <link rel="stylesheet" href="/jobs/static/compiled/index.min.css?cache=e721695" nonce="By4ho3FwkXd9vSgHZE25rQ">
     <link rel="preconnect" href="//lh3.googleusercontent.com">
 
-    <script nonce="AYAXfthmF8T4tZDrrinQ4Q">
+    <script nonce="By4ho3FwkXd9vSgHZE25rQ">
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -520,7 +520,7 @@ target="_blank" rel="noopener noreferrer"              tabindex=-1>
     <div class="-center-wrapper -center-text">
       <div class="audio-quote">
         <blockquote class="quote">
-          <p>“It just really humbles you working on a product that reaches so many and has the potential to reach so many new people for the first time.”</p>
+          <p>“It just really humbles you working on a product that reaches so many and has the potential to reach so many new people for the first time.�?</p>
           <cite class="attribution">Sarah, Product Manager</cite>
         </blockquote>
         <div class="-round-btn-container js-audio-container">
@@ -1072,10 +1072,10 @@ target="_blank" rel="noopener noreferrer"              tabindex=-1>
       </div>
     </section>
   </div>
-</footer>    <script src="https://www.gstatic.com/external_hosted/modernizr/modernizr.js" nonce="AYAXfthmF8T4tZDrrinQ4Q"></script>
-    <script src="https://www.gstatic.com/external_hosted/waypoints/waypoints.min.js" nonce="AYAXfthmF8T4tZDrrinQ4Q"></script>
-    <script src="https://www.gstatic.com/external_hosted/gsap/v1_18_0/TweenMax.min.js" nonce="AYAXfthmF8T4tZDrrinQ4Q"></script>
-    <script src="https://www.gstatic.com/external_hosted/hammerjs/v2_0_2/hammer.min.js" nonce="AYAXfthmF8T4tZDrrinQ4Q"></script>
-    <script src="/jobs/static/compiled/index.min.js?cache=9d9c20e" nonce="AYAXfthmF8T4tZDrrinQ4Q"></script>
+</footer>    <script src="https://www.gstatic.com/external_hosted/modernizr/modernizr.js" nonce="By4ho3FwkXd9vSgHZE25rQ"></script>
+    <script src="https://www.gstatic.com/external_hosted/waypoints/waypoints.min.js" nonce="By4ho3FwkXd9vSgHZE25rQ"></script>
+    <script src="https://www.gstatic.com/external_hosted/gsap/v1_18_0/TweenMax.min.js" nonce="By4ho3FwkXd9vSgHZE25rQ"></script>
+    <script src="https://www.gstatic.com/external_hosted/hammerjs/v2_0_2/hammer.min.js" nonce="By4ho3FwkXd9vSgHZE25rQ"></script>
+    <script src="/jobs/static/compiled/index.min.js?cache=9d9c20e" nonce="By4ho3FwkXd9vSgHZE25rQ"></script>
   </body>
 </html>

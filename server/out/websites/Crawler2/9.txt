@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <script nonce="e8fjDrab_tyrjQ08mlPxvQ">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    <script nonce="yUlhdpPSrKWaeEw5FEw5JQ">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
     j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
@@ -41,10 +41,10 @@
     <link rel="icon" href="https://www.youtube.com/yts/img/favicon_96-vflW9Ec0w.png" sizes="96x96">
     <link rel="icon" href="https://www.youtube.com/yts/img/favicon_144-vfliLAfaB.png" sizes="144x144">
 
-    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;lang=en" nonce="e8fjDrab_tyrjQ08mlPxvQ">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=YouTube+Sans:300,400,500,600,700,900" nonce="e8fjDrab_tyrjQ08mlPxvQ">
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;lang=en" nonce="yUlhdpPSrKWaeEw5FEw5JQ">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=YouTube+Sans:300,400,500,600,700,900" nonce="yUlhdpPSrKWaeEw5FEw5JQ">
 
-    <link rel="stylesheet" href="/howyoutubeworks/static/compiled/index.min.css?cache=8b07dcd" nonce="e8fjDrab_tyrjQ08mlPxvQ">
+    <link rel="stylesheet" href="/howyoutubeworks/static/compiled/index.min.css?cache=8b07dcd" nonce="yUlhdpPSrKWaeEw5FEw5JQ">
     <link rel="preconnect" href="//lh3.googleusercontent.com">
   </head>
 
@@ -1426,7 +1426,7 @@ id="enforcing-policies">
   Nederlands (België)
 </option>
               <option value="/intl/ALL_bg/howyoutubeworks/policies/community-guidelines/" >
-  български (България)
+  българ�?ки (Българи�?)
 </option>
               <option value="/intl/ALL_br/howyoutubeworks/policies/community-guidelines/" >
   português (Brasil)
@@ -1435,7 +1435,7 @@ id="enforcing-policies">
   English (Canada)
 </option>
               <option value="/intl/ALL_cz/howyoutubeworks/policies/community-guidelines/" >
-  čeština (Česká republika)
+  �?eština (Česká republika)
 </option>
               <option value="/intl/ALL_de/howyoutubeworks/policies/community-guidelines/" >
   Deutsch (Deutschland)
@@ -1504,16 +1504,16 @@ id="enforcing-policies">
   română (România)
 </option>
               <option value="/intl/ALL_ru/howyoutubeworks/policies/community-guidelines/" >
-  русский (Россия)
+  ру�?�?кий (Ро�?�?и�?)
 </option>
               <option value="/intl/ALL_se/howyoutubeworks/policies/community-guidelines/" >
   svenska (Sverige)
 </option>
               <option value="/intl/ALL_si/howyoutubeworks/policies/community-guidelines/" >
-  slovenščina (Slovenija)
+  slovenš�?ina (Slovenija)
 </option>
               <option value="/intl/ALL_sk/howyoutubeworks/policies/community-guidelines/" >
-  slovenčina (Slovensko)
+  sloven�?ina (Slovensko)
 </option>
               <option value="/intl/ALL_tr/howyoutubeworks/policies/community-guidelines/" >
   Türkçe (Türkiye)
@@ -1525,7 +1525,7 @@ id="enforcing-policies">
   Deutsch (Belgien)
 </option>
               <option value="/intl/el_cy/howyoutubeworks/policies/community-guidelines/" >
-  Ελληνικά (Κύπρος)
+  Ελληνικά (Κ�?π�?ος)
 </option>
               <option value="/intl/en_be/howyoutubeworks/policies/community-guidelines/" >
   English (Belgium)
@@ -1546,7 +1546,7 @@ id="enforcing-policies">
   français (Luxembourg)
 </option>
               <option value="/intl/hi_in/howyoutubeworks/policies/community-guidelines/" >
-  हिन्दी (भारत)
+  हिन�?दी (भारत)
 </option>
               <option value="/intl/tr_cy/howyoutubeworks/policies/community-guidelines/" >
   Türkçe (Kıbrıs)
@@ -1561,9 +1561,9 @@ id="enforcing-policies">
       lb-options='{"theme":"light"}'>
     </div>
 
-    <script src="https://www.gstatic.com/external_hosted/hammerjs/v2_0_2/hammer.min.js" nonce="e8fjDrab_tyrjQ08mlPxvQ"></script>
-    <script src="https://www.gstatic.com/feedback/js/help/prod/service/lazy.min.js" nonce="e8fjDrab_tyrjQ08mlPxvQ"></script>
-    <script src="/howyoutubeworks/static/compiled/index.min.js?cache=f0623e4" nonce="e8fjDrab_tyrjQ08mlPxvQ"></script>
+    <script src="https://www.gstatic.com/external_hosted/hammerjs/v2_0_2/hammer.min.js" nonce="yUlhdpPSrKWaeEw5FEw5JQ"></script>
+    <script src="https://www.gstatic.com/feedback/js/help/prod/service/lazy.min.js" nonce="yUlhdpPSrKWaeEw5FEw5JQ"></script>
+    <script src="/howyoutubeworks/static/compiled/index.min.js?cache=f0623e4" nonce="yUlhdpPSrKWaeEw5FEw5JQ"></script>
 
   </body>
 </html>

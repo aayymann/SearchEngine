@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" class="glue-app-ready">
   <head>
-    <script nonce="WRvfdqzqwp6z83iNnD43fg">
+    <script nonce="pdrRBKweWc0j6pfcm0xEJw">
       (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
       new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
       j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
@@ -36,14 +36,14 @@
     <link rel="icon" href="https://www.youtube.com/yts/img/favicon_48-vflVjB_Qk.png" sizes="48x48">
     <link rel="icon" href="https://www.youtube.com/yts/img/favicon_96-vflW9Ec0w.png" sizes="96x96">
     <link rel="icon" href="https://www.youtube.com/yts/img/favicon_144-vfliLAfaB.png" sizes="144x144">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" nonce="WRvfdqzqwp6z83iNnD43fg">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" nonce="pdrRBKweWc0j6pfcm0xEJw">
 
 
-      <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&subset=latin-ext" rel="stylesheet" nonce="WRvfdqzqwp6z83iNnD43fg">
+      <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&subset=latin-ext" rel="stylesheet" nonce="pdrRBKweWc0j6pfcm0xEJw">
 
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=YouTube+Sans:300,400,500,600,700,900" nonce="WRvfdqzqwp6z83iNnD43fg">
-    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.24/angular-material.min.css" nonce="WRvfdqzqwp6z83iNnD43fg">
-    <link rel="stylesheet" href="/space/static/css/index.min.css?cache=5f283ee" nonce="WRvfdqzqwp6z83iNnD43fg">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=YouTube+Sans:300,400,500,600,700,900" nonce="pdrRBKweWc0j6pfcm0xEJw">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.24/angular-material.min.css" nonce="pdrRBKweWc0j6pfcm0xEJw">
+    <link rel="stylesheet" href="/space/static/css/index.min.css?cache=5f283ee" nonce="pdrRBKweWc0j6pfcm0xEJw">
     <link rel="preconnect" href="//lh3.googleusercontent.com">
   </head>
   <body class="gallery__parent-panel ">
@@ -1496,7 +1496,7 @@
   română
 </option>
               <option value="/intl/ru/space/" >
-  русский
+  ру�?�?кий
 </option>
               <option value="/intl/sv/space/" >
   svenska
@@ -1511,25 +1511,25 @@
   Tiếng Việt
 </option>
               <option value="/intl/zh-TW/space/" >
-  中文 (繁體)
+  中文 (�?體)
 </option>
           </select>
         </div>
       </div>
     </section>
   </div>
-</footer>    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.0/angular.min.js" nonce="WRvfdqzqwp6z83iNnD43fg"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.0/angular-animate.min.js" nonce="WRvfdqzqwp6z83iNnD43fg"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.0/angular-route.min.js" nonce="WRvfdqzqwp6z83iNnD43fg"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.0/angular-aria.min.js" nonce="WRvfdqzqwp6z83iNnD43fg"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.0/angular-messages.min.js" nonce="WRvfdqzqwp6z83iNnD43fg"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.0/angular-sanitize.js" nonce="WRvfdqzqwp6z83iNnD43fg"></script>
-    <script src="https://www.gstatic.com/external_hosted/moment/min/moment.min.js" nonce="WRvfdqzqwp6z83iNnD43fg"></script>
-    <script src="https://www.gstatic.com/external_hosted/moment/min/moment-timezone-with-data.min.js" nonce="WRvfdqzqwp6z83iNnD43fg"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.24/angular-material.min.js" nonce="WRvfdqzqwp6z83iNnD43fg"></script>
-    <script src="https://www.gstatic.com/external_hosted/hammerjs/v2_0_2/hammer.min.js" nonce="WRvfdqzqwp6z83iNnD43fg"></script>
-    <script src="https://www.gstatic.com/external_hosted/animejs/anime.min.js" nonce="WRvfdqzqwp6z83iNnD43fg"></script>
-    <script src="/space/static/js/index.min.js?cache=18362f9" nonce="WRvfdqzqwp6z83iNnD43fg"></script>
+</footer>    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.0/angular.min.js" nonce="pdrRBKweWc0j6pfcm0xEJw"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.0/angular-animate.min.js" nonce="pdrRBKweWc0j6pfcm0xEJw"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.0/angular-route.min.js" nonce="pdrRBKweWc0j6pfcm0xEJw"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.0/angular-aria.min.js" nonce="pdrRBKweWc0j6pfcm0xEJw"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.0/angular-messages.min.js" nonce="pdrRBKweWc0j6pfcm0xEJw"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.0/angular-sanitize.js" nonce="pdrRBKweWc0j6pfcm0xEJw"></script>
+    <script src="https://www.gstatic.com/external_hosted/moment/min/moment.min.js" nonce="pdrRBKweWc0j6pfcm0xEJw"></script>
+    <script src="https://www.gstatic.com/external_hosted/moment/min/moment-timezone-with-data.min.js" nonce="pdrRBKweWc0j6pfcm0xEJw"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.24/angular-material.min.js" nonce="pdrRBKweWc0j6pfcm0xEJw"></script>
+    <script src="https://www.gstatic.com/external_hosted/hammerjs/v2_0_2/hammer.min.js" nonce="pdrRBKweWc0j6pfcm0xEJw"></script>
+    <script src="https://www.gstatic.com/external_hosted/animejs/anime.min.js" nonce="pdrRBKweWc0j6pfcm0xEJw"></script>
+    <script src="/space/static/js/index.min.js?cache=18362f9" nonce="pdrRBKweWc0j6pfcm0xEJw"></script>
 
 <svg class="svg-assets" xmlns="http://www.w3.org/2000/svg">
   <symbol id="icon-chevron-left-black" viewBox="0 0 24 24" fill="#000">

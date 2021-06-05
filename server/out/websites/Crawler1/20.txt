@@ -14,12 +14,12 @@
     <link rel="icon" href="https://www.youtube.com/yts/img/favicon_96-vflW9Ec0w.png" sizes="96x96">
     <link rel="icon" href="https://www.youtube.com/yts/img/favicon_144-vfliLAfaB.png" sizes="144x144">
 
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" nonce="k36LiHN1lnwKYEb5GDtVaA">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,700,700i&amp;lang=en" media="none" onload="if(media!='all')media='all'" nonce="k36LiHN1lnwKYEb5GDtVaA">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=YouTube+Sans:300,400,500,600,700,900" nonce="k36LiHN1lnwKYEb5GDtVaA">
-    <link rel="stylesheet" href="/static/css/index.min.css?cache=bc2073a" nonce="k36LiHN1lnwKYEb5GDtVaA">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" nonce="VIIL4xolCRoVIUe6BQfObg">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,700,700i&amp;lang=en" media="none" onload="if(media!='all')media='all'" nonce="VIIL4xolCRoVIUe6BQfObg">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=YouTube+Sans:300,400,500,600,700,900" nonce="VIIL4xolCRoVIUe6BQfObg">
+    <link rel="stylesheet" href="/static/css/index.min.css?cache=bc2073a" nonce="VIIL4xolCRoVIUe6BQfObg">
 
-      <script nonce="k36LiHN1lnwKYEb5GDtVaA">
+      <script nonce="VIIL4xolCRoVIUe6BQfObg">
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
         m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -780,7 +780,7 @@
   azərbaycan
 </option>
               <option value="/intl/be/" >
-  беларуская
+  белару�?ка�?
 </option>
               <option value="/intl/bn/" >
   বাংলা
@@ -795,7 +795,7 @@
   español (Latinoamérica)
 </option>
               <option value="/intl/fa/" >
-  فارسی
+  �?ارسی
 </option>
               <option value="/intl/fil/" >
   Filipino
@@ -804,10 +804,10 @@
   français
 </option>
               <option value="/intl/gu/" >
-  ગુજરાતી
+  ગ�?જરાતી
 </option>
               <option value="/intl/hi/" >
-  हिन्दी
+  हिन�?दी
 </option>
               <option value="/intl/hy/" >
   հայերեն
@@ -816,19 +816,19 @@
   Bahasa Indonesia
 </option>
               <option value="/intl/iw/" >
-  עברית (ישראל)
+  עברית (ישר�?ל)
 </option>
               <option value="/intl/ka/" >
-  ქართული
+  ქ�?რთული
 </option>
               <option value="/intl/kk/" >
   қазақ тілі
 </option>
               <option value="/intl/km/" >
-  ខ្មែរ
+  �?្មែរ
 </option>
               <option value="/intl/kn/" >
-  ಕನ್ನಡ
+  ಕನ�?ನಡ
 </option>
               <option value="/intl/ky/" >
   кыргызча
@@ -861,22 +861,22 @@
   português (Brasil)
 </option>
               <option value="/intl/ru/" >
-  русский
+  ру�?�?кий
 </option>
               <option value="/intl/si/" >
   සිංහල
 </option>
               <option value="/intl/sk/" >
-  slovenčina
+  sloven�?ina
 </option>
               <option value="/intl/sw/" >
   Kiswahili
 </option>
               <option value="/intl/ta/" >
-  தமிழ்
+  தமிழ�?
 </option>
               <option value="/intl/te/" >
-  తెలుగు
+  తెల�?గ�?
 </option>
               <option value="/intl/th/" >
   ไทย
@@ -885,7 +885,7 @@
   Türkçe
 </option>
               <option value="/intl/uk/" >
-  українська
+  україн�?ька
 </option>
               <option value="/intl/ur/" >
   اردو
@@ -908,7 +908,7 @@
     </section>
   </div>
 </footer>    <a href="https://play.google.com/store/apps/details?id=com.google.android.apps.youtube.mango&amp;referrer=utm_source%3DGlobal_Website%26utm_campaign%3D5000036" target="_blank" class="fixed-button" aria-label="Download the YouTube Go mobile app">Get the app</a>
-    <script src="https://www.gstatic.com/external_hosted/hammerjs/v2_0_2/hammer.min.js" nonce="k36LiHN1lnwKYEb5GDtVaA"></script>
-    <script src="/static/js/index.min.js?cache=15d38af" nonce="k36LiHN1lnwKYEb5GDtVaA"></script>
+    <script src="https://www.gstatic.com/external_hosted/hammerjs/v2_0_2/hammer.min.js" nonce="VIIL4xolCRoVIUe6BQfObg"></script>
+    <script src="/static/js/index.min.js?cache=15d38af" nonce="VIIL4xolCRoVIUe6BQfObg"></script>
   </body>
 </html>

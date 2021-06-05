@@ -3,7 +3,7 @@
 <html lang="en">
 
   <head>
-    <script nonce="G-ZGav5zzzP7XPDGix47_g">
+    <script nonce="78rQLMuWHRu4AOZFNtQb9w">
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -78,9 +78,9 @@
     <link rel="icon" href="https://www.gstatic.com/youtube/img/branding/favicon/favicon_72x72.png" sizes="72x72">
     <link rel="icon" href="https://www.gstatic.com/youtube/img/branding/favicon/favicon_96x96.png" sizes="96x96">
     <link rel="icon" href="https://www.gstatic.com/youtube/img/branding/favicon/favicon_144x144.png" sizes="144x144">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Condensed:700" rel="stylesheet" nonce="G-ZGav5zzzP7XPDGix47_g">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=YouTube+Sans:300,400,500,700,900" nonce="G-ZGav5zzzP7XPDGix47_g">
-    <link rel="stylesheet" href="/about/static/compiled/index.min.css?cache=1014ef4" nonce="G-ZGav5zzzP7XPDGix47_g">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Condensed:700" rel="stylesheet" nonce="78rQLMuWHRu4AOZFNtQb9w">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=YouTube+Sans:300,400,500,700,900" nonce="78rQLMuWHRu4AOZFNtQb9w">
+    <link rel="stylesheet" href="/about/static/compiled/index.min.css?cache=1014ef4" nonce="78rQLMuWHRu4AOZFNtQb9w">
   </head>
 
   <body class="home-page js-home-header " >
@@ -657,7 +657,7 @@
   العربية
 </option>
               <option value="/intl/bg/about/" >
-  български
+  българ�?ки
 </option>
               <option value="/intl/bn/about/" >
   বাংলা
@@ -666,7 +666,7 @@
   català
 </option>
               <option value="/intl/cs/about/" >
-  čeština
+  �?eština
 </option>
               <option value="/intl/da/about/" >
   dansk
@@ -693,7 +693,7 @@
   euskara
 </option>
               <option value="/intl/fa/about/" >
-  فارسی
+  �?ارسی
 </option>
               <option value="/intl/fi/about/" >
   suomi
@@ -711,10 +711,10 @@
   galego
 </option>
               <option value="/intl/gu/about/" >
-  ગુજરાતી
+  ગ�?જરાતી
 </option>
               <option value="/intl/hi/about/" >
-  हिन्दी
+  हिन�?दी
 </option>
               <option value="/intl/hr/about/" >
   hrvatski
@@ -732,7 +732,7 @@
   italiano
 </option>
               <option value="/intl/iw/about/" >
-  עברית (ישראל)
+  עברית (ישר�?ל)
 </option>
               <option value="/intl/ja/about/" >
   日本語
@@ -774,25 +774,25 @@
   română
 </option>
               <option value="/intl/ru/about/" >
-  русский
+  ру�?�?кий
 </option>
               <option value="/intl/sk/about/" >
-  slovenčina
+  sloven�?ina
 </option>
               <option value="/intl/sl/about/" >
-  slovenščina
+  slovenš�?ina
 </option>
               <option value="/intl/sr/about/" >
-  српски
+  �?рп�?ки
 </option>
               <option value="/intl/sv/about/" >
   svenska
 </option>
               <option value="/intl/ta/about/" >
-  தமிழ்
+  தமிழ�?
 </option>
               <option value="/intl/te/about/" >
-  తెలుగు
+  తెల�?గ�?
 </option>
               <option value="/intl/th/about/" >
   ไทย
@@ -801,7 +801,7 @@
   Türkçe
 </option>
               <option value="/intl/uk/about/" >
-  українська
+  україн�?ька
 </option>
               <option value="/intl/vi/about/" >
   Tiếng Việt
@@ -813,15 +813,15 @@
   中文
 </option>
               <option value="/intl/zh-TW/about/" >
-  中文 (繁體)
+  中文 (�?體)
 </option>
           </select>
         </div>
       </div>
     </section>
   </div>
-</footer>      <script src="https://www.gstatic.com/feedback/api.js" nonce="G-ZGav5zzzP7XPDGix47_g"></script>
-      <script src="https://www.gstatic.com/external_hosted/animejs/anime.min.js" nonce="G-ZGav5zzzP7XPDGix47_g"></script>
-      <script src="/about/static/compiled/index.min.js?cache=3fe06f4" nonce="G-ZGav5zzzP7XPDGix47_g"></script>
+</footer>      <script src="https://www.gstatic.com/feedback/api.js" nonce="78rQLMuWHRu4AOZFNtQb9w"></script>
+      <script src="https://www.gstatic.com/external_hosted/animejs/anime.min.js" nonce="78rQLMuWHRu4AOZFNtQb9w"></script>
+      <script src="/about/static/compiled/index.min.js?cache=3fe06f4" nonce="78rQLMuWHRu4AOZFNtQb9w"></script>
   </body>
 </html>
