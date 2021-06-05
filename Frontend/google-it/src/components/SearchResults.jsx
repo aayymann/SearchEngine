@@ -40,6 +40,12 @@ function SearchResults(props) {
         window.location.href = "/" + encodeURIComponent(text);
     }
 
+    const onInputEnter = (e) => {
+        let text = document.getElementById("search-bar").value;
+        console.log(encodeURIComponent(text));
+        window.location.href = "/" + encodeURIComponent(text);
+    }
+
     const redirectToPage = (e) => {
         window.location.href = e.currentTarget.parentElement.getElementsByTagName("a")[0].href;
     }
@@ -49,10 +55,12 @@ function SearchResults(props) {
             <div className="container-fluid">
                 <div className="row d-flex">
                     <div className="col-3 d-flex align-items-center">
-                        <h1 className="m-0">Google It</h1>
+                        <a href="/" className="text-decoration-none">
+                            <h1 className="m-0">Google It</h1>
+                        </a>
                     </div>
                     <div className="col-9 d-flex align-items-center">
-                        <input type="text" className="form-control w-50 " defaultValue={queryText} />
+                        <input id="search-bar" type="text" className="form-control w-50 " defaultValue={queryText} onKeyPress={e => { if (e.key === 'Enter') onInputEnter(); }} />
                         <button className="ms-3 btn btn-primary" onClick={searchText}>Search</button>
                     </div>
                 </div>

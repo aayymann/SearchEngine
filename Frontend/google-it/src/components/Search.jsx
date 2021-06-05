@@ -8,6 +8,12 @@ function Search() {
         console.log(encodeURIComponent(text));
         window.location.href = "/" + encodeURIComponent(text);
     }
+
+    const onInputEnter = (e) => {
+        let text = document.getElementById("search-bar").value;
+        console.log(encodeURIComponent(text));
+        window.location.href = "/" + encodeURIComponent(text);
+    }
     return (
         <div id="search-div">
             <div className="container-fluid p-0 m-0">
@@ -15,7 +21,7 @@ function Search() {
                     <div className="col-12 p-0 m-0 justify-content-center">
                         <h1 className="text-center m-auto w-fit-content mb-3">Google It</h1>
                         <div className="vw-100">
-                            <input type="text" className="form-control w-50 m-auto" id="search-bar" />
+                            <input type="text" className="form-control w-50 m-auto" id="search-bar" onKeyPress={e => { if (e.key === 'Enter') onInputEnter(); }} />
                             <div className="d-flex justify-content-center mt-3">
                                 <button className="btn btn-primary" onClick={searchText}>Search</button>
                             </div>
