@@ -1,1 +1,12 @@
+bin
+out
+
+*.iml
+
 .idea
+.vscode
+
+.gradle
+.settings
+.classpath
+.project

@@ -1,0 +1,26 @@
+plugins {
+    id 'java'
+}
+
+group 'Project.src'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+sourceSets {
+    main {
+        java {
+            srcDirs = ['server/src']
+        }
+    }
+}
+
+
+dependencies {
+    implementation 'org.apache.lucene:lucene-snowball:2.9.1'
+    implementation 'org.mongodb:mongodb-driver:3.3.0'
+    implementation 'org.mongodb:mongo-java-driver:3.12.8'
+    implementation 'org.jsoup:jsoup:1.13.1'
+}
