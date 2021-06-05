@@ -22,6 +22,7 @@ public class Main {
                     ArrayList<String> fetchedCrawlerHTML = Link.FromCrawlerToIndexer();
                     ArrayList<String> fetchedHyperlinksArr = Link.GetHyperLinksArr();
                     ArrayList<String> strippedHTMLArr = Link.StripHTMLTags(fetchedCrawlerHTML);
+                    ArrayList<String> titles = Link.extractHTMLTitles(fetchedHyperlinksArr);
 
                     Database.connect(databaseConnUrl);
                     WordModel wordModel = WordModel.getInstance();

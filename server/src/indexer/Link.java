@@ -4,6 +4,7 @@ import crawler.ManipulateFile;
 import org.jsoup.Jsoup;
 
 import java.io.File;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Locale;
@@ -94,6 +95,21 @@ public class Link {
             stirppedHTML2.add(temp);
         }
         return stirppedHTML2;
+    }
+
+    static ArrayList<String> extractHTMLTitles(ArrayList<String> hyperlinksArr) {
+        ArrayList<String> titles = new ArrayList<String>();
+        int size = hyperlinksArr.size();
+        for (int i = 0; i < size; i++) {
+            String title = null;
+            try {
+                title = Jsoup.connect(hyperlinksArr.get(i)).get().title();
+                titles.add(title);
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+        return titles;
     }
 
     static Map<String, Integer> GetMapOfKeyWords(String[] wordsArrForEachDoc, String[] descriptionForEachWord) {
