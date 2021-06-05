@@ -36,7 +36,7 @@ public class Link {
                 pathToCrawlerHyperlink[i] += "/";
             }
             catch(Exception ex23){
-                ex23.printStackTrace();
+//                ex23.printStackTrace();
             }
 
 

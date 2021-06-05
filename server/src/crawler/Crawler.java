@@ -103,7 +103,7 @@ public class Crawler implements Runnable{
                     System.out.println("The pc  of the blocked url is: "+ websiteIndex);
                 }
             } catch (MalformedURLException e) {
-                System.out.println("This url is not a valid website url may be removed from the web");
+//                System.out.println("This url is not a valid website url may be removed from the web");
             }
         }
     }
