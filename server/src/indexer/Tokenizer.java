@@ -55,37 +55,37 @@ public class Tokenizer {
         return result.toString();
     }
 
-    public List<Word> getTokens(String str) {
-        String[] tokens = str.split(" ");
-        String stemmedToken;
+    public List<Token> getTokens(String str) {
+        String[] words = str.split(" ");
+        String stemmedWord;
 
-        HashMap<String, Word> wordsMap = new HashMap<String, Word>();
-        Word word;
+        HashMap<String, Token> tokensMap = new HashMap<String, Token>();
+        Token token;
 
-        for (int i = 0; i < tokens.length; i++) {
-            if (isStopWord(tokens[i]))
+        for (int i = 0; i < words.length; i++) {
+            if (isStopWord(words[i]))
                 continue;
 
-            if (isEmptyString(tokens[i]))
+            if (isEmptyString(words[i]))
                 continue;
 
-            if (isSingleCharacter(tokens[i]))
+            if (isSingleCharacter(words[i]))
                 continue;
 
-            stemmedToken = stemmer.stem(tokens[i]);
+            stemmedWord = stemmer.stem(words[i]);
 
-            if (wordsMap.containsKey(stemmedToken)) {
-                word = wordsMap.get(stemmedToken);
-                word.incrementFrequency();
+            if (tokensMap.containsKey(stemmedWord)) {
+                token = tokensMap.get(stemmedWord);
+                token.incrementFrequency();
                 continue;
             }
 
-            word = new Word(stemmedToken);
-            word.setTextBlock(getTextBlock(tokens, i));
-            wordsMap.put(stemmedToken, word);
+            token = new Token(stemmedWord);
+            token.setTextBlock(getTextBlock(words, i));
+            tokensMap.put(stemmedWord, token);
         }
 
-        List<Word> wordsList = new ArrayList<Word>(wordsMap.values());
+        List<Token> wordsList = new ArrayList<Token>(tokensMap.values());
         return wordsList;
     }
 

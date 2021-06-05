@@ -1,11 +1,11 @@
 package indexer;
 
-public class Word {
+public class Token {
     private int frequency;
     private String text;
     private String textBlock;
 
-    Word(String text) {
+    Token(String text) {
         this.text = text;
         this.frequency = 1;
         this.textBlock = "";
