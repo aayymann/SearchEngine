@@ -32,9 +32,9 @@ public class WordModel {
         Database.dropCollection(name);
     }
 
-    public void insertOne(String word, String url, int tf, String paragraph) {
+    public void insertOne(String word, String url, int tf, String paragraph, String title) {
         Document document = new Document().append("word", word).append("url", url).append("tf", tf).append("paragraph",
-                paragraph);
+                paragraph).append("title",title);
 
         collection.insertOne(document);
     }

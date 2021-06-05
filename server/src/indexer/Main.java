@@ -17,7 +17,7 @@ public class Main {
             int indicator = Integer.parseInt(Files.ReadFile("./out/indicator.txt"));
             if (indicator == 234) {
                 indicator = 432;
-                Files.WriteNumberInFile("./out/indicator.txt" , indicator);
+                Files.WriteNumberInFile("./out/indicator.txt", indicator);
                 try {
                     ArrayList<String> fetchedCrawlerHTML = Link.FromCrawlerToIndexer();
                     ArrayList<String> fetchedHyperlinksArr = Link.GetHyperLinksArr();
@@ -33,19 +33,16 @@ public class Main {
                     for (int i = 0; i < size; i++) {
                         String documentContent = strippedHTMLArr.get(i);
                         List<Token> tokens = tokenizer.getTokens(documentContent);
-
                         for (Token token : tokens) {
                             wordModel.insertOne(token.getText(), fetchedHyperlinksArr.get(i), token.getFrequency(),
-                                    token.getTextBlock());
+                                    token.getTextBlock(), titles.get(i));
                         }
                     }
                 } catch (Exception ex) {
-                    System.out.println("THT CRAWLER DID NOT GENERATE FILES");
+                    System.out.println("THE CRAWLER DID NOT GENERATE FILES");
                 }
-                System.out.println("Hereee");
             }
-        }
-        catch(Exception ex2){
+        } catch (Exception ex2) {
             System.out.println("RUN THE CRAWLER FIRST FOR SOME DATA FETCHING");
         }
     }

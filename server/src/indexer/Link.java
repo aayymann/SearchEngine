@@ -29,10 +29,16 @@ public class Link {
             pathToCrawlerHTML[i] = "./out/websites/Crawler" + crawlersArr[i];
             pathToCrawlerHyperlink[i] = "./out/hyperlinks/Crawler" + crawlersArr[i];
             // System.out.println(pathToCrawlerHyperlink[i]);
-            File directory = new File(pathToCrawlerHTML[i]);
-            fileCountArr[i] = directory.list().length;
-            pathToCrawlerHTML[i] += "/";
-            pathToCrawlerHyperlink[i] += "/";
+            try{
+                File directory = new File(pathToCrawlerHTML[i]);
+                fileCountArr[i] = directory.list().length;
+                pathToCrawlerHTML[i] += "/";
+                pathToCrawlerHyperlink[i] += "/";
+            }
+            catch(Exception ex23){
+                ex23.printStackTrace();
+            }
+
 
         }
         //
@@ -106,7 +112,6 @@ public class Link {
                 title = Jsoup.connect(hyperlinksArr.get(i)).get().title();
                 titles.add(title);
             } catch (IOException e) {
-                e.printStackTrace();
             }
         }
         return titles;
