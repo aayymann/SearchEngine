@@ -64,7 +64,7 @@ function SearchResults(props) {
                             let url = urlStructure.origin + urlStructure.pathname;
                             return (
                                 <div className="col-8 my-2" key={index}>
-                                    <a href={result.url} className="fs-4 cursor-pointer">{result.paragraph}</a>
+                                    <a href={result.url} className="fs-4 cursor-pointer">{result.title}</a>
                                     <br />
                                     <small className="cursor-pointer" onClick={redirectToPage}>{url}</small>
                                     <p className="m-0">{result.paragraph}</p>
