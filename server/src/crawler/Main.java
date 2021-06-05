@@ -23,16 +23,16 @@ public class Main {
             numOfCrawlers--;
         // --Create numOfCrawlers seeds files and numOfCrawlers pc files for each
         // crawler thread to read from
-        String seedsFilePath = "/seeds/urlSeeds";
-        String pcPath = "./out/pc";
+        String seedsFilePath = "./out/urlSeedsFolder/urlSeeds";
+        String pcPath = "./out/pcFolder/pc";
         String[] pcPathArr = new String[numOfCrawlers];
         String[] seedsFilePathArr = new String[numOfCrawlers];
         int incrementer = numOfOriginalSeeds / numOfCrawlers;
         int[][] arrOfPC = new int[numOfCrawlers][2];
         int begin = 0;
         for (int i = 0; i < numOfCrawlers; i++) {
-            seedsFilePathArr[i] = "./out/urlSeedsFolder" + seedsFilePath + String.valueOf(i) + ".txt";
-            pcPathArr[i] = "./out/pcFolder" + pcPath + String.valueOf(i) + ".txt";
+            seedsFilePathArr[i] =  seedsFilePath + String.valueOf(i) + ".txt";
+            pcPathArr[i] = pcPath + String.valueOf(i) + ".txt";
             if (i == numOfCrawlers - 1) {
                 arrOfPC[i][0] = begin;
                 arrOfPC[i][1] = numOfOriginalSeeds;
@@ -55,7 +55,7 @@ public class Main {
                 break;
             }
             ManipulateFile.WriteNumberInFile(pcPathArr[i], temp);
-            recStringFromFileRead = ManipulateFile.ReadFile("./urlSeeds.txt", arrOfPC[i][0]);
+            recStringFromFileRead = ManipulateFile.ReadFile("./seeds/urlSeeds.txt", arrOfPC[i][0]);
             ManipulateFile.WriteInFile(seedsFilePathArr[i], recStringFromFileRead[0]);
             int newIndex = arrOfPC[i][0];
             if (incrementer > 1) {
@@ -67,15 +67,14 @@ public class Main {
 
                 for (int j = 1; j < stop; j++) {
                     newIndex++;
-                    recStringFromFileRead = ManipulateFile.ReadFile("./urlSeeds.txt", newIndex);
+                    recStringFromFileRead = ManipulateFile.ReadFile("./seeds/urlSeeds.txt", newIndex);
                     ManipulateFile.AppendOnFile(seedsFilePathArr[i], recStringFromFileRead[0]);
                 }
             }
         }
-        // --Creating Crawlers Threads equal to the specified number
+       // --Creating Crawlers Threads equal to the specified number
         for (int i = 0; i < numOfCrawlers; i++) {
             (new Thread(new Crawler(seedsFilePathArr[i], pcPathArr[i], i))).start();
         }
-
     }
 }

@@ -21,8 +21,8 @@
     <meta name="twitter:description" content="Here you&#39;ll find resources, tools and news dedicated to artists and musicians reaching and engaging their fans as well as growing their career.">
     <meta name="twitter:site" content="@ytartists">
 
-    <link href="//www.gstatic.com/glue/v18_0/glue.min.css" rel="stylesheet" nonce="OGWzXrATlkx_5X42tlbfHQ">
-    <script src="//www.gstatic.com/glue/v18_0/glue-detect.min.js" nonce="OGWzXrATlkx_5X42tlbfHQ"></script>
+    <link href="//www.gstatic.com/glue/v18_0/glue.min.css" rel="stylesheet" nonce="UzJ7vewudvrH3FlrBGSlbg">
+    <script src="//www.gstatic.com/glue/v18_0/glue-detect.min.js" nonce="UzJ7vewudvrH3FlrBGSlbg"></script>
 
     <link rel="shortcut icon" href="https://www.youtube.com/yts/img/favicon-vfl8qSV2F.ico" type="image/x-icon">
     <link rel="icon" href="https://www.youtube.com/yts/img/favicon_32-vflOogEID.png" sizes="32x32">
@@ -30,24 +30,24 @@
     <link rel="icon" href="https://www.youtube.com/yts/img/favicon_96-vflW9Ec0w.png" sizes="96x96">
     <link rel="icon" href="https://www.youtube.com/yts/img/favicon_144-vfliLAfaB.png" sizes="144x144">
 
-    <link rel="stylesheet" href="//fonts.googleapis.com/icon?family=Material+Icons" nonce="OGWzXrATlkx_5X42tlbfHQ">
-    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i" nonce="OGWzXrATlkx_5X42tlbfHQ">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=YouTube+Sans:300,400,500,600,700,900" nonce="OGWzXrATlkx_5X42tlbfHQ">
+    <link rel="stylesheet" href="//fonts.googleapis.com/icon?family=Material+Icons" nonce="UzJ7vewudvrH3FlrBGSlbg">
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i" nonce="UzJ7vewudvrH3FlrBGSlbg">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=YouTube+Sans:300,400,500,600,700,900" nonce="UzJ7vewudvrH3FlrBGSlbg">
 
 
-    <link rel="stylesheet" href="/static/css/index.min.css?cache=b7df92a" nonce="OGWzXrATlkx_5X42tlbfHQ">
+    <link rel="stylesheet" href="/static/css/index.min.css?cache=b7df92a" nonce="UzJ7vewudvrH3FlrBGSlbg">
 
-    <link rel="preload" href="/static/js/index.min.js?cache=b36f837" as="script" nonce="OGWzXrATlkx_5X42tlbfHQ">
-    <link rel="preload" href="//www.gstatic.com/glue/v18_0/glue-vanilla.min.js" as="script" nonce="OGWzXrATlkx_5X42tlbfHQ">
+    <link rel="preload" href="/static/js/index.min.js?cache=b36f837" as="script" nonce="UzJ7vewudvrH3FlrBGSlbg">
+    <link rel="preload" href="//www.gstatic.com/glue/v18_0/glue-vanilla.min.js" as="script" nonce="UzJ7vewudvrH3FlrBGSlbg">
 
-    <link rel="preload" href="https://lh3.googleusercontent.com/oXC5g10N4AGYMByNfGTypkHzcSu8lZcwGzExsa09wgYEtuFjZQe75ZCGDD2pvQKLaV5p283PnngWZMj-qCyhtD66hB6pIFgC3U71yeE=v0-s2880" as="image" nonce="OGWzXrATlkx_5X42tlbfHQ">
-    <link rel="preload" href="https://lh3.googleusercontent.com/NTa6EDjEyImw-mJlRpMhy87MgMpAMW2wmdsK7LPvLGrpNXT7o2Wi3TfqgJrNeLtOfbss7Bbqqh_a3YhPWVmNAn0U-GWH21PFmtTPL3o=v2-s542" as="image" nonce="OGWzXrATlkx_5X42tlbfHQ">
-    <link rel="preload" href="https://lh3.googleusercontent.com/B5bJN0nT0YAT4lD0VE6lCveYxzJpfGXBeDBimMdDjCBumN0XxfmDEtsIEG-KgRT8By0lvAba2Xs0rNwmHfevZYUiiJV5UeCfx_uB-Q=v0-s2880" as="image" nonce="OGWzXrATlkx_5X42tlbfHQ">
-    <link rel="preload" href="https://lh3.googleusercontent.com/OKjtgI5x_7MoAk36ZKS-d1WOmPgfDdpzpzarkrnSoOzKGmmNu5VsS5PnqELJIQQvE8LNJotygmErADrcbSAO9Gb0Elnzu9jtmZ9FBg=v2-s710" as="image" nonce="OGWzXrATlkx_5X42tlbfHQ">
-    <link rel="preload" href="https://lh3.googleusercontent.com/WvnReVtwx3VlHiT1pm6QQc1DtR9a_NwOiyTR6w1LRj8pw-7InHjlwgEIvPLIZA8JxjhFCp-WPJUqT-a1hVPGGfFaZK_XhiUjzhtd=v0-s2880" as="image" nonce="OGWzXrATlkx_5X42tlbfHQ">
-    <link rel="preload" href="https://lh3.googleusercontent.com/HUENcOqy1KKQkF1ggEdYzNDX6sRZBSp8GiL4MsOluRRjvizU0TbqyizM_MkG7tvdE_RrSJVNUWQ_FuRaJVRNjI3RIba6oiB5eqoH=v2-s710" as="image" nonce="OGWzXrATlkx_5X42tlbfHQ">
+    <link rel="preload" href="https://lh3.googleusercontent.com/oXC5g10N4AGYMByNfGTypkHzcSu8lZcwGzExsa09wgYEtuFjZQe75ZCGDD2pvQKLaV5p283PnngWZMj-qCyhtD66hB6pIFgC3U71yeE=v0-s2880" as="image" nonce="UzJ7vewudvrH3FlrBGSlbg">
+    <link rel="preload" href="https://lh3.googleusercontent.com/NTa6EDjEyImw-mJlRpMhy87MgMpAMW2wmdsK7LPvLGrpNXT7o2Wi3TfqgJrNeLtOfbss7Bbqqh_a3YhPWVmNAn0U-GWH21PFmtTPL3o=v2-s542" as="image" nonce="UzJ7vewudvrH3FlrBGSlbg">
+    <link rel="preload" href="https://lh3.googleusercontent.com/B5bJN0nT0YAT4lD0VE6lCveYxzJpfGXBeDBimMdDjCBumN0XxfmDEtsIEG-KgRT8By0lvAba2Xs0rNwmHfevZYUiiJV5UeCfx_uB-Q=v0-s2880" as="image" nonce="UzJ7vewudvrH3FlrBGSlbg">
+    <link rel="preload" href="https://lh3.googleusercontent.com/OKjtgI5x_7MoAk36ZKS-d1WOmPgfDdpzpzarkrnSoOzKGmmNu5VsS5PnqELJIQQvE8LNJotygmErADrcbSAO9Gb0Elnzu9jtmZ9FBg=v2-s710" as="image" nonce="UzJ7vewudvrH3FlrBGSlbg">
+    <link rel="preload" href="https://lh3.googleusercontent.com/WvnReVtwx3VlHiT1pm6QQc1DtR9a_NwOiyTR6w1LRj8pw-7InHjlwgEIvPLIZA8JxjhFCp-WPJUqT-a1hVPGGfFaZK_XhiUjzhtd=v0-s2880" as="image" nonce="UzJ7vewudvrH3FlrBGSlbg">
+    <link rel="preload" href="https://lh3.googleusercontent.com/HUENcOqy1KKQkF1ggEdYzNDX6sRZBSp8GiL4MsOluRRjvizU0TbqyizM_MkG7tvdE_RrSJVNUWQ_FuRaJVRNjI3RIba6oiB5eqoH=v2-s710" as="image" nonce="UzJ7vewudvrH3FlrBGSlbg">
 
-    <script nonce="OGWzXrATlkx_5X42tlbfHQ">
+    <script nonce="UzJ7vewudvrH3FlrBGSlbg">
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -1532,9 +1532,9 @@ Connect with them when and where it matters.</p>
     </section>
   </div>
 </footer>
-    <script src="https://www.gstatic.com/external_hosted/hammerjs/v2_0_2/hammer.min.js" nonce="OGWzXrATlkx_5X42tlbfHQ"></script>
-    <script src="/static/js/polyfills.js?cache=7d8cfaa" nonce="OGWzXrATlkx_5X42tlbfHQ"></script>
-    <script src="/static/js/index.min.js?cache=b36f837" nonce="OGWzXrATlkx_5X42tlbfHQ"></script>
+    <script src="https://www.gstatic.com/external_hosted/hammerjs/v2_0_2/hammer.min.js" nonce="UzJ7vewudvrH3FlrBGSlbg"></script>
+    <script src="/static/js/polyfills.js?cache=7d8cfaa" nonce="UzJ7vewudvrH3FlrBGSlbg"></script>
+    <script src="/static/js/index.min.js?cache=b36f837" nonce="UzJ7vewudvrH3FlrBGSlbg"></script>
 
   </body>
 </html>

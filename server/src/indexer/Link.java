@@ -97,7 +97,6 @@ public class Link {
     }
 
     static Map<String, Integer> GetMapOfKeyWords(String[] wordsArrForEachDoc, String[] descriptionForEachWord) {
-        int sehs = 0;
         Map<String, Integer> mapOfWords = new HashMap<String, Integer>();
         ArrayList<String> newDescriptionForEachWord = new ArrayList<String>();
         int length = wordsArrForEachDoc.length;
@@ -110,12 +109,10 @@ public class Link {
                 int x = mapOfWords.get(wordsArrForEachDoc[i]);
                 x++;
                 mapOfWords.replace(wordsArrForEachDoc[i], x);
-                sehs++;
             }
 
         }
         newDescriptionForEachWordMember = newDescriptionForEachWord;
-        System.out.println(sehs);
         return mapOfWords;
     }
 }

@@ -3,7 +3,7 @@
 <html lang="en">
 
   <head>
-    <script nonce="TVEeOpcVJjKGPQsppNkr2A">
+    <script nonce="J53ZBH6Ia2qgnXwlpdwngg">
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -78,9 +78,9 @@
     <link rel="icon" href="https://www.gstatic.com/youtube/img/branding/favicon/favicon_72x72.png" sizes="72x72">
     <link rel="icon" href="https://www.gstatic.com/youtube/img/branding/favicon/favicon_96x96.png" sizes="96x96">
     <link rel="icon" href="https://www.gstatic.com/youtube/img/branding/favicon/favicon_144x144.png" sizes="144x144">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Condensed:700" rel="stylesheet" nonce="TVEeOpcVJjKGPQsppNkr2A">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=YouTube+Sans:300,400,500,700,900" nonce="TVEeOpcVJjKGPQsppNkr2A">
-    <link rel="stylesheet" href="/about/static/compiled/index.min.css?cache=1014ef4" nonce="TVEeOpcVJjKGPQsppNkr2A">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Condensed:700" rel="stylesheet" nonce="J53ZBH6Ia2qgnXwlpdwngg">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=YouTube+Sans:300,400,500,700,900" nonce="J53ZBH6Ia2qgnXwlpdwngg">
+    <link rel="stylesheet" href="/about/static/compiled/index.min.css?cache=1014ef4" nonce="J53ZBH6Ia2qgnXwlpdwngg">
   </head>
 
   <body class="brand-resources-page js-clear-header " >
@@ -1482,10 +1482,10 @@ style="width: auto; max-width: none; height: 24px;"/>
       </div>
     </section>
   </div>
-</footer>  <script src="https://www.gstatic.com/external_hosted/clipboardjs/clipboard.min.js" nonce="TVEeOpcVJjKGPQsppNkr2A"></script>
-        <script src="https://www.gstatic.com/feedback/api.js" nonce="TVEeOpcVJjKGPQsppNkr2A"></script>
-      <script src="https://www.gstatic.com/external_hosted/animejs/anime.min.js" nonce="TVEeOpcVJjKGPQsppNkr2A"></script>
-      <script src="/about/static/compiled/index.min.js?cache=3fe06f4" nonce="TVEeOpcVJjKGPQsppNkr2A"></script>
+</footer>  <script src="https://www.gstatic.com/external_hosted/clipboardjs/clipboard.min.js" nonce="J53ZBH6Ia2qgnXwlpdwngg"></script>
+        <script src="https://www.gstatic.com/feedback/api.js" nonce="J53ZBH6Ia2qgnXwlpdwngg"></script>
+      <script src="https://www.gstatic.com/external_hosted/animejs/anime.min.js" nonce="J53ZBH6Ia2qgnXwlpdwngg"></script>
+      <script src="/about/static/compiled/index.min.js?cache=3fe06f4" nonce="J53ZBH6Ia2qgnXwlpdwngg"></script>
 
   </body>
 </html>

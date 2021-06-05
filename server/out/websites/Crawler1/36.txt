@@ -33,13 +33,13 @@
     <link href="https://www.gstatic.com/youtube/img/branding/favicon/favicon_144x144.png" rel="icon" sizes="144x144">
 
 
-      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i&amp;lang=en" nonce="f6PDaeGKwLyxqlJLzpjofA">
-    <link rel="stylesheet" href="//fonts.googleapis.com/icon?family=Material+Icons" nonce="f6PDaeGKwLyxqlJLzpjofA">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=YouTube+Sans:300,400,500,600,700,900" nonce="f6PDaeGKwLyxqlJLzpjofA">
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i&amp;lang=en" nonce="ZrjeymcRGOTPy5DVUqT79w">
+    <link rel="stylesheet" href="//fonts.googleapis.com/icon?family=Material+Icons" nonce="ZrjeymcRGOTPy5DVUqT79w">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=YouTube+Sans:300,400,500,600,700,900" nonce="ZrjeymcRGOTPy5DVUqT79w">
 
-    <link rel="stylesheet" href="/creators/static/css/index.min.css?cache=4e80c18" nonce="f6PDaeGKwLyxqlJLzpjofA">
+    <link rel="stylesheet" href="/creators/static/css/index.min.css?cache=4e80c18" nonce="ZrjeymcRGOTPy5DVUqT79w">
 
-      <script nonce="f6PDaeGKwLyxqlJLzpjofA">
+      <script nonce="ZrjeymcRGOTPy5DVUqT79w">
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
         m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -412,8 +412,8 @@ lb-auto-init="IndexPage">
           <div class="index__twitter-feed">
 
 
-<script src="https://www.gstatic.com/external_hosted/mustache/mustache.js" nonce="f6PDaeGKwLyxqlJLzpjofA"></script>
-<script id="template-carousel-card" type="x-tmpl-mustache" nonce="f6PDaeGKwLyxqlJLzpjofA">
+<script src="https://www.gstatic.com/external_hosted/mustache/mustache.js" nonce="ZrjeymcRGOTPy5DVUqT79w"></script>
+<script id="template-carousel-card" type="x-tmpl-mustache" nonce="ZrjeymcRGOTPy5DVUqT79w">
   <div class="glue-carousel__list" data-glue-pagination="twitter-feed">
   [[#posts]]
     <div class="glue-carousel__item social-feed__content-wrapper" id="glue-twitter-carousel-[[lbIndex]]">
@@ -478,7 +478,7 @@ lb-auto-init="IndexPage">
     </div>
   [[/multiple_post]]
 </script>
-<script id="template-carousel-dot" type="x-tmpl-mustache" nonce="f6PDaeGKwLyxqlJLzpjofA">
+<script id="template-carousel-dot" type="x-tmpl-mustache" nonce="ZrjeymcRGOTPy5DVUqT79w">
   [[#multiple_post]]
     <div class="glue-pagination-page-list" data-glue-pagination-page-list role="tablist">
       [[#posts]]
@@ -502,8 +502,8 @@ lb-auto-init="IndexPage">
   </div>
 </div>          </div>
           <div class="index__blog">
-<script src="https://www.gstatic.com/external_hosted/mustache/mustache.js" nonce="f6PDaeGKwLyxqlJLzpjofA"></script>
-<script id="template-blog-carousel-card" type="x-tmpl-mustache" nonce="f6PDaeGKwLyxqlJLzpjofA">
+<script src="https://www.gstatic.com/external_hosted/mustache/mustache.js" nonce="ZrjeymcRGOTPy5DVUqT79w"></script>
+<script id="template-blog-carousel-card" type="x-tmpl-mustache" nonce="ZrjeymcRGOTPy5DVUqT79w">
   [[#blogs]]
     <div class="glue-carousel__item" id="glue-blog-carousel-[[lbIndex]]">
       <div class="blog-carousel__item">
@@ -537,7 +537,7 @@ lb-auto-init="IndexPage">
     </div>
   [[/blogs]]
 </script>
-<script id="template-blog-carousel-dot" type="x-tmpl-mustache" nonce="f6PDaeGKwLyxqlJLzpjofA">
+<script id="template-blog-carousel-dot" type="x-tmpl-mustache" nonce="ZrjeymcRGOTPy5DVUqT79w">
   [[#blogs]]
     <div class="glue-pagination__button-container glue-pagination__page-list-button-container">
       <button type="button" class="glue-pagination__button" role="tab"
@@ -1220,6 +1220,6 @@ lb-auto-init="IndexPage">
       lb-options="{'theme':'light'}">
     </div>
   </body>
-  <script src="https://www.gstatic.com/external_hosted/hammerjs/v2_0_2/hammer.min.js" nonce="f6PDaeGKwLyxqlJLzpjofA"></script>
-  <script src="/creators/static/js/index.min.js?cache=f08bf62" nonce="f6PDaeGKwLyxqlJLzpjofA"></script>
+  <script src="https://www.gstatic.com/external_hosted/hammerjs/v2_0_2/hammer.min.js" nonce="ZrjeymcRGOTPy5DVUqT79w"></script>
+  <script src="/creators/static/js/index.min.js?cache=f08bf62" nonce="ZrjeymcRGOTPy5DVUqT79w"></script>
 </html>

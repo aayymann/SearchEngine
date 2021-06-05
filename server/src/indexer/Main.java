@@ -19,8 +19,9 @@ public class Main {
         WordModel wordModel = WordModel.getInstance();
 
         Tokenizer tokenizer = new Tokenizer();
-
-        for (int i = 0; i < 1; i++) { // TODO: Edit for loop length
+        //
+        int size = fetchedCrawlerHTML.size();
+        for (int i = 0; i < size; i++) { // TODO: Edit for loop length
             String documentContent = strippedHTMLArr.get(i);
             List<Token> tokens = tokenizer.getTokens(documentContent);
 

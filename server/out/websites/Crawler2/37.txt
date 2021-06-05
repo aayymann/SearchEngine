@@ -15,15 +15,15 @@
     <link rel="icon" href="https://www.youtube.com/yts/img/favicon_96-vflW9Ec0w.png" sizes="96x96">
     <link rel="icon" href="https://www.youtube.com/yts/img/favicon_144-vfliLAfaB.png" sizes="144x144">
 
-    <link rel="stylesheet" href="//fonts.googleapis.com/icon?family=Material+Icons" nonce="AJFg3DvySgEYpNqCtXYBUA">
-    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,700,700i&amp;lang=en" nonce="AJFg3DvySgEYpNqCtXYBUA">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=YouTube+Sans:300,400,500,600,700" nonce="AJFg3DvySgEYpNqCtXYBUA">
+    <link rel="stylesheet" href="//fonts.googleapis.com/icon?family=Material+Icons" nonce="jjksg_oh9NZB6iCYJUZwqg">
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,700,700i&amp;lang=en" nonce="jjksg_oh9NZB6iCYJUZwqg">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=YouTube+Sans:300,400,500,600,700" nonce="jjksg_oh9NZB6iCYJUZwqg">
 
-    <link rel="stylesheet" href="/csai-match/static/css/index.min.css?cache=bc490da" nonce="AJFg3DvySgEYpNqCtXYBUA">
+    <link rel="stylesheet" href="/csai-match/static/css/index.min.css?cache=bc490da" nonce="jjksg_oh9NZB6iCYJUZwqg">
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-159161709-1" nonce="AJFg3DvySgEYpNqCtXYBUA"></script>
-    <script nonce="AJFg3DvySgEYpNqCtXYBUA"> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'UA-159161709-1'); </script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-159161709-1" nonce="jjksg_oh9NZB6iCYJUZwqg"></script>
+    <script nonce="jjksg_oh9NZB6iCYJUZwqg"> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'UA-159161709-1'); </script>
   </head>
 
   <body>
@@ -817,7 +817,7 @@
     </section>
   </div>
 </footer>
-    <script src="https://www.gstatic.com/external_hosted/hammerjs/v2_0_2/hammer.min.js" nonce="AJFg3DvySgEYpNqCtXYBUA"></script>
-    <script src="/csai-match/static/js/index.min.js?cache=6d6f986" nonce="AJFg3DvySgEYpNqCtXYBUA"></script>
+    <script src="https://www.gstatic.com/external_hosted/hammerjs/v2_0_2/hammer.min.js" nonce="jjksg_oh9NZB6iCYJUZwqg"></script>
+    <script src="/csai-match/static/js/index.min.js?cache=6d6f986" nonce="jjksg_oh9NZB6iCYJUZwqg"></script>
   </body>
 </html>

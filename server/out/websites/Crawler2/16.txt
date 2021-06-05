@@ -57,17 +57,17 @@
   
   <style>
     :root {
-      --primary-color: #B47BFF;
-      --secondary-color: #CAF8FF;
+      --primary-color: #00E5BE;
+      --secondary-color: #FFDEFF;
 
       
 
       
 
-      --hero-pattern-large-mobile: url(/static/blog_youtube/images/common/patterns-big-mobile.svg#hexagon-pattern-4-v-s);
-      --hero-pattern-small-mobile: url(/static/blog_youtube/images/common/patterns-small-mobile.svg#hexagon-pattern-4-v-s);
-      --hero-pattern-large: url(/static/blog_youtube/images/common/patterns-big.svg#hexagon-pattern-4-v);
-      --hero-pattern-small: url(/static/blog_youtube/images/common/patterns-small.svg#hexagon-pattern-4-s);
+      --hero-pattern-large-mobile: url(/static/blog_youtube/images/common/patterns-big-mobile.svg#sail-pattern-3-v-s);
+      --hero-pattern-small-mobile: url(/static/blog_youtube/images/common/patterns-small-mobile.svg#sail-pattern-3-v-s);
+      --hero-pattern-large: url(/static/blog_youtube/images/common/patterns-big.svg#sail-pattern-3-v);
+      --hero-pattern-small: url(/static/blog_youtube/images/common/patterns-small.svg#sail-pattern-3-s);
     }
   </style>
   
@@ -816,48 +816,48 @@ data-header-options='{
       <article class="yt-homepage-hero__content-col">
         <div class="yt-homepage-hero__content">
           <div class="yt-homepage-hero__sub-wrapper yt-homepage-hero__eyebrow-wrapper">
-            <a class="yt-homepage-hero__eyebrow" href="https://blog.youtube/inside-youtube/">
-              Inside YouTube
+            <a class="yt-homepage-hero__eyebrow" href="https://blog.youtube/culture-and-trends/">
+              Culture &amp; Trends
             </a>
           </div>
           <div class="yt-homepage-hero__sub-wrapper yt-homepage-hero__title-wrapper">
-            <a id="jump-content" href="https://blog.youtube/inside-youtube/partners-innovation-creator-residence-program/" class="yt-homepage-hero__title-link"
+            <a id="jump-content" href="https://blog.youtube/culture-and-trends/rise-lofi-girl/" class="yt-homepage-hero__title-link"
             data-analytics-click='
             {
               "event": "trackEvent",
               "eventCategory": "module interaction",
               "eventAction": "hero title click",
-              "eventLabel": "Partners in Innovation: the Creator in Residence Program - https://blog.youtube/inside-youtube/partners-innovation-creator-residence-program/",
-              "contentCategory": "Inside YouTube",
-              "publicationDate": "Jun.03.2021",
+              "eventLabel": "The Rise of the Lofi Girl - https://blog.youtube/culture-and-trends/rise-lofi-girl/",
+              "contentCategory": "Culture &amp; Trends",
+              "publicationDate": "Jun.04.2021",
               "topicsData:": "undefined"
             }'
             >
               <h1 class="yt-homepage-hero__title">
-                Partners in Innovation: the Creator in Residence Program
+                The Rise of the Lofi Girl
               </h1>
             </a>
           </div>
           <div class="yt-homepage-hero__sub-wrapper yt-homepage-hero__date-wrapper">
             <span class="yt-homepage-hero__date">
-              Jun.03.2021
+              Jun.04.2021
             </span>
           </div>
           <div class="yt-homepage-hero__sub-wrapper yt-homepage-hero__description-wrapper">
             <p class="yt-homepage-hero__description">
-              The Creator in Residence (CIR) program has the goal of empowering diverse groups of creators to share direct feedback into how YouTube works for them (and how we can make things better).
+              A popular always-on study-music live stream has given birth to an entire community centered around the channel’s anime-inspired avatar.
             </p>
           </div>
           <a
             class="yt-homepage-hero__cta js-yt-gtm-homepage-hero-cta"
-            href="https://blog.youtube/inside-youtube/partners-innovation-creator-residence-program/"
+            href="https://blog.youtube/culture-and-trends/rise-lofi-girl/"
             data-use-custom-options
             data-analytics-click='
             {
               "event": "trackEvent",
               "eventCategory": "module interaction",
               "eventAction": "hero cta click",
-              "eventLabel": "Partners in Innovation: the Creator in Residence Program - Read More - https://blog.youtube/inside-youtube/partners-innovation-creator-residence-program/",
+              "eventLabel": "The Rise of the Lofi Girl - Read More - https://blog.youtube/culture-and-trends/rise-lofi-girl/",
               "componentType": "hero"
             }'
           >
@@ -869,9 +869,9 @@ data-header-options='{
       
       <div class="yt-homepage-hero__media-col">
         <div class="yt-homepage-hero__background-patterns">
-                <a class="yt-homepage-hero__image-link" href="https://blog.youtube/inside-youtube/partners-innovation-creator-residence-program/">
+                <a class="yt-homepage-hero__image-link" href="https://blog.youtube/culture-and-trends/rise-lofi-girl/">
           
-            <img class="yt-homepage-hero__image" src="https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/nealmohan.png" alt="Partners in Innovation: the Creator in Residence Program">
+            <img class="yt-homepage-hero__image" src="https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/maxresdefault.jpeg" alt="The Rise of the Lofi Girl">
           
     </a>
         </div>
@@ -902,14 +902,14 @@ data-header-options='{
 
 <figure class="yt-homepage-article-nup__figure"
         style="">
-  <a class="yt-homepage-article-nup__link" href="https://blog.youtube/news-and-events/happy-pride-2021/" title="Happy Pride 2021!"
+  <a class="yt-homepage-article-nup__link" href="https://blog.youtube/inside-youtube/partners-innovation-creator-residence-program/" title="Partners in Innovation: the Creator in Residence Program"
   data-custom-options
   data-analytics-click='
   {
     "event": "trackEvent",
     "eventCategory": "module interaction",
     "eventAction": "featured article click",
-    "eventLabel": "Happy Pride 2021! - https://blog.youtube/news-and-events/happy-pride-2021/",
+    "eventLabel": "Partners in Innovation: the Creator in Residence Program - https://blog.youtube/inside-youtube/partners-innovation-creator-residence-program/",
     "componentType": "featured article",
     "componentPosition": "left"
   }'
@@ -919,13 +919,13 @@ data-header-options='{
           
         
         <div class="yt-homepage-article-nup__image-wrapper image-wrapper--extra-width image-wrapper--left">
-          <img src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Pride.max-900x900.png" alt="Happy Pride 2021!" class="yt-homepage-article-nup__image">
+          <img src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/nealmohan.max-900x900.png" alt="Partners in Innovation: the Creator in Residence Program" class="yt-homepage-article-nup__image">
         </div>
       
     <figcaption>
-      <p class="yt-homepage-article-nup__category">News &amp; Events</p>
-      <h3 class="yt-homepage-article-nup__title">Happy Pride 2021!</h3>
-      <time class="yt-homepage-article-nup__date">Jun.02.2021</time>
+      <p class="yt-homepage-article-nup__category">Inside YouTube</p>
+      <h3 class="yt-homepage-article-nup__title">Partners in Innovation: the Creator in Residence Program</h3>
+      <time class="yt-homepage-article-nup__date">Jun.03.2021</time>
     </figcaption>
   </a>
 </figure>
@@ -936,14 +936,14 @@ data-header-options='{
 
 <figure class="yt-homepage-article-nup__figure"
         style="">
-  <a class="yt-homepage-article-nup__link" href="https://blog.youtube/news-and-events/4-billion-paid-music-industry/" title="$4 billion paid to the music industry in last 12 months"
+  <a class="yt-homepage-article-nup__link" href="https://blog.youtube/news-and-events/happy-pride-2021/" title="Happy Pride 2021!"
   data-custom-options
   data-analytics-click='
   {
     "event": "trackEvent",
     "eventCategory": "module interaction",
     "eventAction": "featured article click",
-    "eventLabel": "$4 billion paid to the music industry in last 12 months - https://blog.youtube/news-and-events/4-billion-paid-music-industry/",
+    "eventLabel": "Happy Pride 2021! - https://blog.youtube/news-and-events/happy-pride-2021/",
     "componentType": "featured article",
     "componentPosition": "right"
   }'
@@ -953,12 +953,12 @@ data-header-options='{
           
         
         <div class="yt-homepage-article-nup__image-wrapper image-wrapper--extra-width">
-          <img src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/youtube-logo.max-600x600.jpg" alt="$4 billion paid to the music industry in last 12 months" class="yt-homepage-article-nup__image">
+          <img src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Pride.max-600x600.png" alt="Happy Pride 2021!" class="yt-homepage-article-nup__image">
         </div>
       
     <figcaption>
       <p class="yt-homepage-article-nup__category">News &amp; Events</p>
-      <h3 class="yt-homepage-article-nup__title">$4 billion paid to the music industry in last 12 months</h3>
+      <h3 class="yt-homepage-article-nup__title">Happy Pride 2021!</h3>
       <time class="yt-homepage-article-nup__date">Jun.02.2021</time>
     </figcaption>
   </a>
@@ -980,14 +980,14 @@ data-header-options='{
 
 <figure class="yt-homepage-article-nup__figure"
         style="">
-  <a class="yt-homepage-article-nup__link" href="https://blog.youtube/creator-and-artist-stories/2021-nashville-breakout-breland-our-next-artist-rise/" title="2021 Nashville breakout BRELAND is our next Artist on the Rise"
+  <a class="yt-homepage-article-nup__link" href="https://blog.youtube/news-and-events/4-billion-paid-music-industry/" title="$4 billion paid to the music industry in last 12 months"
   data-custom-options
   data-analytics-click='
   {
     "event": "trackEvent",
     "eventCategory": "module interaction",
     "eventAction": "featured sticky article click",
-    "eventLabel": "2021 Nashville breakout BRELAND is our next Artist on the Rise - https://blog.youtube/creator-and-artist-stories/2021-nashville-breakout-breland-our-next-artist-rise/",
+    "eventLabel": "$4 billion paid to the music industry in last 12 months - https://blog.youtube/news-and-events/4-billion-paid-music-industry/",
     "componentType": "featured article",
     "componentPosition": "left"
   }'
@@ -997,7 +997,41 @@ data-header-options='{
           
         
         <div class="yt-homepage-article-nup__image-wrapper image-wrapper--full-width image-wrapper--left js-yt-ga-sticky-featured">
-          <img src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AOTR_1.1_ForArtist_Name.max-600x600.jpg" alt="2021 Nashville breakout BRELAND is our next Artist on the Rise" class="yt-homepage-article-nup__image">
+          <img src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/youtube-logo.max-600x600.jpg" alt="$4 billion paid to the music industry in last 12 months" class="yt-homepage-article-nup__image">
+        </div>
+      
+    <figcaption>
+      <p class="yt-homepage-article-nup__category">News &amp; Events</p>
+      <h3 class="yt-homepage-article-nup__title">$4 billion paid to the music industry in last 12 months</h3>
+      <time class="yt-homepage-article-nup__date">Jun.02.2021</time>
+    </figcaption>
+  </a>
+</figure>
+
+    </article>
+    <article class="yt-homepage-article-nup__big-block js-yt-gtm-article-4up-right">
+      
+
+<figure class="yt-homepage-article-nup__figure"
+        style="">
+  <a class="yt-homepage-article-nup__link" href="https://blog.youtube/creator-and-artist-stories/2021-nashville-breakout-breland-our-next-artist-rise/" title="2021 Nashville breakout BRELAND is our next Artist on the Rise"
+  data-custom-options
+  data-analytics-click='
+  {
+    "event": "trackEvent",
+    "eventCategory": "module interaction",
+    "eventAction": "featured article click",
+    "eventLabel": "2021 Nashville breakout BRELAND is our next Artist on the Rise - https://blog.youtube/creator-and-artist-stories/2021-nashville-breakout-breland-our-next-artist-rise/",
+    "componentType": "featured article",
+    "componentPosition": "right"
+  }'
+  >
+      
+        
+          
+        
+        <div class="yt-homepage-article-nup__image-wrapper">
+          <img src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AOTR_1.1_ForArtist_Name.max-900x900.jpg" alt="2021 Nashville breakout BRELAND is our next Artist on the Rise" class="yt-homepage-article-nup__image">
         </div>
       
     <figcaption>
@@ -1008,8 +1042,6 @@ data-header-options='{
   </a>
 </figure>
 
-    </article>
-    <article class="yt-homepage-article-nup__big-block js-yt-gtm-article-4up-right">
       
 
 <figure class="yt-homepage-article-nup__figure"
@@ -1074,38 +1106,6 @@ data-header-options='{
   </a>
 </figure>
 
-      
-
-<figure class="yt-homepage-article-nup__figure"
-        style="">
-  <a class="yt-homepage-article-nup__link" href="https://blog.youtube/culture-and-trends/community-spotlight-booktubers-latin-america/" title="Community Spotlight: BookTubers in Latin America"
-  data-custom-options
-  data-analytics-click='
-  {
-    "event": "trackEvent",
-    "eventCategory": "module interaction",
-    "eventAction": "featured article click",
-    "eventLabel": "Community Spotlight: BookTubers in Latin America - https://blog.youtube/culture-and-trends/community-spotlight-booktubers-latin-america/",
-    "componentType": "featured article",
-    "componentPosition": "right"
-  }'
-  >
-      
-        
-          
-        
-        <div class="yt-homepage-article-nup__image-wrapper">
-          <img src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/books.max-900x900.jpg" alt="Community Spotlight: BookTubers in Latin America" class="yt-homepage-article-nup__image">
-        </div>
-      
-    <figcaption>
-      <p class="yt-homepage-article-nup__category">Culture &amp; Trends</p>
-      <h3 class="yt-homepage-article-nup__title">Community Spotlight: BookTubers in Latin America</h3>
-      <time class="yt-homepage-article-nup__date">May.26.2021</time>
-    </figcaption>
-  </a>
-</figure>
-
     </article>
   </div>
 </section>
@@ -1115,7 +1115,7 @@ data-header-options='{
       
 
 <div class="js-yt-gtm-video-stories yt-block-video-stories yt-block-video-stories__background-patterns
-" style="--background: 202,248,255" data-component="yt-video-stories">
+" style="--background: 255,222,255" data-component="yt-video-stories">
   <div class="yt-block-video-stories__wrapper">
     <h2 class="yt-block-video-stories__headline">Stories</h2>
     <ul class="yt-block-video-stories__videos no-bullet">
@@ -1475,7 +1475,7 @@ data-header-options='{
     "handle": "youtube",
     "template": "ytTwitterFeed"
     }'
-    style="--primary-color: #0a0a0a;--pattern: url(/static/blog_youtube/images/common/quote.svg#triangle-scribble);">
+    style="--primary-color: #0a0a0a;--pattern: url(/static/blog_youtube/images/common/quote.svg#beans);">
     <h2 class="yt-twitter-posts__headline">
       Across YouTube
     </h2>
