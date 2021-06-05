@@ -6,7 +6,7 @@ public class Stemmer {
 
     private EnglishStemmer stemmer;
 
-    Stemmer() {
+    public Stemmer() {
         stemmer = new EnglishStemmer();
     }
 
@@ -27,5 +27,17 @@ public class Stemmer {
         stemmer.setCurrent(word);
         stemmer.stem();
         return stemmer.getCurrent();
+    }
+
+    public String[] stemSentence(String sentence) {
+        String[] words = sentence.split(" ");
+
+        for (int i = 0; i < words.length; i++) {
+            stemmer.setCurrent(words[i]);
+            stemmer.stem();
+            words[i] = stemmer.getCurrent();
+        }
+
+        return words;
     }
 }

@@ -23,9 +23,7 @@ public class WordModel {
     }
 
     private void createCollection() {
-        Database.createCollection(name);
         collection = Database.getCollection(name);
-
         Document index = new Document("word", 1).append("url", 1);
         collection.createIndex(index);
     }
@@ -46,10 +44,10 @@ public class WordModel {
     }
 
     public FindIterable<Document> find(String word) {
-        return collection.find(eq("word", word)).sort(new Document("tf", 1));
+        return collection.find(eq("word", word)).sort(new Document("tf", -1));
     }
 
     public FindIterable<Document> findInMany(String[] words) {
-        return collection.find(in("word", words)).sort(new Document("tf", 1));
+        return collection.find(in("word", words)).sort(new Document("tf", -1));
     }
 }
