@@ -2,6 +2,8 @@ package indexer;
 
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -22,7 +24,16 @@ import java.util.Scanner;
         }
         return retHTML;
     }
-
+      static void WriteNumberInFile(String filePath, int pc) {
+          try {
+              FileWriter myWriter = new FileWriter(filePath);
+              String pcString = String.valueOf(pc);
+              myWriter.write(pcString);
+              myWriter.close();
+          } catch (IOException e) {
+              System.out.println("Could not write in number in file");
+          }
+      }
     static ArrayList<String> FetchingFromCrawlerFiles(String[] pathToCrawlerHTML,String [] crawlersArr , int numOfCrawlers, int []fileCountArr){
         ArrayList<String> data = new ArrayList<String>();
         for(int i=0 ; i<numOfCrawlers ; i++){

@@ -14,6 +14,8 @@ public class Main {
         } catch (Exception e) {
             System.out.println("Invalid Input , the number will be the default");
         }
+        //--INDICATOR FOR THE SYNC BETWEEN THE INDEXER AND THE CRAWLER AS THE CRAWLER WAS THE LAST TO WORK
+        ManipulateFile.WriteNumberInFile("./out/indicator.txt",234);
         //
         ManipulateFile.WriteNumberInFile("./src/crawler/numOfCrawlers.txt", numOfCrawlers);
         // --Num of crawlers has to be at most equal to the number of url links in the

@@ -1,5 +1,7 @@
 package crawler;
 
+import sun.java2d.pipe.OutlineTextRenderer;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.net.MalformedURLException;
@@ -29,13 +31,11 @@ public class Crawler implements Runnable{
         // --If the end of file is reached or the number of crawls per crawl= 5000
         while (ManipulateFile.ReadFile(seedsFilePath, compareWith)[0] != ""
                 && ManipulateFile.ReadNumberFromFile(pcPath) < 5000) {
-            //System.out.println("Entered");
             String webSiteURl = ManipulateFile.ReadFile(seedsFilePath, compareWith)[0];
             compareWith = ManipulateFile.ReadNumberFromFile(pcPath); // read from the pc file
             int websiteIndex = compareWith;
             compareWith = Integer.parseInt(ManipulateFile.ReadFile(seedsFilePath, compareWith)[1]); // increment it
             ManipulateFile.WriteNumberInFile(pcPath, compareWith); // save it in the pc file
-            //System.out.println(webSiteURl);
             // --Visit HomePage to generate the robots.txt map
             boolean isVisitable = true;
             URL URLHandle;
@@ -48,16 +48,13 @@ public class Crawler implements Runnable{
                 String mainDomainName = URLHandle.getHost().split("\\.")[length - 2];
                 String TLD = URLHandle.getHost().split("\\.")[length - 1];
                 robotsPage = URLHandle.getProtocol() + "://www." + mainDomainName + "." + TLD + "/robots.txt";
-                //System.out.println("FOR THE ROBOTS " + robotsPage);
                 // --If the robots.txt of the homepage website already exists
-                //System.out.println("domain name is "+mainDomainName);
                 if (webRobots.containsKey(mainDomainName)) {
                     // --Check before visiting if it is an allowable page
                     ArrayList<String> disallowedPaths = webRobots.get(mainDomainName);
                     for (int i = 0; i < disallowedPaths.size(); i++) {
-                        if (URLHandle.getFile().contains(disallowedPaths.get(i))) {
+                        if (URLHandle.getFile().matches(disallowedPaths.get(i).replace("*",".*"))) {
                             isVisitable = false;
-                            //System.out.println(disallowedPaths.get(i));
                             break;
                         }
                     }
@@ -69,10 +66,8 @@ public class Crawler implements Runnable{
                     // --Check before visiting if it is an allowable page
                     ArrayList<String> disallowedPaths = webRobots.get(mainDomainName);
                     for (int i = 0; i < disallowedPaths.size(); i++) {
-                        if (URLHandle.getFile().contains(disallowedPaths.get(i))) {
+                        if (URLHandle.getFile().matches(disallowedPaths.get(i).replace("*",".*"))) {
                             isVisitable = false;
-                            //System.out.println("heree again "+ URLHandle.getFile());
-                            //System.out.println("HEREEE22222 "+disallowedPaths.get(i));
                             break;
                         }
                     }
@@ -89,8 +84,6 @@ public class Crawler implements Runnable{
                         tempURL = tempURL.trim();
 
                         // --If the retrieved link does not contain the main sub domain (Concatenate it)
-                        //System.out.println("The m group is  " + m.group(1));
-                        //if ((!m.group(1).contains("http") || !m.group(1).startsWith("//") )||(!m.group(1).contains("https") || !m.group(1).startsWith("//")))
                         if (!m.group(1).contains("http") ||!m.group(1).contains("https")) {
                             tempURL = URLHandle.getProtocol() + "://" + URLHandle.getHost() + m.group(1).trim();
                         }
@@ -110,7 +103,7 @@ public class Crawler implements Runnable{
                     System.out.println("The pc  of the blocked url is: "+ websiteIndex);
                 }
             } catch (MalformedURLException e) {
-                e.printStackTrace();
+                System.out.println("This url is not a valid website url may be removed from the web");
             }
         }
     }
