@@ -4,8 +4,13 @@ import org.tartarus.snowball.ext.EnglishStemmer;
 
 public class Stemmer {
 
-    public static String stem(String[] words) {
-        EnglishStemmer stemmer = new EnglishStemmer();
+    private EnglishStemmer stemmer;
+
+    Stemmer() {
+        stemmer = new EnglishStemmer();
+    }
+
+    public String stem(String[] words) {
         StringBuilder result = new StringBuilder();
 
         for (String word : words) {
@@ -16,5 +21,11 @@ public class Stemmer {
 
         result = new StringBuilder(result.substring(0, result.length() - 1));
         return result.toString();
+    }
+
+    public String stem(String word) {
+        stemmer.setCurrent(word);
+        stemmer.stem();
+        return stemmer.getCurrent();
     }
 }

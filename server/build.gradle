@@ -12,7 +12,7 @@ repositories {
 sourceSets {
     main {
         java {
-            srcDirs = ['server/src']
+            srcDirs = ['src']
         }
     }
 }
