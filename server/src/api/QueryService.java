@@ -23,9 +23,6 @@ public class QueryService {
             docs.add(doc);
         }
 
-        int count = wordModel.getNumDocuments();
-        System.out.println(count);
-
         return docs;
     }
 }
