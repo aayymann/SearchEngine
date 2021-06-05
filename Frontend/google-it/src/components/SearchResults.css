@@ -10,3 +10,22 @@
 .cursor-pointer {
     cursor: pointer !important;
 }
+
+li {
+    margin: 0 10px 0 10px;
+}
+
+.active {
+    color: red;
+}
+
+ul {
+    border: 1px solid black;
+    width: fit-content;
+    border-radius: 25px;
+}
+
+.next,
+.previous {
+    color: blue;
+}

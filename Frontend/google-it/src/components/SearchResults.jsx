@@ -1,17 +1,38 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import axios from 'axios';
+
+import ReactPaginate from 'react-paginate';
+
 import './SearchResults.css';
 
 function SearchResults(props) {
     const [queryResults, setQueryResults] = useState(null);
+    const [currentPage, setCurrentPage] = useState(0);
+    const [queriesPerPage] = useState(10);
+    const [numOfPages, setNumOfPages] = useState(0);
     const [queryText] = useState(props.text);
 
-    // axios.defaults.baseURL = "localhost:9200";
-    // axios.get("/search/" + queryText).then(response => {
-    //     debugger;
-    // }).catch(error => {
-    //     debugger;
-    // });
+    const pageOnClick = (e) => {
+        setCurrentPage(Number(e.selected));
+        debugger
+    }
+
+    useEffect(() => {
+        axios.defaults.baseURL = "http://localhost:8080/api";
+        axios.get("/search?q=" + queryText, {
+            headers: {
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Headers": "Origin, X-Requested-With, Content-Type, Accept"
+            }
+        }).then(response => {
+            debugger;
+            setQueryResults(response.data);
+            setNumOfPages((response.data.length / queriesPerPage));
+            console.log(response.data);
+        }).catch(error => {
+            debugger;
+        });
+    }, [])
 
     const searchText = (e) => {
         let text = document.getElementById("search-bar").value;
@@ -36,26 +57,38 @@ function SearchResults(props) {
                     </div>
                 </div>
                 <hr />
-                <div className="row mx-3">
-                    <div className="col-8 my-2">
-                        {/* <small className="cursor-pointer" onClick={redirectToPage}>https://stackoverflow.com/questions/1714786/query-string-encoding-of-a-javascript-object</small> */}
-                        <br />
-                        <a href="https://stackoverflow.com/questions/1714786/query-string-encoding-of-a-javascript-object" className="fs-4 cursor-pointer">Query-string encoding of a Javascript Object - Stack Overflow</a>
-                        <p className="m-0">Mar 18, 2021 — Parse and stringify URL query strings. ... query-string. TypeScript icon, indicating that this package has built-in type declarations...</p>
-                    </div>
-                    <div className="col-8 my-2">
-                        {/* <small className="cursor-pointer" onClick={redirectToPage}>https://stackoverflow.com/questions/1714786/query-string-encoding-of-a-javascript-object</small> */}
-                        <br />
-                        <a href="https://stackoverflow.com/questions/1714786/query-string-encoding-of-a-javascript-object" className="fs-4 cursor-pointer">Query-string encoding of a Javascript Object - Stack Overflow</a>
-                        <p className="m-0">Mar 18, 2021 — Parse and stringify URL query strings. ... query-string. TypeScript icon, indicating that this package has built-in type declarations...</p>
-                    </div>
-                    <div className="col-8 my-2">
-                        {/* <small className="cursor-pointer" onClick={redirectToPage}>https://stackoverflow.com/questions/1714786/query-string-encoding-of-a-javascript-object</small> */}
-                        <br />
-                        <a href="https://stackoverflow.com/questions/1714786/query-string-encoding-of-a-javascript-object" className="fs-4 cursor-pointer">Query-string encoding of a Javascript Object - Stack Overflow</a>
-                        <p className="m-0">Mar 18, 2021 — Parse and stringify URL query strings. ... query-string. TypeScript icon, indicating that this package has built-in type declarations...</p>
-                    </div>
-                </div>
+                {queryResults !== null && queryResults.length > 0 ?
+                    <div className="row mx-3">
+                        {queryResults.slice(currentPage * queriesPerPage, ((queryResults.length - currentPage * queriesPerPage) < queriesPerPage) ? (queryResults.length) : (currentPage * queriesPerPage + queriesPerPage)).map((result, index) => {
+                            let urlStructure = new URL(result.url);
+                            let url = urlStructure.origin + urlStructure.pathname;
+                            return (
+                                <div className="col-8 my-2" key={index}>
+                                    <a href={result.url} className="fs-4 cursor-pointer">{result.paragraph}</a>
+                                    <br />
+                                    <small className="cursor-pointer" onClick={redirectToPage}>{url}</small>
+                                    <p className="m-0">{result.paragraph}</p>
+                                </div>
+                            );
+                        })
+                        }
+                        <div className="col-12">
+                            <ReactPaginate
+                                previousLabel={"prev"}
+                                nextLabel={"next"}
+                                breakLabel={"..."}
+                                breakClassName={"break-me"}
+                                pageCount={numOfPages}
+                                marginPagesDisplayed={2}
+                                pageRangeDisplayed={queriesPerPage}
+                                onPageChange={pageOnClick}
+                                containerClassName={"pagination"}
+                                subContainerClassName={"pages pagination"}
+                                activeClassName={"active"}
+                            />
+                        </div>
+                    </div> : null
+                }
             </div>
         </div>
     );
