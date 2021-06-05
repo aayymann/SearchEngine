@@ -102,11 +102,12 @@ public class ManipulateFile {
         }
     }
 
-    static void CreateWebsiteFile(int websiteIndex, String websiteContent , int threadInst) {
-        String myPath = "./websites/"+"Crawler"+String.valueOf(threadInst);
-        String myPath2 = "./websites/"+"Crawler"+String.valueOf(threadInst)+"/"+String.valueOf(websiteIndex)+".txt";
+    static void CreateWebsiteFile(int websiteIndex, String websiteContent, int threadInst) {
+        String myPath = "./out/websites/" + "Crawler" + String.valueOf(threadInst);
+        String myPath2 = "./out/websites/" + "Crawler" + String.valueOf(threadInst) + "/" + String.valueOf(websiteIndex)
+                + ".txt";
         try {
-            File f1= new File(myPath);
+            File f1 = new File(myPath);
             f1.mkdir();
             FileWriter myWriter = new FileWriter(myPath2);
             myWriter.write(websiteContent);
@@ -115,11 +116,13 @@ public class ManipulateFile {
             System.out.println("Failed to Write the generated HTML String");
         }
     }
-    static void CreateHyperlinksFile(int websiteIndex, String websiteContent , int threadInst) {
-        String myPath = "./hyperlinks/"+"Crawler"+String.valueOf(threadInst);
-        String myPath2 = "./hyperlinks/"+"Crawler"+String.valueOf(threadInst)+"/"+String.valueOf(websiteIndex)+".txt";
+
+    static void CreateHyperlinksFile(int websiteIndex, String websiteContent, int threadInst) {
+        String myPath = "./out/hyperlinks/" + "Crawler" + String.valueOf(threadInst);
+        String myPath2 = "./out/hyperlinks/" + "Crawler" + String.valueOf(threadInst) + "/"
+                + String.valueOf(websiteIndex) + ".txt";
         try {
-            File f1= new File(myPath);
+            File f1 = new File(myPath);
             f1.mkdir();
             FileWriter myWriter = new FileWriter(myPath2);
             myWriter.write(websiteContent);
@@ -128,18 +131,18 @@ public class ManipulateFile {
             System.out.println("Failed to Write the hyperlinks");
         }
     }
-    static int GetNumberOfUrlSeeds(String urlSeedsPath){
-        int num=0;
+
+    static int GetNumberOfUrlSeeds(String urlSeedsPath) {
+        int num = 0;
         try {
             File fileToBeCrawled = new File(urlSeedsPath);
             Scanner myReader = new Scanner(fileToBeCrawled);
             while (myReader.hasNextLine()) {
-                if(myReader.nextLine().length() <=2)
+                if (myReader.nextLine().length() <= 2)
                     break;
                 num++;
             }
-        }
-        catch(Exception ex){
+        } catch (Exception ex) {
             System.out.println("File Could not br opened");
         }
         return num;
