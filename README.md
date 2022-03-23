@@ -1,5 +1,4 @@
-# SearchEngine
-Java Search Engine "Google it"
+# Java SearchEngine - *Google it*
 ## **Crawler Module** to Crawl the pages by
     1- Visiting url seeds
     2- Extracting hyperlinks and adding them
